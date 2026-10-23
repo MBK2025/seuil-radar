@@ -21,6 +21,7 @@ body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px
 .leaflet-control-attribution{background:rgba(11,14,18,.75)!important;color:var(--muted)!important;font-size:10px}
 .leaflet-control-attribution a{color:#b8c4d4!important}
 .leaflet-control-zoom{display:none}
+.tiles-night{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.6)}
 
 .hud{position:fixed;top:0;left:0;right:0;z-index:500;pointer-events:none;
   padding-top:calc(env(safe-area-inset-top,0px) + 10px);
@@ -193,12 +194,12 @@ function initMap(){
   const ESRI='Images © Esri, Maxar, Earthstar Geographics';
   const esri=s=>`https://server.arcgisonline.com/ArcGIS/rest/services/${s}/MapServer/tile/{z}/{y}/{x}`;
   BASES={
-    plan:{name:"Plan",layers:[L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{maxZoom:19,subdomains:"abcd",attribution:OSM+' © <a href="https://carto.com/attributions">CARTO</a>'})]},
+    plan:{name:"Plan",layers:[L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:OSM})]},
     sat:{name:"Satellite",layers:[
       L.tileLayer(esri("World_Imagery"),{maxZoom:19,maxNativeZoom:18,attribution:ESRI}),
       L.tileLayer(esri("Reference/World_Transportation"),{maxZoom:19,maxNativeZoom:18,opacity:.9}),
       L.tileLayer(esri("Reference/World_Boundaries_and_Places"),{maxZoom:19,maxNativeZoom:18})]},
-    nuit:{name:"Nuit",layers:[L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{maxZoom:19,subdomains:"abcd",attribution:OSM+' © <a href="https://carto.com/attributions">CARTO</a>'})]}
+    nuit:{name:"Nuit",layers:[L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:OSM,className:"tiles-night"})]}
   };
   setBase(loadPref()||"plan");
   layerWays=L.layerGroup().addTo(map); layerMatch=L.layerGroup().addTo(map);

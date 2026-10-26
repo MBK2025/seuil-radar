@@ -28,5 +28,65 @@
     "reponse": "Mali"
    }
   ]
+ },
+ {
+  "date": "2026-10-26",
+  "numero": 2,
+  "questions": [
+   {
+    "q": "Quel club joue ses matchs à domicile au Parc des Princes ?",
+    "reponse": "Paris Saint-Germain"
+   },
+   {
+    "q": "Quelle est la capitale du Canada ?",
+    "reponse": "Ottawa"
+   },
+   {
+    "q": "Quel club français a gagné la Ligue des champions en 1993 ?",
+    "reponse": "Marseille"
+   },
+   {
+    "q": "À Lyon, quelle rivière rejoint le Rhône ?",
+    "reponse": "La Saône"
+   },
+   {
+    "q": "Qui a été le tout premier champion de France pro, en 1933 ?",
+    "reponse": "Olympique lillois"
+   },
+   {
+    "q": "Quelle est la capitale de la Mongolie ?",
+    "reponse": "Oulan-Bator"
+   }
+  ]
+ },
+ {
+  "date": "2026-10-26",
+  "numero": 3,
+  "questions": [
+   {
+    "q": "Dans quel pays s'est jouée la Coupe du monde 2014 ?",
+    "reponse": "Brésil"
+   },
+   {
+    "q": "En quelle année a eu lieu la prise de la Bastille ?",
+    "reponse": "1789"
+   },
+   {
+    "q": "Qui a marqué un triplé en finale de la Coupe du monde 2022 ?",
+    "reponse": "Kylian Mbappé"
+   },
+   {
+    "q": "Pour quel pharaon a été bâtie la Grande Pyramide de Gizeh ?",
+    "reponse": "Khéops"
+   },
+   {
+    "q": "Quel pays a gagné la Coupe du monde 1954 en Suisse ?",
+    "reponse": "RFA"
+   },
+   {
+    "q": "Quel empereur romain a fait bâtir un mur dans le nord de l'Angleterre ?",
+    "reponse": "Hadrien"
+   }
+  ]
  }
 ]

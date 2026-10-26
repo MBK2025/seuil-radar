@@ -1,0 +1,32 @@
+[
+ {
+  "numero": 1,
+  "date": "2026-10-26",
+  "heure": "02:45",
+  "jour": "lundi",
+  "mode": "exploration",
+  "score_metricool": 67,
+  "vues_24h": null,
+  "vues_48h": null
+ },
+ {
+  "numero": 2,
+  "date": "2026-10-26",
+  "heure": "12:37",
+  "jour": "lundi",
+  "mode": "exploration",
+  "score_metricool": 1050,
+  "vues_24h": null,
+  "vues_48h": null
+ },
+ {
+  "numero": 3,
+  "date": "2026-10-26",
+  "heure": "18:43",
+  "jour": "lundi",
+  "mode": "exploration",
+  "score_metricool": 1096,
+  "vues_24h": null,
+  "vues_48h": null
+ }
+]

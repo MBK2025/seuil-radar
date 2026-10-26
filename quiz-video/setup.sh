@@ -2,7 +2,7 @@
 # Installe tout ce qu'il faut pour fabriquer les vidéos quiz (à lancer depuis ce dossier).
 set -e
 cd "$(dirname "$0")"
-pip install -q --break-system-packages piper-tts numpy soundfile pillow
+pip install -q --break-system-packages piper-tts numpy scipy soundfile pillow
 npm install --silent
 mkdir -p /tmp/quiz-voices
 if [ ! -f /tmp/quiz-voices/fr_FR-tom-medium/fr_FR-tom-medium.onnx ]; then

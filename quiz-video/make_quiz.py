@@ -223,9 +223,13 @@ def whoosh(dur=0.45, vol=0.10):
 
 
 class Timeline:
-    def __init__(self): self.audio = np.zeros(SR * 600, np.float32); self.scenes = []; self.t = 0.0
-    def put(self, clip, at):
-        i = int(at * SR); self.audio[i:i + len(clip)] += clip[: max(0, len(self.audio) - i)]
+    def __init__(self):
+        self.audio = np.zeros(SR * 600, np.float32); self.voice = np.zeros(SR * 600, np.float32)
+        self.scenes = []; self.t = 0.0
+    def put(self, clip, at, voice=False):
+        i = int(at * SR); m = clip[: max(0, len(self.audio) - i)]
+        self.audio[i:i + len(m)] += m
+        if voice: self.voice[i:i + len(m)] += m
     def scene(self, kind, dur, **kw):
         self.scenes.append(dict(kind=kind, start=self.t, dur=dur, **kw)); self.t += dur
 
@@ -237,6 +241,9 @@ def main():
     ap.add_argument("--images", default=""); ap.add_argument("--voice", default="")
     ap.add_argument("--audio-dir", default="", help="dossier de voix déjà générées (intro.mp3, q1.mp3, r1.mp3, ..., outro.mp3)")
     ap.add_argument("--script-out", default="", help="écrit seulement les textes à lire (JSON clé -> texte) puis s'arrête")
+    ap.add_argument("--music", default="synth", help="'synth' (instrumental généré, défaut), 'none', ou chemin d'un fichier audio libre de droits")
+    ap.add_argument("--music-seed", type=int, default=None, help="variante de l'instrumental (par défaut : dérivée du titre)")
+    ap.add_argument("--music-volume", type=float, default=0.20, help="niveau de la musique sous la voix (0-1)")
     ap.add_argument("--speaker", type=int, default=None); ap.add_argument("--rate", type=float, default=0.95)
     a = ap.parse_args()
     data = json.load(open(a.quiz, encoding="utf-8")); qs = data["questions"]; n = len(qs)
@@ -281,20 +288,20 @@ def main():
         return d * 0.95
 
     tl = Timeline()
-    v = say("intro"); tl.put(whoosh(), 0.0); tl.put(v, 0.5)
+    v = say("intro"); tl.put(whoosh(), 0.0); tl.put(v, 0.5, True)
     tl.scene("title", max(3.2, len(v) / SR + 1.1), sub=f"{n} questions · 5 secondes chacune · Ton score en commentaire")
 
     for i, q in enumerate(qs):
         v = say(f"q{i + 1}")
-        start = tl.t; tl.put(whoosh(), start); tl.put(v, start + 0.55)
+        start = tl.t; tl.put(whoosh(), start); tl.put(v, start + 0.55, True)
         tl.scene("ask", len(v) / SR + 0.9, i=i)
         start = tl.t
         for c in range(COUNT): tl.put(tick(c == COUNT - 1), start + c)
         tl.scene("count", float(COUNT), i=i)
-        v = say(f"r{i + 1}"); start = tl.t; tl.put(chime(), start); tl.put(v, start + 0.45)
+        v = say(f"r{i + 1}"); start = tl.t; tl.put(chime(), start); tl.put(v, start + 0.45, True)
         tl.scene("reveal", max(3.0, len(v) / SR + 1.2), i=i)
 
-    v = say("outro"); tl.put(whoosh(), tl.t); tl.put(v, tl.t + 0.5)
+    v = say("outro"); tl.put(whoosh(), tl.t); tl.put(v, tl.t + 0.5, True)
     tl.scene("end", max(3.2, len(v) / SR + 1.4), sub="Ton score en commentaire · Un nouveau quiz chaque jour")
     total = tl.t
 
@@ -374,11 +381,24 @@ def main():
     ff.stdin.close(); ff.wait()
 
     audio = tl.audio[: int(total * SR)]
+    mus_info = "aucune"
+    if a.music != "none":
+        from instrumental import make_instrumental, duck
+        if a.music == "synth":
+            seed = a.music_seed if a.music_seed is not None else sum(map(ord, data["titre"]))
+            mus = make_instrumental(total, SR, seed); mus_info = f"instrumental généré (variante {seed})"
+        else:
+            mus = load_file(a.music) / 0.95
+            mus = np.tile(mus, int(len(audio) / max(1, len(mus))) + 1)[: len(audio)]
+            fo = int(2.5 * SR); mus[-fo:] *= np.linspace(1, 0, fo); mus_info = os.path.basename(a.music)
+        mus = mus[: len(audio)]; mus = np.pad(mus, (0, len(audio) - len(mus)))
+        mus = duck(mus / max(1e-6, float(np.abs(mus).max())), tl.voice[: len(audio)], SR)
+        audio = audio + a.music_volume * mus
     audio = audio / max(1.0, float(np.abs(audio).max()) / 0.95)
     sf.write(TMPA, audio, SR)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", TMPV, "-i", TMPA,
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", a.out], check=True)
-    print(f"OK {a.out} — {total:.0f} s, {n} questions — voix : {used['fichier']} fichiers fournis, {used['piper']} en Piper (secours)")
+    print(f"OK {a.out} — {total:.0f} s, {n} questions — voix : {used['fichier']} fichiers fournis, {used['piper']} en Piper (secours) — musique : {mus_info}")
 
 
 if __name__ == "__main__":

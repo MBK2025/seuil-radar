@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "date": "2026-10-26",
+  "numero": 1,
+  "questions": [
+   {
+    "q": "Quel pays a remporté la Coupe du monde 2018 ?",
+    "reponse": "France"
+   },
+   {
+    "q": "Quel est le plus grand océan du monde ?",
+    "reponse": "Pacifique"
+   },
+   {
+    "q": "Quel pays a organisé la toute première Coupe du monde, en 1930 ?",
+    "reponse": "Uruguay"
+   },
+   {
+    "q": "Dans quel pays se trouve le Machu Picchu ?",
+    "reponse": "Pérou"
+   },
+   {
+    "q": "Quel pays a remporté le tout premier Euro, en 1960 ?",
+    "reponse": "URSS"
+   },
+   {
+    "q": "Dans quel pays se trouve la ville de Tombouctou ?",
+    "reponse": "Mali"
+   }
+  ]
+ }
+]

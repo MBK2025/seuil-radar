@@ -1,0 +1,30 @@
+{
+  "titre": "Quiz Foot & Culture G n°1",
+  "theme": "Foot & Culture G",
+  "questions": [
+    {"q": "Quel club a remporté la toute première Coupe des clubs champions, en 1956 ?",
+     "choix": ["AC Milan", "Real Madrid", "Benfica", "Stade de Reims"], "bonne": 1,
+     "info": "Le Real Madrid a battu le Stade de Reims 4 à 3 en finale, à Paris.",
+     "image": {"emoji": "🏆"}},
+    {"q": "Quelle est la capitale de l'Australie ?",
+     "choix": ["Sydney", "Melbourne", "Canberra", "Perth"], "bonne": 2,
+     "info": "Canberra a été choisie comme compromis entre Sydney et Melbourne.",
+     "image": {"carte": "Australia"}},
+    {"q": "Combien de Ballons d'or Zinedine Zidane a-t-il remportés ?",
+     "choix": ["Aucun", "Un", "Deux", "Trois"], "bonne": 1,
+     "info": "Zidane a gagné le Ballon d'or en 1998, l'année du premier titre mondial des Bleus.",
+     "image": {"emoji": "⚽"}},
+    {"q": "Quelle est la plus grande planète du système solaire ?",
+     "choix": ["Saturne", "Neptune", "La Terre", "Jupiter"], "bonne": 3,
+     "info": "Jupiter est plus de 300 fois plus massive que la Terre.",
+     "image": {"emoji": "🪐"}},
+    {"q": "Dans quel pays se trouve le célèbre stade du Maracanã ?",
+     "choix": ["Argentine", "Brésil", "Uruguay", "Portugal"], "bonne": 1,
+     "info": "Il se trouve à Rio de Janeiro et a accueilli le match décisif du Mondial 1950 et la finale de 2014.",
+     "image": {"emoji": "🏟️"}},
+    {"q": "Quel est le plus long fleuve de France ?",
+     "choix": ["La Seine", "Le Rhône", "La Loire", "La Garonne"], "bonne": 2,
+     "info": "La Loire fait un peu plus de 1 000 kilomètres.",
+     "image": {"carte": "France", "lieu": [-2.2, 47.28], "nom": "Saint-Nazaire"}}
+  ]
+}

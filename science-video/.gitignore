@@ -1,0 +1,9 @@
+node_modules/
+out/
+*.mp4
+*.wav
+prev/
+episodes/*/voix.mp3
+episodes/*/voix.wav
+!episodes/001-radar/voix.mp3
+out_sheet.jpg

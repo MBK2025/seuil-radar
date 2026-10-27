@@ -17,9 +17,20 @@ node tools/render.js episodes/NNN-slug full               # → out/NNN-slug.mp4
 ```
 Options de `render.js` : `--fps 25` (défaut), `--rs 0.65` (échelle du rendu 3D), `--handle @compte` (sinon `config.json`), `--seed N` (variante musicale).
 
+## Voix (ElevenLabs, modèle `eleven_v4`, generations_count 1)
+Trois voix captivantes, choisies selon le sujet — jamais la même 3 jours de suite (voir `historique.json`, champ `voix_id`) :
+| Voix | voice_id | Quand |
+|---|---|---|
+| Maxence – jeune, dynamique, naturel | `GGkMUTZaJ8IyPwaHimUq` | objets du quotidien, technologie, sujets fun ou surprenants |
+| Loïc – conteur engageant | `mgJuPHzoFzHp7TakLEYb` | mécanismes à expliquer pas à pas : corps humain, espace, physique, histoire d'une invention |
+| Kevin – créateur de contenu, punchy | `zVrWtLr70jn6SeaARX0i` | chiffres chocs, idées reçues démontées, défis « tu savais que… » |
+
+`voix.txt` peut contenir des indications de jeu entre crochets que la voix interprète sans les lire : `[curious]` (question, accroche), `[excited]` (révélation), `[whispers]` (confidence), `[serious]`, `[laughs softly]`. Au plus une toutes les 2 ou 3 phrases, en début de phrase. Elles n'apparaissent PAS dans `script.txt`.
+Voix de secours (si ElevenLabs est indisponible) : `python3 tools/voix_secours.py voix.txt voix.wav` (retirer les crochets avant).
+
 ## Fichiers d'un épisode
 - `script.txt` — le texte affiché en sous-titres, **mot pour mot identique** à ce qui est prononcé. Balises : `*mot*` = mot accentué en jaune, `^MOT^` = mot géant (1 à 3 mots, pour les chiffres choc et les mots clés), `mot[5]` = forcer 5 syllabes (sigles, unités : `km/h[5]`). Les nombres peuvent rester en chiffres (`97`).
-- `voix.txt` — le même texte, sans balises, nombres et unités **écrits en toutes lettres** (c'est ce que lit la voix).
+- `voix.txt` — le même texte, sans balises, nombres et unités **écrits en toutes lettres** (c'est ce que lit la voix), plus les indications de jeu `[...]` (voir Voix).
 - `voix.mp3` (ElevenLabs) ou `voix.wav` (Piper) — non versionné.
 - `words.json` — produit par `align.py` (instant de chaque mot, déduit des pauses de la voix).
 - `scene.js` — la mise en scène (voir ci-dessous).

@@ -9,6 +9,7 @@ import numpy as np
 import soundfile as sf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.dont_write_bytecode = True  # ne pas modifier le __pycache__ versionné du dossier quiz-video
 sys.path.insert(0, os.path.join(HERE, "..", "..", "quiz-video"))
 from instrumental import make_instrumental, duck  # noqa: E402
 

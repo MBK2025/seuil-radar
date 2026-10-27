@@ -88,5 +88,65 @@
     "reponse": "Hadrien"
    }
   ]
+ },
+ {
+  "date": "2026-10-27",
+  "numero": 4,
+  "questions": [
+   {
+    "q": "Quel club anglais est surnommé les Red Devils ?",
+    "reponse": "Manchester United"
+   },
+   {
+    "q": "Quel est le plus haut sommet des Alpes ?",
+    "reponse": "Le Mont Blanc"
+   },
+   {
+    "q": "En 2005, quel club gagne la Ligue des champions alors qu'il était mené 3-0 à la pause ?",
+    "reponse": "Liverpool"
+   },
+   {
+    "q": "Quel est le plus grand pays d'Afrique par la superficie ?",
+    "reponse": "L'Algérie"
+   },
+   {
+    "q": "Quel club néerlandais a gagné 3 Coupes des clubs champions de suite, de 1971 à 1973 ?",
+    "reponse": "Ajax Amsterdam"
+   },
+   {
+    "q": "Quelle est la capitale de la Slovénie ?",
+    "reponse": "Ljubljana"
+   }
+  ]
+ },
+ {
+  "date": "2026-10-27",
+  "numero": 5,
+  "questions": [
+   {
+    "q": "Quel pays a gagné l'Euro 2016, organisé en France ?",
+    "reponse": "Le Portugal"
+   },
+   {
+    "q": "Quelle ville a été coupée en deux par un mur de 1961 à 1989 ?",
+    "reponse": "Berlin"
+   },
+   {
+    "q": "Quel Bleu a marqué deux buts de la tête en finale du Mondial 1998 ?",
+    "reponse": "Zinédine Zidane"
+   },
+   {
+    "q": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
+    "reponse": "1492"
+   },
+   {
+    "q": "Quel pays, repêché au dernier moment, a gagné l'Euro 1992 ?",
+    "reponse": "Le Danemark"
+   },
+   {
+    "q": "Dans quel château a été signé le traité de paix de 1919 avec l'Allemagne ?",
+    "reponse": "Versailles"
+   }
+  ]
  }
 ]

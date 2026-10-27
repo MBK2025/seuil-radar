@@ -135,7 +135,7 @@ def progress_dots(i, n, t_in):
 
 def question_card(q):
     f = F(FB, 58); lines = wrap(q, f, W - 200)
-    if len(lines) > 3: f = F(FB, 48); lines = wrap(q, f, W - 200)
+    if len(lines) > 2: f = F(FB, 48); lines = wrap(q, f, W - 200)
     tb = text_block(lines, f, WHITE, W - 160, gap=12)
     card = rounded((W - 120, tb.height + 56), 34, CARD + (245,))
     card.alpha_composite(tb, (20, 28))

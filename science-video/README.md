@@ -69,6 +69,10 @@ Pour un objet absent (frigo, micro-ondes, cœur, neurone, avion…), le construi
 
 **2D** (`E.o` = contexte canvas 1080x1920) — `E.txt(s, x, y, taille, couleur, police 'Inter'|'Mono', graisse, align)`, `E.glass(x,y,w,h)`, `E.tag(texte, x, y, couleur, opacité)`, `E.tag3(V3, texte, dx, dy, couleur, opacité)` (étiquette reliée à un point 3D), `E.leader`, `E.arrow2`, `E.wave2` (sinusoïde), `E.reticle`, `E.bigNumber`, `E.bar`, `E.panel(titre, [[ligne, couleur]…])`, `E.flash(a)`, `E.scanlines()`, `E.P2.speedSign/envelope/gauge/count`, `E.proj(V3) → [x, y, z]`. Couleurs : `E.COL.acc` (jaune), `cyan`, `orange`, `red`, `green`, `violet`.
 
+## Sous-titres (automatiques, style CapCut)
+Le moteur les génère seul à partir de `words.json` : 1 à 3 mots à la fois, Montserrat Black en majuscules, contour noir épais et ombre, le mot prononcé passe en jaune avec un petit « pop », les mots balisés `*mot*` ou `^MOT^` apparaissent dans une pastille jaune (texte noir), les `^MOT^` seuls s'affichent en très grand. Pas d'emoji. Bien choisir les mots balisés : 1 mot clé par phrase au maximum (le chiffre, le terme scientifique, le mot surprenant).
+Vérifier un passage rapidement : `node tools/render.js episodes/NNN-slug clip 0,12` (extrait avec la voix).
+
 ## Règles de mise en scène
 - **Zone réservée** aux sous-titres : y de 250 à 600 px. Rien d'important dedans. HUD et panneaux entre 700 et 1750 px.
 - Un plan toutes les 4 à 9 s ; jamais plus de 10 s sans changement de caméra, de plan ou d'élément nouveau.

@@ -190,46 +190,67 @@ const P2 = {
 function flash(a, col = '255,255,255') { if (a > 0) { o.fillStyle = `rgba(${col},${a})`; o.fillRect(0, 0, W, H); } }
 function scanlines(a = 0.06, col = '#9ff') { o.save(); o.globalAlpha = a; o.fillStyle = col; for (let y = 0; y < H; y += 6) o.fillRect(0, y, W, 2); o.restore(); }
 
-// ---------------- sous-titres ----------------
-let GROUPS = [], TOTAL = 60, SHOTS = [], HANDLE = '@ton.compte', TITLE = '';
-function layoutGroup(g) {
-  const font = w => w.style === 'bold' ? `900 ${w.big}px Inter` : w.style === 'italic' ? '800 66px Inter' : '600 62px Inter';
-  const T = w => w.style === 'bold' ? w.w.toUpperCase() : w.w;
-  for (const w of g.words) if (w.style === 'bold') { o.font = '900 150px Inter'; const m = o.measureText(T(w)).width; w.big = m > 920 ? Math.floor(150 * 920 / m) : 150; }
-  const lines = []; let cur = [], lw = 0; const sp = 18, maxW = 920;
-  const flush = () => { if (cur.length) lines.push(cur); cur = []; lw = 0; };
-  for (const w of g.words) {
-    o.font = font(w); const m = o.measureText(T(w)).width; const lastB = cur.length && cur[cur.length - 1].w.style === 'bold';
-    if ((w.style === 'bold') !== lastB && cur.length) flush();
-    else if (cur.length && lw + sp + m > maxW) flush();
-    cur.push({ w, m, f: font(w), t: T(w) }); lw += (cur.length > 1 ? sp : 0) + m;
-  }
+// ---------------- sous-titres (style CapCut) ----------------
+// 1 à 3 mots à la fois, Montserrat Black en majuscules, contour noir épais + ombre,
+// le mot prononcé passe en jaune avec un petit « pop » ; les mots clés (*mot* / ^MOT^) s'affichent dans une pastille jaune.
+let CHUNKS = [], TOTAL = 60, SHOTS = [], HANDLE = '@ton.compte';
+const CAP = { size: 96, max: 940, gap: 34, box: COL.acc };
+function buildChunks(words) {
+  const out = []; let cur = [];
+  const flush = () => { if (cur.length) out.push(cur); cur = []; };
+  words.forEach((w, i) => {
+    const txtw = w.w.replace(/\.\.\.$/, '…');
+    const key = w.style === 'bold' || w.style === 'italic';
+    if (w.style === 'bold' && cur.length && cur[cur.length - 1].style !== 'bold') flush();
+    cur.push({ ...w, t: txtw.toUpperCase(), key });
+    const chars = cur.reduce((s, x) => s + x.t.length, 0) + cur.length;
+    const next = words[i + 1];
+    const pause = next ? next.s - w.e > 0.25 : true;
+    if (/[.,:;!?…]$/.test(txtw) || pause || cur.length >= 3 || chars > 16 || (w.style === 'bold' && next?.style !== 'bold') || (next?.style === 'bold' && w.style !== 'bold')) flush();
+  });
   flush();
-  g.lines = lines.map(l => ({ items: l, width: l.reduce((s, x) => s + x.m, 0) + sp * (l.length - 1), h: l[0].w.style === 'bold' ? l[0].w.big * 1.05 : 84 }));
-  g.sp = sp;
+  return out.map((ws, i, arr) => ({ words: ws, s: ws[0].s, e: Math.min(ws[ws.length - 1].e + 0.6, arr[i + 1] ? arr[i + 1][0].s : 1e9) }));
 }
-function captions(t, yc = 420) {
-  if (!GROUPS.length) return;
-  let gi = GROUPS.length - 1; while (gi > 0 && GROUPS[gi].s - 0.1 > t) gi--;
-  const g = GROUPS[gi], nx = GROUPS[gi + 1];
-  const A = nx ? clamp((nx.s - 0.1 - t) / 0.1) : clamp((TOTAL - 0.3 - t) / 0.5);
-  const totalH = g.lines.reduce((s, l) => s + l.h, 0); let y = yc - totalH / 2;
-  o.textAlign = 'left'; o.textBaseline = 'alphabetic';
-  for (const l of g.lines) {
-    let x = 540 - l.width / 2; const base = y + l.h * 0.76;
-    for (const it of l.items) {
-      const k = clamp((t - it.w.s + 0.04) / 0.18), e = ease(k);
-      o.save(); o.globalAlpha = A * (it.w.style === 'bold' ? e : 0.22 + 0.78 * e);
-      const sc = it.w.style === 'bold' ? lerp(1.35, 1, e) : 1;
-      o.translate(x + it.m / 2, base - l.h * 0.3); o.scale(sc, sc); o.translate(-(x + it.m / 2), -(base - l.h * 0.3));
-      o.font = it.f; o.shadowColor = 'rgba(0,0,0,0.85)'; o.shadowBlur = 22;
-      o.fillStyle = it.w.style === 'italic' && k > 0 ? COL.acc : '#fff';
-      if (it.w.style === 'bold' && e > 0) { o.shadowColor = 'rgba(255,210,63,0.55)'; o.shadowBlur = 40; }
-      o.fillText(it.t.replace(/\.\.\.$/, '…'), x, base + (1 - e) * 16);
-      o.restore(); x += it.m + g.sp;
-    }
-    y += l.h;
+function captions(t, yc = 440) {
+  const ch = CHUNKS.find(c => t >= c.s - 0.06 && t < c.e);
+  if (!ch) return;
+  const big = ch.words.every(w => w.style === 'bold');
+  let size = big ? 150 : CAP.size;
+  o.font = `900 ${size}px Caption`;
+  const widths = () => ch.words.map(w => o.measureText(w.t).width + (w.key ? size * 0.32 : 0));   // place pour la pastille
+  let ws = widths(), total = ws.reduce((a, b) => a + b, 0) + CAP.gap * (ws.length - 1);
+  // retour à la ligne si trop large : une seule coupure, sinon réduction
+  let lines = [ch.words.map((w, i) => i)];
+  if (total > CAP.max && ch.words.length > 1) {
+    const cut = Math.ceil(ch.words.length / 2); lines = [[...Array(cut).keys()], [...Array(ch.words.length - cut).keys()].map(i => i + cut)];
   }
+  const lineW = l => l.reduce((s, i) => s + ws[i], 0) + CAP.gap * (l.length - 1);
+  const maxW = Math.max(...lines.map(lineW));
+  if (maxW > CAP.max) { size = Math.floor(size * CAP.max / maxW); o.font = `900 ${size}px Caption`; ws = widths(); }
+  const lt = t - ch.s, pop = lt < 0.16 ? lerp(0.82, 1.06, lt / 0.16) : lt < 0.26 ? lerp(1.06, 1, (lt - 0.16) / 0.1) : 1;
+  const lh = size * 1.18, y0 = yc - (lines.length - 1) * lh / 2;
+  o.save(); o.translate(540, yc); o.scale(pop, pop); o.translate(-540, -yc);
+  o.textBaseline = 'middle'; o.textAlign = 'left'; o.lineJoin = 'round'; o.miterLimit = 2;
+  lines.forEach((l, li) => {
+    let x = 540 - lineW(l) / 2; const y = y0 + li * lh;
+    for (const i of l) {
+      const w = ch.words[i], active = t >= w.s - 0.03 && t < (ch.words[i + 1]?.s ?? ch.e), said = t >= w.s - 0.03;
+      const k = clamp((t - w.s + 0.03) / 0.1), sc = active ? lerp(1, 1.1, ease(k)) : 1;
+      o.save(); o.translate(x + ws[i] / 2, y); o.scale(sc, sc); o.translate(-(x + ws[i] / 2), -y);
+      const pad = w.key ? size * 0.16 : 0;
+      if (w.key && said) {   // pastille jaune derrière le mot clé
+        o.fillStyle = CAP.box; o.shadowColor = 'rgba(0,0,0,0.45)'; o.shadowBlur = 18; o.shadowOffsetY = 6;
+        o.beginPath(); o.roundRect(x, y - size * 0.62, ws[i], size * 1.2, size * 0.22); o.fill();
+        o.shadowColor = 'transparent'; o.fillStyle = '#111'; o.fillText(w.t, x + pad, y + size * 0.04);
+      } else {
+        o.shadowColor = 'rgba(0,0,0,0.6)'; o.shadowBlur = 14; o.shadowOffsetY = 6;
+        o.strokeStyle = '#000'; o.lineWidth = size * 0.16; o.strokeText(w.t, x + pad, y + size * 0.04);
+        o.shadowColor = 'transparent'; o.fillStyle = active ? COL.acc : '#fff'; o.fillText(w.t, x + pad, y + size * 0.04);
+      }
+      o.restore(); x += ws[i] + CAP.gap;
+    }
+  });
+  o.restore();
 }
 const grain = (() => { const c = document.createElement('canvas'); c.width = c.height = 256; const g = c.getContext('2d'); const id = g.createImageData(256, 256);
   for (let i = 0; i < id.data.length; i += 4) { const v = rand(i) * 255; id.data[i] = id.data[i+1] = id.data[i+2] = v; id.data[i+3] = 255; } g.putImageData(id, 0, 0); return c; })();
@@ -256,7 +277,7 @@ function frame(t) {
   const tg = o.createLinearGradient(0, 0, 0, 760); tg.addColorStop(0, 'rgba(0,0,0,0.55)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); o.fillStyle = tg; o.fillRect(0, 0, W, 760);
   o.save(); o.globalAlpha = 0.07; o.globalCompositeOperation = 'overlay'; const gx = Math.floor(rand(t * 30) * 256), gy = Math.floor(rand(t * 30 + 5) * 256);
   o.translate(-gx, -gy); o.fillStyle = o.createPattern(grain, 'repeat'); o.fillRect(gx, gy, W, H); o.restore();
-  captions(t, sh.captionY ?? 420);
+  captions(t, sh.captionY ?? 440);
   // barre de progression + signature
   o.fillStyle = 'rgba(255,255,255,0.15)'; o.fillRect(0, H - 8, W, 8); o.fillStyle = COL.acc; o.fillRect(0, H - 8, W * clamp(t / TOTAL), 8);
   o.save(); o.globalAlpha = 0.55; txt(HANDLE, 540, H - 110, 32, '#cfcfcf', 'Inter', 500); o.restore();
@@ -288,18 +309,11 @@ E.at = (word, after = 0) => {
 
 window.setup = async (data, ep, handle) => {
   E.words = data.words; TOTAL = data.duration + 1.4; E.TOTAL = TOTAL; if (handle) HANDLE = handle;
-  const byseg = {}; for (const w of data.words) (byseg[w.seg] ||= []).push(w);
-  let cur = null;
-  for (const k of Object.keys(byseg).map(Number).sort((a, b) => a - b)) {
-    const s = byseg[k]; (cur ||= { words: [] }).words.push(...s);
-    if (/[.,:?!…]$|\.\.\.$/.test(s[s.length - 1].w) || cur.words.length > 5) { GROUPS.push(cur); cur = null; }
-  }
-  if (cur) GROUPS.push(cur);
-  GROUPS.forEach(g => { g.s = g.words[0].s; layoutGroup(g); });
+  CHUNKS = buildChunks(data.words);
   EP = await import(`../${ep}/scene.js?v=${Date.now()}`);
   const r = await EP.build(E);
   SHOTS = r.shots.slice().sort((a, b) => a.start - b.start); SHOTS[0].start = 0;
-  return { total: TOTAL, groups: GROUPS.length, shots: SHOTS.map(s => ({ name: s.name, start: +s.start.toFixed(3), sfx: s.sfx || 'whoosh' })), sfx: r.sfx || [] };
+  return { total: TOTAL, groups: CHUNKS.length, shots: SHOTS.map(s => ({ name: s.name, start: +s.start.toFixed(3), sfx: s.sfx || 'whoosh' })), sfx: r.sfx || [] };
 };
 window.frame = t => { frame(t); return out.toDataURL('image/jpeg', 0.92); };
 window.ready = true;

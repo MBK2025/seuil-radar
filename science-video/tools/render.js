@@ -1,5 +1,6 @@
 // Rendu d'un épisode.
 //   node tools/render.js episodes/NNN-slug preview 1.5,8,20   → images d'aperçu dans episodes/NNN-slug/prev/
+//   node tools/render.js episodes/NNN-slug clip 0,12             → out/NNN-slug.clip.mp4 (extrait avec la voix, pour vérifier vite)
 //   node tools/render.js episodes/NNN-slug full                → out/NNN-slug.mp4 (vidéo + voix + musique + bruitages)
 // Options : --rs 0.7 (échelle 3D), --handle @compte, --fps 30, --seed N (variante musicale)
 const { chromium } = require('playwright');
@@ -32,7 +33,7 @@ const server = http.createServer((req, res) => {
   page.on('console', m => { if (m.type() === 'error') console.log('CONSOLE :', m.text()); });
   await page.goto(`http://localhost:${port}/engine/page.html?rs=${RS}`);
   await page.waitForFunction(() => window.ready === true, null, { timeout: 90000 });
-  await page.evaluate(async () => { for (const f of ['500 62px Inter', '600 62px Inter', '700 62px Inter', '800 62px Inter', '900 62px Inter', '800 30px Mono', '500 30px Mono']) await document.fonts.load(f); });
+  await page.evaluate(async () => { for (const f of ['500 62px Inter', '600 62px Inter', '700 62px Inter', '800 62px Inter', '900 62px Inter', '800 30px Mono', '500 30px Mono', '900 96px Caption', '800 96px Caption']) await document.fonts.load(f); });
   const info = await page.evaluate(([d, e, h]) => setup(d, e, h), [data, EP, HANDLE]);
   console.log('Plans :', info.shots.map(s => `${s.start.toFixed(1)}s ${s.name}`).join(' | '));
   const grab = async t => Buffer.from((await page.evaluate(t => frame(t), t)).split(',')[1], 'base64');
@@ -42,6 +43,14 @@ const server = http.createServer((req, res) => {
     const times = (args[2] || info.shots.map(s => (s.start + 1).toFixed(2)).join(',')).split(',').map(Number);
     for (const t of times) { const t0 = Date.now(); fs.writeFileSync(path.join(dir, `f_${t.toFixed(2).padStart(6, '0')}.jpg`), await grab(t)); console.log(`aperçu ${t}s (${Date.now() - t0} ms)`); }
     if (pageErr) process.exitCode = 1;
+  } else if (MODE === 'clip') {
+    const [a, b] = (args[2] || '0,10').split(',').map(Number), outDir = path.join(ROOT, 'out'); fs.mkdirSync(outDir, { recursive: true });
+    const slug = path.basename(EP), out = path.join(outDir, slug + '.clip.mp4');
+    const voice = ['voix.mp3', 'voix.wav'].map(f => path.join(epDir, f)).find(f => fs.existsSync(f));
+    const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-', '-ss', String(a), '-t', String(b - a), '-i', voice,
+      '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-shortest', out], { stdio: ['pipe', 'inherit', 'inherit'] });
+    for (let i = Math.round(a * FPS); i < Math.round(b * FPS); i++) { const buf = await grab(i / FPS); if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r)); }
+    ff.stdin.end(); await new Promise(r => ff.on('close', r)); console.log('EXTRAIT :', out);
   } else {
     const outDir = path.join(ROOT, 'out'); fs.mkdirSync(outDir, { recursive: true });
     const slug = path.basename(EP), silent = path.join(outDir, slug + '.video.mp4'), wav = path.join(outDir, slug + '.wav'), final = path.join(outDir, slug + '.mp4');

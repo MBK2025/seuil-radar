@@ -1,6 +1,6 @@
 # Science du quotidien – vidéos 3D verticales
 
-Une vidéo explicative par jour (1080x1920, plus de 90 s) : un phénomène scientifique ou un objet du quotidien expliqué simplement, en **3D animée** (three.js, bloom, caméras qui bougent) + surcouches façon HUD, sous-titres mot à mot, voix off, musique générée et bruitages.
+Une vidéo explicative par jour (1080x1920, plus de 90 s) : un phénomène scientifique ou un objet du quotidien expliqué simplement, en **3D animée** (three.js, bloom, caméras qui bougent) + surcouches façon HUD, sous-titres mot à mot, voix off captivante et bruitages synchronisés (sans musique).
 
 ## Chaîne de fabrication
 
@@ -42,7 +42,7 @@ export async function build(E) {
 }
 ```
 `t` = temps global (s), `lt` = temps depuis le début du plan, `k` = avancement du plan (0→1). Un plan dure jusqu'au `start` du suivant.
-**Son (obligatoire)** — `tools/mix.py` (appelé par `render.js full`) ajoute automatiquement un instrumental de fond synthétisé, libre de droits, différent à chaque épisode (`--seed` = numéro), baissé quand la voix parle, puis normalise le volume (−15 LUFS).
+**Son (obligatoire)** — PAS de musique de fond (choix de Moubarak : elle couvre la voix). `tools/mix.py` (appelé par `render.js full`) mixe la voix et les bruitages puis normalise le volume (−15 LUFS). Pour réactiver une musique : `--music-volume 0.08`.
 Bruitages : `whoosh` joué automatiquement à chaque changement de plan (mettre `sfx: 'none'` sur un plan pour l'enlever), et la liste `sfx` renvoyée par `build` pour les moments clés, **calés sur un mot** avec `E.at(...)` : `boom` (révélation, chiffre choc), `pop` (apparition d'une étiquette ou d'un élément), `ding` (résultat, bonne réponse), `click` (déclic, photo, interrupteur), `rise` (montée de tension avant une révélation). Viser 8 à 15 bruitages par vidéo, jamais deux à moins de 0,4 s.
 
 **3D** — `E.scene`, `E.camera`, `E.THREE`, `E.RoundedBoxGeometry`, matériaux `E.std(couleur, rugosité, métal, émissif, intensité)`, `E.phys(couleur, {…})`, `E.glassMat()`, `E.glowMat(couleur, opacité)` (additif, lumineux), `E.radialTex()`, `E.lights.{hemi,key,rim}`, `E.bloom` (strength, threshold).

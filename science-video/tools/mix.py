@@ -1,4 +1,4 @@
-"""Bande son finale : voix + instrumental généré (baissé quand la voix parle) + bruitages.
+"""Bande son finale : voix + bruitages (+ instrumental optionnel avec --music-volume > 0 ; désactivé par défaut).
 
 usage : python3 tools/mix.py voix.mp3 timeline.json sortie.wav [--seed N] [--music-volume 0.12]
 timeline.json (écrit par render.js) : {"total": s, "shots": [{"start": s, "sfx": "whoosh|none|..."}], "sfx": [{"t": s, "type": "click"}]}
@@ -66,17 +66,19 @@ def load(path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("voice"); ap.add_argument("timeline"); ap.add_argument("out")
-    ap.add_argument("--seed", type=int, default=1); ap.add_argument("--music-volume", type=float, default=0.12)
+    ap.add_argument("--seed", type=int, default=1); ap.add_argument("--music-volume", type=float, default=0.0, help="0 = pas de musique (choix de Moubarak)")
     ap.add_argument("--sfx-volume", type=float, default=0.35)
     a = ap.parse_args()
     tl = json.load(open(a.timeline))
     total = float(tl["total"]); n = int(total * SR)
     voice = np.zeros(n); v = load(a.voice)[:n]; voice[: len(v)] = v
-    mus = np.asarray(make_instrumental(total, SR, a.seed), dtype=np.float64)[:n]
-    mus = np.pad(mus, (0, n - len(mus)))
-    mus = duck(mus / max(1e-6, np.abs(mus).max()), voice.astype(np.float32), SR)
-    fade = np.ones(n); f = int(1.5 * SR); fade[-f:] = np.linspace(1, 0, f); fade[: int(0.4 * SR)] = np.linspace(0, 1, int(0.4 * SR))
-    mix = voice + a.music_volume * mus * fade
+    mix = voice.copy()
+    if a.music_volume > 0:
+        mus = np.asarray(make_instrumental(total, SR, a.seed), dtype=np.float64)[:n]
+        mus = np.pad(mus, (0, n - len(mus)))
+        mus = duck(mus / max(1e-6, np.abs(mus).max()), voice.astype(np.float32), SR)
+        fade = np.ones(n); f = int(1.5 * SR); fade[-f:] = np.linspace(1, 0, f); fade[: int(0.4 * SR)] = np.linspace(0, 1, int(0.4 * SR))
+        mix += a.music_volume * mus * fade
     events = [(s["start"], s.get("sfx", "whoosh")) for s in tl["shots"][1:]] + [(e["t"], e["type"]) for e in tl.get("sfx", [])]
     for t0, kind in events:
         if kind in (None, "none"): continue
@@ -86,7 +88,7 @@ def main():
     peak = np.abs(mix).max()
     if peak > 0.98: mix *= 0.98 / peak
     sf.write(a.out, mix.astype(np.float32), SR)
-    print(f"mix OK : {total:.1f} s, {len(events)} bruitages, musique variante {a.seed}")
+    print(f"mix OK : {total:.1f} s, {len(events)} bruitages, " + (f"musique variante {a.seed}" if a.music_volume > 0 else "sans musique"))
 
 
 if __name__ == "__main__":

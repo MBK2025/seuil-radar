@@ -7,12 +7,20 @@
   "mode": "exploration",
   "score_metricool": 67,
   "vues_24h": null,
-  "vues_48h": null,
+  "vues_48h": 281,
   "mesures": [
    {
     "le": "2026-10-27 09:45",
     "age_h": 31,
     "vues": 268,
+    "likes": 3,
+    "commentaires": 0,
+    "partages": 0
+   },
+   {
+    "le": "2026-10-28 09:45",
+    "age_h": 56,
+    "vues": 281,
     "likes": 3,
     "commentaires": 0,
     "partages": 0
@@ -27,13 +35,21 @@
   "mode": "exploration",
   "score_metricool": 1050,
   "vues_24h": 89,
-  "vues_48h": null,
+  "vues_48h": 243,
   "mesures": [
    {
     "le": "2026-10-27 09:45",
     "age_h": 21,
     "vues": 89,
     "likes": 0,
+    "commentaires": 0,
+    "partages": 0
+   },
+   {
+    "le": "2026-10-28 09:45",
+    "age_h": 45,
+    "vues": 243,
+    "likes": 1,
     "commentaires": 0,
     "partages": 0
    }
@@ -47,7 +63,17 @@
   "mode": "exploration",
   "score_metricool": 1096,
   "vues_24h": null,
-  "vues_48h": null
+  "vues_48h": null,
+  "mesures": [
+   {
+    "le": "2026-10-28 09:45",
+    "age_h": 39,
+    "vues": 251,
+    "likes": 5,
+    "commentaires": 0,
+    "partages": 0
+   }
+  ]
  },
  {
   "numero": 4,
@@ -66,6 +92,26 @@
   "jour": "mardi",
   "mode": "exploration",
   "score_metricool": 859,
+  "vues_24h": null,
+  "vues_48h": null
+ },
+ {
+  "numero": 6,
+  "date": "2026-10-28",
+  "heure": "14:17",
+  "jour": "mercredi",
+  "mode": "exploration",
+  "score_metricool": 940,
+  "vues_24h": null,
+  "vues_48h": null
+ },
+ {
+  "numero": 7,
+  "date": "2026-10-28",
+  "heure": "20:24",
+  "jour": "mercredi",
+  "mode": "exploration",
+  "score_metricool": 907,
   "vues_24h": null,
   "vues_48h": null
  }

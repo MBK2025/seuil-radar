@@ -148,5 +148,65 @@
     "reponse": "Versailles"
    }
   ]
+ },
+ {
+  "date": "2026-10-28",
+  "numero": 6,
+  "questions": [
+   {
+    "q": "Quel Français a remporté le Ballon d'or 2025 ?",
+    "reponse": "Ousmane Dembélé"
+   },
+   {
+    "q": "Quel est le symbole chimique de l'or ?",
+    "reponse": "Au"
+   },
+   {
+    "q": "Quel club a gagné la Ligue des champions 2012, en finale à Munich contre le Bayern ?",
+    "reponse": "Chelsea"
+   },
+   {
+    "q": "Combien d'os compte le squelette d'un adulte ?",
+    "reponse": "206"
+   },
+   {
+    "q": "Quel club a gagné la toute première Ligue Europa, en 2010 ?",
+    "reponse": "Atlético de Madrid"
+   },
+   {
+    "q": "Quel scientifique a découvert la pénicilline, en 1928 ?",
+    "reponse": "Alexander Fleming"
+   }
+  ]
+ },
+ {
+  "date": "2026-10-28",
+  "numero": 7,
+  "questions": [
+   {
+    "q": "Combien de joueurs par équipe sur le terrain dans un match de foot classique ?",
+    "reponse": "11"
+   },
+   {
+    "q": "Quelle est la capitale du Portugal ?",
+    "reponse": "Lisbonne"
+   },
+   {
+    "q": "Quel pays a battu les Bleus aux tirs au but en finale du Mondial 2006 ?",
+    "reponse": "Italie"
+   },
+   {
+    "q": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "reponse": "1969"
+   },
+   {
+    "q": "Quel Français a marqué 13 buts lors d'une seule Coupe du monde, en 1958 ?",
+    "reponse": "Just Fontaine"
+   },
+   {
+    "q": "Quel traité de 1494 a partagé le Nouveau Monde entre l'Espagne et le Portugal ?",
+    "reponse": "Le traité de Tordesillas"
+   }
+  ]
  }
 ]

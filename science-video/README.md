@@ -28,13 +28,21 @@ Trois voix captivantes, choisies selon le sujet — jamais la même 3 jours de s
 `voix.txt` peut contenir des indications de jeu entre crochets que la voix interprète sans les lire : `[curious]` (question, accroche), `[excited]` (révélation), `[whispers]` (confidence), `[serious]`, `[laughs softly]`. Au plus une toutes les 2 ou 3 phrases, en début de phrase. Elles n'apparaissent PAS dans `script.txt`.
 Voix de secours (si ElevenLabs est indisponible) : `python3 tools/voix_secours.py voix.txt voix.wav` (retirer les crochets avant).
 
+## Style visuel : « holo » (par défaut, demandé par Moubarak)
+Toutes les vidéos sont en **hologramme bleu** : objets et personnages en contours lumineux translucides, fil de fer, poussière lumineuse, fond bleu nuit, bloom fort.
+- Dans `meta.json` : `"style": "holo"` → le moteur appelle automatiquement `E.holo()` après `build()` (ou forcer avec `--style holo` / `--style classic`).
+- `E.holo({ color: 0x3d8bff, edges: true, dust: true, strength: 0.75 })` remplace les matériaux par un shader holographique (bord lumineux + hachures + balayage), ajoute les arêtes en fil de fer et la poussière. Les `ShaderMaterial` (cartes de chaleur, etc.), les textures de texte et les effets (`E.shell`, `E.ring`, `E.dot`, `E.line3`) gardent leurs couleurs.
+- Accents de couleur : `mesh.userData.holoColor = 0xff8a3d` (chaleur, danger), `0x5bff9e` (bon / validé), `0xffd23f` (élément clé) ; tout le reste reste bleu. `mesh.userData.holoStrength` règle l'intensité ; `userData.noHolo = true` garde le rendu normal.
+- Concevoir pour ce style : peu de grandes surfaces superposées (elles s'additionnent et blanchissent l'image), des formes lisibles par leur silhouette, beaucoup de particules (`E.dot`) pour la matière, l'air, l'eau, la chaleur ; un personnage = `P.human()` en hologramme ; pas de décor de cuisine réaliste, plutôt un objet seul qui flotte sur fond sombre avec un sol en grille discret.
+- Les halos `glowMat` sont automatiquement atténués ; si l'image reste trop blanche, baisser `strength` ou passer certains objets en `holoStrength: 0.4`.
+
 ## Fichiers d'un épisode
 - `script.txt` — le texte affiché en sous-titres, **mot pour mot identique** à ce qui est prononcé. Balises : `*mot*` = mot accentué en jaune, `^MOT^` = mot géant (1 à 3 mots, pour les chiffres choc et les mots clés), `mot[5]` = forcer 5 syllabes (sigles, unités : `km/h[5]`). Les nombres peuvent rester en chiffres (`97`).
 - `voix.txt` — le même texte, sans balises, nombres et unités **écrits en toutes lettres** (c'est ce que lit la voix), plus les indications de jeu `[...]` (voir Voix).
 - `voix.mp3` (ElevenLabs) ou `voix.wav` (Piper) — non versionné.
 - `words.json` — produit par `align.py` (instant de chaque mot, déduit des pauses de la voix).
 - `scene.js` — la mise en scène (voir ci-dessous).
-- `meta.json` — `{titre, domaine, legende, hashtags[], sources[], voix}`.
+- `meta.json` — `{titre, domaine, style: "holo", legende, hashtags[], sources[], voix}`.
 
 ## API d'une scène (`scene.js`)
 ```js

@@ -2,7 +2,7 @@
 //   node tools/render.js episodes/NNN-slug preview 1.5,8,20   → images d'aperçu dans episodes/NNN-slug/prev/
 //   node tools/render.js episodes/NNN-slug clip 0,12             → out/NNN-slug.clip.mp4 (extrait avec la voix, pour vérifier vite)
 //   node tools/render.js episodes/NNN-slug full                → out/NNN-slug.mp4 (vidéo + voix + musique + bruitages)
-// Options : --rs 0.7 (échelle 3D), --handle @compte, --fps 30, --seed N (variante musicale)
+// Options : --rs 0.65 (échelle 3D), --handle @compte, --fps 25, --seed N, --style holo|classic (sinon meta.json « style »)
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path'), http = require('http'), { spawn, execFileSync } = require('child_process');
 
@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
   let pageErr = null;
   page.on('pageerror', e => { pageErr = e; console.log('ERREUR PAGE :', e.message); });
   page.on('console', m => { if (m.type() === 'error') console.log('CONSOLE :', m.text()); });
-  await page.goto(`http://localhost:${port}/engine/page.html?rs=${RS}`);
+  await page.goto(`http://localhost:${port}/engine/page.html?rs=${RS}` + (opt('style') ? `&style=${opt('style')}` : ''));
   await page.waitForFunction(() => window.ready === true, null, { timeout: 90000 });
   await page.evaluate(async () => { for (const f of ['500 62px Inter', '600 62px Inter', '700 62px Inter', '800 62px Inter', '900 62px Inter', '800 30px Mono', '500 30px Mono', '900 96px Caption', '800 96px Caption']) await document.fonts.load(f); });
   const info = await page.evaluate(([d, e, h]) => setup(d, e, h), [data, EP, HANDLE]);

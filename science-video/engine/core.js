@@ -79,6 +79,7 @@ const MOODS = {
   studio: { bg: [[0, '#05070c'], [0.6, '#0d1220'], [1, '#121a2c']], fog: [0x0b101c, 18, 90], hemi: [0x8090c0, 0x101018, 0.7], key: [0xffffff, 1.4], rim: 1.2, exp: 1.0 },
   space:  { bg: [[0, '#000000'], [1, '#050814']], fog: null, hemi: [0x223355, 0x000000, 0.25], key: [0xfff4e0, 2.2], rim: 0.4, exp: 1.0 },
   day:    { bg: [[0, '#3b78c9'], [0.6, '#9cc6ef'], [1, '#dbe9f5']], fog: [0xbcd3ea, 60, 380], hemi: [0xcfe3ff, 0x4a5a3a, 1.1], key: [0xfff1dc, 2.0], rim: 0.3, exp: 1.0 },
+  holo:   { bg: [[0, '#000208'], [0.45, '#010a24'], [1, '#04225e']], fog: null, hemi: [0x223355, 0x000000, 0.3], key: [0xffffff, 0.5], rim: 0, exp: 1.0 },
   lab:    { bg: [[0, '#06110f'], [0.6, '#0b1f1c'], [1, '#12302b']], fog: [0x0b1f1c, 15, 80], hemi: [0x9fe0d0, 0x101515, 0.7], key: [0xffffff, 1.2], rim: 1.0, exp: 1.0 },
 };
 function mood(name) {
@@ -101,7 +102,7 @@ const shellMat = () => new THREE.ShaderMaterial({
       gl_FragColor = vec4(uColor * (1.0 + rim), uOp * (0.05 + 0.85 * rim + 0.35 * fr)); }`,
   transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, fog: false });
 const shells = [];
-for (let i = 0; i < 48; i++) { const m = new THREE.Mesh(shellGeo, shellMat()); m.visible = false; scene.add(m); shells.push(m); }
+for (let i = 0; i < 48; i++) { const m = new THREE.Mesh(shellGeo, shellMat()); m.visible = false; m.userData.noHolo = true; scene.add(m); shells.push(m); }
 // front d'onde (calotte lumineuse) : centre, direction, rayon, couleur, opacité
 function shell(i, center, dir, r, color = 0x3fe0ff, op = 0.8, aperture = 1) {
   const m = shells[i]; if (!m) return; m.visible = true; m.position.copy(center);
@@ -110,7 +111,7 @@ function shell(i, center, dir, r, color = 0x3fe0ff, op = 0.8, aperture = 1) {
 }
 const ringGeo = new THREE.RingGeometry(0.992, 1, 160);
 const rings = [];
-for (let i = 0; i < 40; i++) { const r = new THREE.Mesh(ringGeo, glowMat(0xffffff, 0.8)); r.visible = false; scene.add(r); rings.push(r); }
+for (let i = 0; i < 40; i++) { const r = new THREE.Mesh(ringGeo, glowMat(0xffffff, 0.8)); r.visible = false; r.userData.noHolo = true; scene.add(r); rings.push(r); }
 // anneau plat (onde sonore, ondulation) : centre, rayon, couleur, opacité, normale (défaut : vertical = posé au sol)
 function ring(i, center, r, color = 0xffffff, op = 0.6, normal = UP) {
   const m = rings[i]; if (!m) return; m.visible = true; m.position.copy(center); m.scale.setScalar(Math.max(r, 0.01));
@@ -118,7 +119,7 @@ function ring(i, center, r, color = 0xffffff, op = 0.6, normal = UP) {
 }
 const dotGeo = new THREE.SphereGeometry(1, 12, 8);
 const dots = new THREE.InstancedMesh(dotGeo, new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 1, toneMapped: false, blending: THREE.AdditiveBlending, depthWrite: false }), 4000);   // lumineuses (additives) : couleur sombre = plus transparent
-dots.instanceMatrix.setUsage(THREE.DynamicDrawUsage); dots.count = 0; dots.frustumCulled = false; scene.add(dots);
+dots.instanceMatrix.setUsage(THREE.DynamicDrawUsage); dots.count = 0; dots.frustumCulled = false; dots.userData.noHolo = true; scene.add(dots);
 const _m = new THREE.Matrix4(), _q = new THREE.Quaternion(), _c = new THREE.Color();
 // particule (molécule, photon, électron…) : à appeler chaque image, autant de fois que nécessaire
 function dot(pos, size = 0.1, color = 0xffffff) {
@@ -136,6 +137,61 @@ function line3(i, pts, color = 0xffffff, op = 1, prog = 1) {
 function resetFx() {
   for (const m of shells) m.visible = false; for (const r of rings) r.visible = false; for (const l of lineObjs) l.visible = false;
   dots.count = 0;
+}
+
+// ---------------- style « holo » : tout en hologramme bleu (lignes lumineuses, contours brillants, poussière) ----------------
+const HOLO = { on: false, time: { value: 0 }, dust: null };
+function holoMat(color = 0x3d8bff, strength = 1) {
+  return new THREE.ShaderMaterial({
+    uniforms: { uColor: { value: new THREE.Color(color) }, uTime: HOLO.time, uK: { value: strength } },
+    vertexShader: `varying vec3 vN; varying vec3 vV; varying vec3 vW;
+      void main(){ vec4 w = modelMatrix * vec4(position, 1.0); vW = w.xyz; vec4 mv = viewMatrix * w;
+        vN = normalize(normalMatrix * normal); vV = normalize(-mv.xyz); gl_Position = projectionMatrix * mv; }`,
+    fragmentShader: `uniform vec3 uColor; uniform float uTime; uniform float uK; varying vec3 vN; varying vec3 vV; varying vec3 vW;
+      void main(){ float f = 1.0 - abs(dot(normalize(vN), normalize(vV)));
+        float fres = pow(f, 2.2);
+        float hatch = smoothstep(0.93, 1.0, abs(sin((vW.y * 7.0 + vW.x * 2.0) * 3.14159))) * 0.18;
+        float scan = 0.5 + 0.5 * sin(vW.y * 3.0 - uTime * 2.5);
+        float a = uK * (0.025 + 0.75 * fres + hatch * (0.3 + 0.7 * fres) + 0.025 * scan);
+        vec3 col = uColor * (0.5 + 1.6 * fres) + vec3(0.75, 0.88, 1.0) * pow(f, 6.0) * 1.4;
+        gl_FragColor = vec4(col * a, a); }`,
+    transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending });
+}
+// E.holo({color, edges, dust}) : à appeler à la fin de build(). Les objets avec userData.noHolo, les ShaderMaterial
+// et les textures de texte gardent leur rendu ; userData.holoColor change la teinte d'un objet (ex. 0xffb050 pour la chaleur).
+function holo({ color = 0x3d8bff, edges = true, dust = true, strength = 0.75 } = {}) {
+  HOLO.on = true; mood('holo');
+  bloom.strength = 0.85; bloom.radius = 0.5; bloom.threshold = 0.3;
+  const mats = new Map(), lineMats = new Map();
+  const get = (c, k) => { const key = c + ':' + k; if (!mats.has(key)) { const hm = holoMat(c, k);
+      // propriétés factices : le code d'une scène peut continuer à régler color / emissive / opacity sans erreur
+      hm.color = new THREE.Color(); hm.emissive = new THREE.Color(); hm.emissiveIntensity = 0; hm.map = null; mats.set(key, hm); } return mats.get(key); };
+  const getL = c => { if (!lineMats.has(c)) lineMats.set(c, new THREE.LineBasicMaterial({ color: c, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending, depthWrite: false })); return lineMats.get(c); };
+  const todo = [];
+  scene.traverse(o => { if (o.isMesh && !o.userData.noHolo) todo.push(o); });
+  for (const m of todo) {
+    let skip = false; m.traverseAncestors(a => { if (a.userData && a.userData.noHolo) skip = true; }); if (skip) continue;
+    const mat = Array.isArray(m.material) ? m.material[0] : m.material;
+    if (mat && mat.isMeshBasicMaterial && mat.blending === THREE.AdditiveBlending && !m.userData.holoKeep) { mat.opacity *= 0.3; continue; }   // halos : atténués
+    if (!mat || mat.isShaderMaterial || (mat.map && mat.isMeshBasicMaterial)) continue;
+    const c = m.userData.holoColor ?? color;
+    if (!m.geometry.boundingSphere) m.geometry.computeBoundingSphere();
+    const ws = new THREE.Vector3(); m.getWorldScale(ws);
+    const big = m.geometry.boundingSphere.radius * Math.max(ws.x, ws.y, ws.z) > 7;   // sols, murs, décors géants : à peine visibles
+    m.material = get(c, m.userData.holoStrength ?? (big ? strength * 0.18 : strength));
+    if (big) { m.userData.holoBig = true; }
+    if (edges && !m.userData.holoBig && !m.isInstancedMesh && m.geometry && m.geometry.attributes.position.count < 60000) {
+      const e = new THREE.LineSegments(new THREE.EdgesGeometry(m.geometry, 28), getL(c)); e.userData.noHolo = true; m.add(e);
+    }
+  }
+  scene.traverse(o => { if (o.isLight && !o.isAmbientLight && !o.isHemisphereLight) o.intensity *= 0.2; });
+  if (dust) {   // poussière lumineuse qui flotte autour de la caméra
+    const g = new THREE.BufferGeometry(), p = [];
+    for (let i = 0; i < 2600; i++) p.push((rand(i) - 0.5) * 60, (rand(i + 1) - 0.5) * 40, (rand(i + 2) - 0.5) * 60);
+    g.setAttribute('position', new THREE.Float32BufferAttribute(p, 3));
+    HOLO.dust = new THREE.Points(g, new THREE.PointsMaterial({ color: 0x5aa0ff, size: 0.05, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false }));
+    HOLO.dust.userData.noHolo = true; HOLO.dust.frustumCulled = false; scene.add(HOLO.dust);
+  }
 }
 
 // ---------------- 2D ----------------
@@ -270,7 +326,9 @@ function frame(t) {
   let si = SHOTS.length - 1; while (si > 0 && SHOTS[si].start > t) si--;
   const sh = SHOTS[si], lt = t - sh.start, dur = (SHOTS[si + 1]?.start ?? TOTAL) - sh.start;
   const k = clamp(lt / dur);
+  HOLO.time.value = t;
   if (sh.update) sh.update(t, lt, k);
+  if (HOLO.dust) { HOLO.dust.position.copy(camera.position); HOLO.dust.rotation.y = t * 0.02; }
   if (!sh.no3d) {
     dots.instanceMatrix.needsUpdate = true; if (dots.instanceColor) dots.instanceColor.needsUpdate = true;
     composer.render();
@@ -296,7 +354,7 @@ const E = {
   THREE, RoundedBoxGeometry, scene, camera, renderer, bloom, W, H, o, COL,
   clamp, ease, easeIO, easeBack, lerp, rand, V3,
   std, phys, glassMat, glowMat, lineMat, radialTex, gradientTex, envTex,
-  camSet, orbit, fit, proj, mood, lights: { hemi, key, rim },
+  camSet, orbit, fit, proj, mood, holo, holoMat, lights: { hemi, key, rim },
   shell, ring, dot, line3,
   txt, glass, tag, tag3, leader, wave2, reticle, bigNumber, bar, arrow2, panel, flash, scanlines, P2,
   B: {}, words: [], P,
@@ -320,6 +378,8 @@ window.setup = async (data, ep, handle) => {
   CHUNKS = buildChunks(data.words);
   EP = await import(`../${ep}/scene.js?v=${Date.now()}`);
   const r = await EP.build(E);
+  const style = new URLSearchParams(location.search).get('style') || (await fetch(`../${ep}/meta.json`).then(x => x.json()).catch(() => ({}))).style;
+  if (style === 'holo' && !HOLO.on) holo();
   SHOTS = r.shots.slice().sort((a, b) => a.start - b.start); SHOTS[0].start = 0;
   return { total: TOTAL, groups: CHUNKS.length, shots: SHOTS.map(s => ({ name: s.name, start: +s.start.toFixed(3), sfx: s.sfx || 'whoosh' })), sfx: r.sfx || [] };
 };

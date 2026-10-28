@@ -58,6 +58,14 @@ const lineMat = (c, op = 1) => new THREE.LineBasicMaterial({ color: c, transpare
 function camSet(p, look, fov = 50) { camera.position.copy(p); camera.lookAt(look); camera.fov = fov; camera.updateProjectionMatrix(); }
 // caméra en orbite autour d'une cible : angle (rad), hauteur, distance
 function orbit(target, ang, height, dist, fov = 50) { camSet(V3(target.x + Math.sin(ang) * dist, target.y + height, target.z + Math.cos(ang) * dist), target, fov); }
+// cadre un objet ENTIER : centre, rayon de l'objet (m), direction de vue (depuis l'objet vers la caméra), marge (1.6 = objet ≈ 60 % de la largeur)
+// En vertical 9:16, c'est la LARGEUR qui limite : on calcule la distance avec le champ horizontal.
+function fit(center, radius, dir = V3(0.35, 0.3, 1), margin = 1.6, fov = 45) {
+  const hfov = 2 * Math.atan(Math.tan(fov * Math.PI / 360) * (W / H));
+  const d = radius * margin / Math.sin(hfov / 2);
+  camSet(center.clone().add(dir.clone().normalize().multiplyScalar(d)), center, fov);
+  return d;
+}
 function proj(v) { const p = v.clone().project(camera); return [(p.x + 1) / 2 * W, (1 - p.y) / 2 * H, p.z]; }
 
 // ---------------- ambiances ----------------
@@ -288,7 +296,7 @@ const E = {
   THREE, RoundedBoxGeometry, scene, camera, renderer, bloom, W, H, o, COL,
   clamp, ease, easeIO, easeBack, lerp, rand, V3,
   std, phys, glassMat, glowMat, lineMat, radialTex, gradientTex, envTex,
-  camSet, orbit, proj, mood, lights: { hemi, key, rim },
+  camSet, orbit, fit, proj, mood, lights: { hemi, key, rim },
   shell, ring, dot, line3,
   txt, glass, tag, tag3, leader, wave2, reticle, bigNumber, bar, arrow2, panel, flash, scanlines, P2,
   B: {}, words: [], P,

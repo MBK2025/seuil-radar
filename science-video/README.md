@@ -56,7 +56,7 @@ export async function build(E) {
 **Son (obligatoire)** — PAS de musique de fond (choix de Moubarak : elle couvre la voix). `tools/mix.py` (appelé par `render.js full`) mixe la voix et les bruitages puis normalise le volume (−15 LUFS). Pour réactiver une musique : `--music-volume 0.08`.
 Bruitages : `whoosh` joué automatiquement à chaque changement de plan (mettre `sfx: 'none'` sur un plan pour l'enlever), et la liste `sfx` renvoyée par `build` pour les moments clés, **calés sur un mot** avec `E.at(...)` : `boom` (révélation, chiffre choc), `pop` (apparition d'une étiquette ou d'un élément), `ding` (résultat, bonne réponse), `click` (déclic, photo, interrupteur), `rise` (montée de tension avant une révélation). Viser 8 à 15 bruitages par vidéo, jamais deux à moins de 0,4 s.
 
-**3D** — `E.scene`, `E.camera`, `E.THREE`, `E.RoundedBoxGeometry`, matériaux `E.std(couleur, rugosité, métal, émissif, intensité)`, `E.phys(couleur, {…})`, `E.glassMat()`, `E.glowMat(couleur, opacité)` (additif, lumineux), `E.radialTex()`, `E.lights.{hemi,key,rim}`, `E.bloom` (strength, threshold).
+**3D** — `E.fit(centre, rayon, dir, marge)` (cadrage automatique, à privilégier), `E.camSet(pos, cible, fov)`, `E.orbit(...)`, `E.scene`, `E.camera`, `E.THREE`, `E.RoundedBoxGeometry`, matériaux `E.std(couleur, rugosité, métal, émissif, intensité)`, `E.phys(couleur, {…})`, `E.glassMat()`, `E.glowMat(couleur, opacité)` (additif, lumineux), `E.radialTex()`, `E.lights.{hemi,key,rim}`, `E.bloom` (strength, threshold).
 Effets en pool (à rappeler **à chaque image** dans `update`, ils sont remis à zéro automatiquement) :
 - `E.shell(i, centre, direction, rayon, couleur, opacité)` — front d'onde lumineux (radar, son, lumière, wifi…)
 - `E.ring(i, centre, rayon, couleur, opacité, normale)` — anneau (ondes sonores, ondulations)
@@ -74,6 +74,9 @@ Le moteur les génère seul à partir de `words.json` : 1 à 3 mots à la fois, 
 Vérifier un passage rapidement : `node tools/render.js episodes/NNN-slug clip 0,12` (extrait avec la voix).
 
 ## Règles de mise en scène
+- **CADRAGE LARGE (demande de Moubarak : « pas trop zoomer »)** : l'objet principal est TOUJOURS entièrement visible, avec de l'air autour (il occupe au plus 60 à 70 % de la largeur de l'image). Utiliser `E.fit(centre, rayon, direction, 1.6)` pour placer la caméra : il calcule la distance pour que l'objet tienne dans la largeur (c'est la largeur qui limite en vertical). Champ de vision 40 à 55°, jamais en dessous de 35° sauf vue « téléobjectif » justifiée (radar).
+- Pas de plongée dans un objet qui remplit tout l'écran d'une couleur unie ; pas de gros plan qui coupe l'objet. Un gros plan (macro, molécules, grille) se fait sur un décor dédié où l'on voit plusieurs éléments en entier, jamais une surface qui déborde du cadre.
+- Les mouvements de caméra restent doux : un travelling avant s'arrête quand l'objet occupe environ 60 % de la largeur.
 - **Zone réservée** aux sous-titres : y de 250 à 600 px. Rien d'important dedans. HUD et panneaux entre 700 et 1750 px.
 - Un plan toutes les 4 à 9 s ; jamais plus de 10 s sans changement de caméra, de plan ou d'élément nouveau.
 - La caméra bouge toujours un peu (travelling, orbite lente, zoom) ; ralenti / retour arrière / vue en coupe / vision spéciale pour les moments clés.

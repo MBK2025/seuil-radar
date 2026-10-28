@@ -20,5 +20,19 @@
     "note": "réalisé à la main le 28/10 au matin, envoyé à Moubarak ; pas encore de compte Metricool",
     "voix": "Maxence",
     "voix_id": "GGkMUTZaJ8IyPwaHimUq"
+  },
+  {
+    "numero": 3,
+    "date": "2026-10-28",
+    "slug": "003-chair-de-poule",
+    "sujet": "Pourquoi on a la chair de poule (muscle arrecteur, système nerveux sympathique, adrénaline, fourrure isolante, chat qui se hérisse, réflexe hérité, étude Harvard 2020 sur la souris : cellules souches et repousse des poils)",
+    "domaine": "corps humain / biologie",
+    "duree_s": 120.0,
+    "publie": false,
+    "heure": null,
+    "reseaux": [],
+    "voix": "piper",
+    "voix_id": "fr_FR-tom-medium",
+    "note": "mode sans compte (aucune marque Metricool autre que « kiss ») ; crédits ElevenLabs épuisés → voix de secours Piper accélérée (length_scale 0.83) ; vidéo envoyée à Moubarak"
   }
 ]

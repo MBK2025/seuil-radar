@@ -1,0 +1,2797 @@
+{
+ "duration": 118.554308,
+ "words": [
+  {
+   "w": "Un",
+   "style": null,
+   "syl": 1,
+   "s": 0.0,
+   "e": 0.251,
+   "seg": 0
+  },
+  {
+   "w": "film",
+   "style": null,
+   "syl": 1,
+   "s": 0.251,
+   "e": 0.503,
+   "seg": 0
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 0.503,
+   "e": 0.754,
+   "seg": 0
+  },
+  {
+   "w": "fait",
+   "style": null,
+   "syl": 1,
+   "s": 0.754,
+   "e": 1.005,
+   "seg": 0
+  },
+  {
+   "w": "peur.",
+   "style": null,
+   "syl": 1,
+   "s": 1.005,
+   "e": 1.256,
+   "seg": 0
+  },
+  {
+   "w": "Une",
+   "style": null,
+   "syl": 1,
+   "s": 1.619,
+   "e": 1.807,
+   "seg": 1
+  },
+  {
+   "w": "chanson",
+   "style": null,
+   "syl": 2,
+   "s": 1.807,
+   "e": 2.185,
+   "seg": 1
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 2.185,
+   "e": 2.374,
+   "seg": 1
+  },
+  {
+   "w": "te",
+   "style": null,
+   "syl": 1,
+   "s": 2.374,
+   "e": 2.563,
+   "seg": 1
+  },
+  {
+   "w": "prend",
+   "style": null,
+   "syl": 1,
+   "s": 2.563,
+   "e": 2.752,
+   "seg": 1
+  },
+  {
+   "w": "aux",
+   "style": null,
+   "syl": 1,
+   "s": 2.752,
+   "e": 2.941,
+   "seg": 1
+  },
+  {
+   "w": "tripes.",
+   "style": null,
+   "syl": 2,
+   "s": 2.941,
+   "e": 3.319,
+   "seg": 1
+  },
+  {
+   "w": "Un",
+   "style": null,
+   "syl": 1,
+   "s": 3.687,
+   "e": 3.881,
+   "seg": 2
+  },
+  {
+   "w": "courant",
+   "style": null,
+   "syl": 2,
+   "s": 3.881,
+   "e": 4.268,
+   "seg": 2
+  },
+  {
+   "w": "d'air",
+   "style": null,
+   "syl": 1,
+   "s": 4.268,
+   "e": 4.462,
+   "seg": 2
+  },
+  {
+   "w": "glacé...",
+   "style": null,
+   "syl": 2,
+   "s": 4.462,
+   "e": 4.85,
+   "seg": 2
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 5.212,
+   "e": 5.393,
+   "seg": 3
+  },
+  {
+   "w": "hop :",
+   "style": null,
+   "syl": 1,
+   "s": 5.393,
+   "e": 5.575,
+   "seg": 3
+  },
+  {
+   "w": "ta",
+   "style": null,
+   "syl": 1,
+   "s": 6.153,
+   "e": 6.346,
+   "seg": 4
+  },
+  {
+   "w": "peau",
+   "style": null,
+   "syl": 1,
+   "s": 6.346,
+   "e": 6.539,
+   "seg": 4
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 6.539,
+   "e": 6.731,
+   "seg": 4
+  },
+  {
+   "w": "couvre",
+   "style": null,
+   "syl": 1,
+   "s": 6.731,
+   "e": 6.924,
+   "seg": 4
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 6.924,
+   "e": 7.117,
+   "seg": 4
+  },
+  {
+   "w": "petites",
+   "style": null,
+   "syl": 2,
+   "s": 7.117,
+   "e": 7.503,
+   "seg": 4
+  },
+  {
+   "w": "bosses.",
+   "style": null,
+   "syl": 2,
+   "s": 7.503,
+   "e": 7.889,
+   "seg": 4
+  },
+  {
+   "w": "La",
+   "style": null,
+   "syl": 1,
+   "s": 8.269,
+   "e": 8.501,
+   "seg": 5
+  },
+  {
+   "w": "chair",
+   "style": "italic",
+   "syl": 1,
+   "s": 8.501,
+   "e": 8.733,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "style": "italic",
+   "syl": 1,
+   "s": 8.733,
+   "e": 8.964,
+   "seg": 5
+  },
+  {
+   "w": "poule.",
+   "style": "italic",
+   "syl": 2,
+   "s": 8.964,
+   "e": 9.428,
+   "seg": 5
+  },
+  {
+   "w": "Mais",
+   "style": null,
+   "syl": 1,
+   "s": 9.788,
+   "e": 9.968,
+   "seg": 6
+  },
+  {
+   "w": "pourquoi",
+   "style": null,
+   "syl": 2,
+   "s": 9.968,
+   "e": 10.328,
+   "seg": 6
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 10.328,
+   "e": 10.509,
+   "seg": 6
+  },
+  {
+   "w": "corps",
+   "style": null,
+   "syl": 1,
+   "s": 10.509,
+   "e": 10.689,
+   "seg": 6
+  },
+  {
+   "w": "fait",
+   "style": null,
+   "syl": 1,
+   "s": 10.689,
+   "e": 10.869,
+   "seg": 6
+  },
+  {
+   "w": "ça ?",
+   "style": null,
+   "syl": 1,
+   "s": 10.869,
+   "e": 11.049,
+   "seg": 6
+  },
+  {
+   "w": "Voilà",
+   "style": null,
+   "syl": 2,
+   "s": 11.633,
+   "e": 11.965,
+   "seg": 7
+  },
+  {
+   "w": "ce",
+   "style": null,
+   "syl": 1,
+   "s": 11.965,
+   "e": 12.131,
+   "seg": 7
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 12.131,
+   "e": 12.297,
+   "seg": 7
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 12.297,
+   "e": 12.463,
+   "seg": 7
+  },
+  {
+   "w": "passe",
+   "style": null,
+   "syl": 1,
+   "s": 12.463,
+   "e": 12.629,
+   "seg": 7
+  },
+  {
+   "w": "vraiment,",
+   "style": null,
+   "syl": 2,
+   "s": 12.629,
+   "e": 12.961,
+   "seg": 7
+  },
+  {
+   "w": "juste",
+   "style": null,
+   "syl": 1,
+   "s": 13.207,
+   "e": 13.42,
+   "seg": 8
+  },
+  {
+   "w": "sous",
+   "style": null,
+   "syl": 1,
+   "s": 13.42,
+   "e": 13.633,
+   "seg": 8
+  },
+  {
+   "w": "ta",
+   "style": null,
+   "syl": 1,
+   "s": 13.633,
+   "e": 13.846,
+   "seg": 8
+  },
+  {
+   "w": "peau.",
+   "style": null,
+   "syl": 1,
+   "s": 13.846,
+   "e": 14.059,
+   "seg": 8
+  },
+  {
+   "w": "Tu",
+   "style": null,
+   "syl": 1,
+   "s": 14.422,
+   "e": 14.633,
+   "seg": 9
+  },
+  {
+   "w": "as",
+   "style": null,
+   "syl": 1,
+   "s": 14.633,
+   "e": 14.844,
+   "seg": 9
+  },
+  {
+   "w": "environ",
+   "style": null,
+   "syl": 3,
+   "s": 14.844,
+   "e": 15.477,
+   "seg": 9
+  },
+  {
+   "w": "5",
+   "style": "bold",
+   "syl": 1,
+   "s": 15.477,
+   "e": 15.688,
+   "seg": 9
+  },
+  {
+   "w": "millions",
+   "style": "bold",
+   "syl": 2,
+   "s": 15.688,
+   "e": 16.11,
+   "seg": 9
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 16.11,
+   "e": 16.321,
+   "seg": 9
+  },
+  {
+   "w": "poils",
+   "style": null,
+   "syl": 1,
+   "s": 16.321,
+   "e": 16.532,
+   "seg": 9
+  },
+  {
+   "w": "sur",
+   "style": null,
+   "syl": 1,
+   "s": 16.532,
+   "e": 16.743,
+   "seg": 9
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 16.743,
+   "e": 16.954,
+   "seg": 9
+  },
+  {
+   "w": "corps.",
+   "style": null,
+   "syl": 1,
+   "s": 16.954,
+   "e": 17.165,
+   "seg": 9
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 17.764,
+   "e": 17.934,
+   "seg": 10
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 17.934,
+   "e": 18.105,
+   "seg": 10
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 18.105,
+   "e": 18.276,
+   "seg": 10
+  },
+  {
+   "w": "base",
+   "style": null,
+   "syl": 1,
+   "s": 18.276,
+   "e": 18.447,
+   "seg": 10
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 18.447,
+   "e": 18.618,
+   "seg": 10
+  },
+  {
+   "w": "tes",
+   "style": null,
+   "syl": 1,
+   "s": 18.618,
+   "e": 18.789,
+   "seg": 10
+  },
+  {
+   "w": "poils,",
+   "style": null,
+   "syl": 1,
+   "s": 18.789,
+   "e": 18.96,
+   "seg": 10
+  },
+  {
+   "w": "il",
+   "style": null,
+   "syl": 1,
+   "s": 19.236,
+   "e": 19.394,
+   "seg": 11
+  },
+  {
+   "w": "y",
+   "style": null,
+   "syl": 1,
+   "s": 19.394,
+   "e": 19.552,
+   "seg": 11
+  },
+  {
+   "w": "a",
+   "style": null,
+   "syl": 1,
+   "s": 19.552,
+   "e": 19.71,
+   "seg": 11
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 19.71,
+   "e": 19.868,
+   "seg": 11
+  },
+  {
+   "w": "muscle",
+   "style": null,
+   "syl": 1,
+   "s": 19.868,
+   "e": 20.026,
+   "seg": 11
+  },
+  {
+   "w": "minuscule,",
+   "style": null,
+   "syl": 4,
+   "s": 20.026,
+   "e": 20.659,
+   "seg": 11
+  },
+  {
+   "w": "accroché",
+   "style": null,
+   "syl": 3,
+   "s": 20.899,
+   "e": 21.471,
+   "seg": 12
+  },
+  {
+   "w": "en",
+   "style": null,
+   "syl": 1,
+   "s": 21.471,
+   "e": 21.662,
+   "seg": 12
+  },
+  {
+   "w": "biais :",
+   "style": null,
+   "syl": 1,
+   "s": 21.662,
+   "e": 21.853,
+   "seg": 12
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 22.232,
+   "e": 22.52,
+   "seg": 13
+  },
+  {
+   "w": "muscle",
+   "style": "italic",
+   "syl": 1,
+   "s": 22.52,
+   "e": 22.808,
+   "seg": 13
+  },
+  {
+   "w": "arrecteur.",
+   "style": "italic",
+   "syl": 3,
+   "s": 22.808,
+   "e": 23.673,
+   "seg": 13
+  },
+  {
+   "w": "Son",
+   "style": null,
+   "syl": 1,
+   "s": 24.048,
+   "e": 24.331,
+   "seg": 14
+  },
+  {
+   "w": "seul",
+   "style": null,
+   "syl": 1,
+   "s": 24.331,
+   "e": 24.614,
+   "seg": 14
+  },
+  {
+   "w": "job ?",
+   "style": null,
+   "syl": 1,
+   "s": 24.614,
+   "e": 24.897,
+   "seg": 14
+  },
+  {
+   "w": "Redresser",
+   "style": null,
+   "syl": 3,
+   "s": 25.26,
+   "e": 25.909,
+   "seg": 15
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 25.909,
+   "e": 26.126,
+   "seg": 15
+  },
+  {
+   "w": "poil.",
+   "style": null,
+   "syl": 1,
+   "s": 26.126,
+   "e": 26.342,
+   "seg": 15
+  },
+  {
+   "w": "Étape",
+   "style": null,
+   "syl": 2,
+   "s": 26.702,
+   "e": 27.027,
+   "seg": 16
+  },
+  {
+   "w": "un :",
+   "style": null,
+   "syl": 1,
+   "s": 27.027,
+   "e": 27.19,
+   "seg": 16
+  },
+  {
+   "w": "l'alerte.",
+   "style": null,
+   "syl": 3,
+   "s": 27.552,
+   "e": 28.151,
+   "seg": 17
+  },
+  {
+   "w": "Quand",
+   "style": null,
+   "syl": 1,
+   "s": 28.514,
+   "e": 28.676,
+   "seg": 18
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 28.676,
+   "e": 28.838,
+   "seg": 18
+  },
+  {
+   "w": "as",
+   "style": null,
+   "syl": 1,
+   "s": 28.838,
+   "e": 29.0,
+   "seg": 18
+  },
+  {
+   "w": "froid,",
+   "style": null,
+   "syl": 1,
+   "s": 29.0,
+   "e": 29.162,
+   "seg": 18
+  },
+  {
+   "w": "ou",
+   "style": null,
+   "syl": 1,
+   "s": 29.41,
+   "e": 29.684,
+   "seg": 19
+  },
+  {
+   "w": "peur,",
+   "style": null,
+   "syl": 1,
+   "s": 29.684,
+   "e": 29.958,
+   "seg": 19
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 30.198,
+   "e": 30.37,
+   "seg": 20
+  },
+  {
+   "w": "cerveau",
+   "style": null,
+   "syl": 2,
+   "s": 30.37,
+   "e": 30.714,
+   "seg": 20
+  },
+  {
+   "w": "active",
+   "style": null,
+   "syl": 2,
+   "s": 30.714,
+   "e": 31.059,
+   "seg": 20
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 31.059,
+   "e": 31.231,
+   "seg": 20
+  },
+  {
+   "w": "système",
+   "style": null,
+   "syl": 2,
+   "s": 31.231,
+   "e": 31.575,
+   "seg": 20
+  },
+  {
+   "w": "nerveux",
+   "style": null,
+   "syl": 2,
+   "s": 31.575,
+   "e": 31.919,
+   "seg": 20
+  },
+  {
+   "w": "sympathique.",
+   "style": "italic",
+   "syl": 4,
+   "s": 31.919,
+   "e": 32.607,
+   "seg": 20
+  },
+  {
+   "w": "C'est",
+   "style": null,
+   "syl": 1,
+   "s": 33.211,
+   "e": 33.402,
+   "seg": 21
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 33.402,
+   "e": 33.593,
+   "seg": 21
+  },
+  {
+   "w": "pilote",
+   "style": null,
+   "syl": 2,
+   "s": 33.593,
+   "e": 33.976,
+   "seg": 21
+  },
+  {
+   "w": "automatique",
+   "style": null,
+   "syl": 5,
+   "s": 33.976,
+   "e": 34.933,
+   "seg": 21
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 34.933,
+   "e": 35.124,
+   "seg": 21
+  },
+  {
+   "w": "corps,",
+   "style": null,
+   "syl": 1,
+   "s": 35.124,
+   "e": 35.316,
+   "seg": 21
+  },
+  {
+   "w": "celui",
+   "style": null,
+   "syl": 2,
+   "s": 35.562,
+   "e": 35.92,
+   "seg": 22
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 35.92,
+   "e": 36.099,
+   "seg": 22
+  },
+  {
+   "w": "prépare",
+   "style": null,
+   "syl": 2,
+   "s": 36.099,
+   "e": 36.458,
+   "seg": 22
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 36.458,
+   "e": 36.637,
+   "seg": 22
+  },
+  {
+   "w": "fuir",
+   "style": null,
+   "syl": 1,
+   "s": 36.637,
+   "e": 36.817,
+   "seg": 22
+  },
+  {
+   "w": "ou",
+   "style": null,
+   "syl": 1,
+   "s": 36.817,
+   "e": 36.996,
+   "seg": 22
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 36.996,
+   "e": 37.175,
+   "seg": 22
+  },
+  {
+   "w": "combattre.",
+   "style": null,
+   "syl": 3,
+   "s": 37.175,
+   "e": 37.713,
+   "seg": 22
+  },
+  {
+   "w": "Toi,",
+   "style": null,
+   "syl": 1,
+   "s": 38.073,
+   "e": 38.292,
+   "seg": 23
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 38.535,
+   "e": 38.711,
+   "seg": 24
+  },
+  {
+   "w": "ne",
+   "style": null,
+   "syl": 1,
+   "s": 38.895,
+   "e": 39.098,
+   "seg": 25
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 39.098,
+   "e": 39.302,
+   "seg": 25
+  },
+  {
+   "w": "contrôles",
+   "style": null,
+   "syl": 2,
+   "s": 39.302,
+   "e": 39.709,
+   "seg": 25
+  },
+  {
+   "w": "pas.",
+   "style": null,
+   "syl": 1,
+   "s": 39.709,
+   "e": 39.912,
+   "seg": 25
+  },
+  {
+   "w": "Il",
+   "style": null,
+   "syl": 1,
+   "s": 40.275,
+   "e": 40.417,
+   "seg": 26
+  },
+  {
+   "w": "libère",
+   "style": null,
+   "syl": 2,
+   "s": 40.417,
+   "e": 40.7,
+   "seg": 26
+  },
+  {
+   "w": "aussi",
+   "style": null,
+   "syl": 2,
+   "s": 40.7,
+   "e": 40.984,
+   "seg": 26
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 40.984,
+   "e": 41.126,
+   "seg": 26
+  },
+  {
+   "w": "l'adrénaline,",
+   "style": "italic",
+   "syl": 5,
+   "s": 41.126,
+   "e": 41.834,
+   "seg": 26
+  },
+  {
+   "w": "l'hormone",
+   "style": null,
+   "syl": 2,
+   "s": 42.075,
+   "e": 42.678,
+   "seg": 27
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 42.678,
+   "e": 42.979,
+   "seg": 27
+  },
+  {
+   "w": "stress.",
+   "style": null,
+   "syl": 1,
+   "s": 42.979,
+   "e": 43.281,
+   "seg": 27
+  },
+  {
+   "w": "Étape",
+   "style": null,
+   "syl": 2,
+   "s": 43.645,
+   "e": 44.039,
+   "seg": 28
+  },
+  {
+   "w": "deux :",
+   "style": null,
+   "syl": 1,
+   "s": 44.039,
+   "e": 44.236,
+   "seg": 28
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 44.599,
+   "e": 44.779,
+   "seg": 29
+  },
+  {
+   "w": "traction.",
+   "style": null,
+   "syl": 2,
+   "s": 44.779,
+   "e": 45.141,
+   "seg": 29
+  },
+  {
+   "w": "Le",
+   "style": null,
+   "syl": 1,
+   "s": 45.501,
+   "e": 45.677,
+   "seg": 30
+  },
+  {
+   "w": "signal",
+   "style": null,
+   "syl": 2,
+   "s": 45.677,
+   "e": 46.031,
+   "seg": 30
+  },
+  {
+   "w": "arrive",
+   "style": null,
+   "syl": 2,
+   "s": 46.031,
+   "e": 46.384,
+   "seg": 30
+  },
+  {
+   "w": "au",
+   "style": null,
+   "syl": 1,
+   "s": 46.384,
+   "e": 46.561,
+   "seg": 30
+  },
+  {
+   "w": "petit",
+   "style": null,
+   "syl": 2,
+   "s": 46.561,
+   "e": 46.914,
+   "seg": 30
+  },
+  {
+   "w": "muscle.",
+   "style": null,
+   "syl": 2,
+   "s": 46.914,
+   "e": 47.268,
+   "seg": 30
+  },
+  {
+   "w": "Il",
+   "style": null,
+   "syl": 1,
+   "s": 47.631,
+   "e": 47.838,
+   "seg": 31
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 47.838,
+   "e": 48.044,
+   "seg": 31
+  },
+  {
+   "w": "contracte",
+   "style": "italic",
+   "syl": 2,
+   "s": 48.044,
+   "e": 48.458,
+   "seg": 31
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 48.458,
+   "e": 48.664,
+   "seg": 31
+  },
+  {
+   "w": "tire",
+   "style": null,
+   "syl": 1,
+   "s": 48.664,
+   "e": 48.871,
+   "seg": 31
+  },
+  {
+   "w": "sur",
+   "style": null,
+   "syl": 1,
+   "s": 48.871,
+   "e": 49.077,
+   "seg": 31
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 49.077,
+   "e": 49.284,
+   "seg": 31
+  },
+  {
+   "w": "poil,",
+   "style": null,
+   "syl": 1,
+   "s": 49.284,
+   "e": 49.49,
+   "seg": 31
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 49.733,
+   "e": 49.878,
+   "seg": 32
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 49.878,
+   "e": 50.023,
+   "seg": 32
+  },
+  {
+   "w": "met",
+   "style": null,
+   "syl": 1,
+   "s": 50.023,
+   "e": 50.168,
+   "seg": 32
+  },
+  {
+   "w": "debout.",
+   "style": null,
+   "syl": 2,
+   "s": 50.168,
+   "e": 50.458,
+   "seg": 32
+  },
+  {
+   "w": "Autour,",
+   "style": null,
+   "syl": 2,
+   "s": 50.975,
+   "e": 51.546,
+   "seg": 33
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 51.804,
+   "e": 51.955,
+   "seg": 34
+  },
+  {
+   "w": "peau",
+   "style": null,
+   "syl": 1,
+   "s": 51.955,
+   "e": 52.106,
+   "seg": 34
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 52.106,
+   "e": 52.257,
+   "seg": 34
+  },
+  {
+   "w": "soulève :",
+   "style": null,
+   "syl": 3,
+   "s": 52.257,
+   "e": 52.711,
+   "seg": 34
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 53.075,
+   "e": 53.29,
+   "seg": 35
+  },
+  {
+   "w": "petite",
+   "style": null,
+   "syl": 2,
+   "s": 53.29,
+   "e": 53.72,
+   "seg": 35
+  },
+  {
+   "w": "bosse.",
+   "style": null,
+   "syl": 2,
+   "s": 53.72,
+   "e": 54.151,
+   "seg": 35
+  },
+  {
+   "w": "Multiplie",
+   "style": null,
+   "syl": 3,
+   "s": 54.516,
+   "e": 55.065,
+   "seg": 36
+  },
+  {
+   "w": "ça",
+   "style": null,
+   "syl": 1,
+   "s": 55.065,
+   "e": 55.248,
+   "seg": 36
+  },
+  {
+   "w": "par",
+   "style": null,
+   "syl": 1,
+   "s": 55.248,
+   "e": 55.431,
+   "seg": 36
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 55.431,
+   "e": 55.614,
+   "seg": 36
+  },
+  {
+   "w": "milliers...",
+   "style": null,
+   "syl": 2,
+   "s": 55.614,
+   "e": 55.98,
+   "seg": 36
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 56.343,
+   "e": 56.502,
+   "seg": 37
+  },
+  {
+   "w": "voilà",
+   "style": null,
+   "syl": 2,
+   "s": 56.502,
+   "e": 56.818,
+   "seg": 37
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 56.818,
+   "e": 56.976,
+   "seg": 37
+  },
+  {
+   "w": "chair",
+   "style": null,
+   "syl": 1,
+   "s": 56.976,
+   "e": 57.134,
+   "seg": 37
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 57.134,
+   "e": 57.292,
+   "seg": 37
+  },
+  {
+   "w": "poule.",
+   "style": null,
+   "syl": 2,
+   "s": 57.292,
+   "e": 57.608,
+   "seg": 37
+  },
+  {
+   "w": "D'ailleurs,",
+   "style": null,
+   "syl": 2,
+   "s": 57.971,
+   "e": 58.545,
+   "seg": 38
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 59.024,
+   "e": 59.18,
+   "seg": 39
+  },
+  {
+   "w": "nom",
+   "style": null,
+   "syl": 1,
+   "s": 59.18,
+   "e": 59.336,
+   "seg": 39
+  },
+  {
+   "w": "vient",
+   "style": null,
+   "syl": 1,
+   "s": 59.336,
+   "e": 59.493,
+   "seg": 39
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 59.493,
+   "e": 59.649,
+   "seg": 39
+  },
+  {
+   "w": "là :",
+   "style": null,
+   "syl": 1,
+   "s": 59.649,
+   "e": 59.805,
+   "seg": 39
+  },
+  {
+   "w": "ta",
+   "style": null,
+   "syl": 1,
+   "s": 60.445,
+   "e": 60.626,
+   "seg": 40
+  },
+  {
+   "w": "peau",
+   "style": null,
+   "syl": 1,
+   "s": 60.626,
+   "e": 60.806,
+   "seg": 40
+  },
+  {
+   "w": "ressemble",
+   "style": null,
+   "syl": 2,
+   "s": 60.806,
+   "e": 61.168,
+   "seg": 40
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 61.168,
+   "e": 61.348,
+   "seg": 40
+  },
+  {
+   "w": "celle",
+   "style": null,
+   "syl": 1,
+   "s": 61.348,
+   "e": 61.529,
+   "seg": 40
+  },
+  {
+   "w": "d'une",
+   "style": null,
+   "syl": 1,
+   "s": 61.529,
+   "e": 61.71,
+   "seg": 40
+  },
+  {
+   "w": "volaille",
+   "style": null,
+   "syl": 2,
+   "s": 61.71,
+   "e": 62.071,
+   "seg": 40
+  },
+  {
+   "w": "plumée.",
+   "style": null,
+   "syl": 2,
+   "s": 62.071,
+   "e": 62.432,
+   "seg": 40
+  },
+  {
+   "w": "Étape",
+   "style": null,
+   "syl": 2,
+   "s": 62.795,
+   "e": 63.267,
+   "seg": 41
+  },
+  {
+   "w": "trois :",
+   "style": null,
+   "syl": 1,
+   "s": 63.267,
+   "e": 63.503,
+   "seg": 41
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 63.871,
+   "e": 64.119,
+   "seg": 42
+  },
+  {
+   "w": "quoi",
+   "style": null,
+   "syl": 1,
+   "s": 64.119,
+   "e": 64.367,
+   "seg": 42
+  },
+  {
+   "w": "ça",
+   "style": null,
+   "syl": 1,
+   "s": 64.367,
+   "e": 64.615,
+   "seg": 42
+  },
+  {
+   "w": "sert ?",
+   "style": null,
+   "syl": 1,
+   "s": 64.615,
+   "e": 64.863,
+   "seg": 42
+  },
+  {
+   "w": "Chez",
+   "style": null,
+   "syl": 1,
+   "s": 65.241,
+   "e": 65.42,
+   "seg": 43
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 65.42,
+   "e": 65.599,
+   "seg": 43
+  },
+  {
+   "w": "animal",
+   "style": null,
+   "syl": 3,
+   "s": 65.599,
+   "e": 66.135,
+   "seg": 43
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 66.135,
+   "e": 66.314,
+   "seg": 43
+  },
+  {
+   "w": "fourrure,",
+   "style": null,
+   "syl": 3,
+   "s": 66.314,
+   "e": 66.85,
+   "seg": 43
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 67.091,
+   "e": 67.327,
+   "seg": 44
+  },
+  {
+   "w": "poils",
+   "style": null,
+   "syl": 1,
+   "s": 67.327,
+   "e": 67.563,
+   "seg": 44
+  },
+  {
+   "w": "dressés",
+   "style": null,
+   "syl": 2,
+   "s": 67.563,
+   "e": 68.034,
+   "seg": 44
+  },
+  {
+   "w": "emprisonnent",
+   "style": null,
+   "syl": 4,
+   "s": 68.034,
+   "e": 68.978,
+   "seg": 44
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 68.978,
+   "e": 69.214,
+   "seg": 44
+  },
+  {
+   "w": "couche",
+   "style": null,
+   "syl": 1,
+   "s": 69.214,
+   "e": 69.45,
+   "seg": 44
+  },
+  {
+   "w": "d'air.",
+   "style": "italic",
+   "syl": 1,
+   "s": 69.45,
+   "e": 69.686,
+   "seg": 44
+  },
+  {
+   "w": "Comme",
+   "style": null,
+   "syl": 1,
+   "s": 70.058,
+   "e": 70.212,
+   "seg": 45
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 70.212,
+   "e": 70.367,
+   "seg": 45
+  },
+  {
+   "w": "doudoune",
+   "style": null,
+   "syl": 2,
+   "s": 70.367,
+   "e": 70.677,
+   "seg": 45
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 70.677,
+   "e": 70.832,
+   "seg": 45
+  },
+  {
+   "w": "gonfle :",
+   "style": null,
+   "syl": 2,
+   "s": 70.832,
+   "e": 71.141,
+   "seg": 45
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 71.521,
+   "e": 71.759,
+   "seg": 46
+  },
+  {
+   "w": "chaleur",
+   "style": null,
+   "syl": 2,
+   "s": 71.759,
+   "e": 72.234,
+   "seg": 46
+  },
+  {
+   "w": "reste",
+   "style": null,
+   "syl": 1,
+   "s": 72.234,
+   "e": 72.472,
+   "seg": 46
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 72.472,
+   "e": 72.709,
+   "seg": 46
+  },
+  {
+   "w": "l'intérieur.",
+   "style": null,
+   "syl": 3,
+   "s": 72.709,
+   "e": 73.423,
+   "seg": 46
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 73.788,
+   "e": 73.983,
+   "seg": 47
+  },
+  {
+   "w": "quand",
+   "style": null,
+   "syl": 1,
+   "s": 73.983,
+   "e": 74.178,
+   "seg": 47
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 74.178,
+   "e": 74.373,
+   "seg": 47
+  },
+  {
+   "w": "chat",
+   "style": null,
+   "syl": 1,
+   "s": 74.373,
+   "e": 74.568,
+   "seg": 47
+  },
+  {
+   "w": "a",
+   "style": null,
+   "syl": 1,
+   "s": 74.568,
+   "e": 74.763,
+   "seg": 47
+  },
+  {
+   "w": "peur,",
+   "style": null,
+   "syl": 1,
+   "s": 74.763,
+   "e": 74.959,
+   "seg": 47
+  },
+  {
+   "w": "il",
+   "style": null,
+   "syl": 1,
+   "s": 75.201,
+   "e": 75.383,
+   "seg": 48
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 75.383,
+   "e": 75.564,
+   "seg": 48
+  },
+  {
+   "w": "hérisse",
+   "style": null,
+   "syl": 2,
+   "s": 75.564,
+   "e": 75.928,
+   "seg": 48
+  },
+  {
+   "w": "pour",
+   "style": null,
+   "syl": 1,
+   "s": 75.928,
+   "e": 76.109,
+   "seg": 48
+  },
+  {
+   "w": "paraître",
+   "style": null,
+   "syl": 2,
+   "s": 76.109,
+   "e": 76.473,
+   "seg": 48
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 76.473,
+   "e": 76.654,
+   "seg": 48
+  },
+  {
+   "w": "gros.",
+   "style": "italic",
+   "syl": 1,
+   "s": 76.654,
+   "e": 76.836,
+   "seg": 48
+  },
+  {
+   "w": "Mais",
+   "style": null,
+   "syl": 1,
+   "s": 77.226,
+   "e": 77.501,
+   "seg": 49
+  },
+  {
+   "w": "toi,",
+   "style": null,
+   "syl": 1,
+   "s": 77.501,
+   "e": 77.776,
+   "seg": 49
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 78.016,
+   "e": 78.179,
+   "seg": 50
+  },
+  {
+   "w": "as",
+   "style": null,
+   "syl": 1,
+   "s": 78.179,
+   "e": 78.342,
+   "seg": 50
+  },
+  {
+   "w": "perdu",
+   "style": null,
+   "syl": 2,
+   "s": 78.342,
+   "e": 78.667,
+   "seg": 50
+  },
+  {
+   "w": "presque",
+   "style": null,
+   "syl": 2,
+   "s": 78.667,
+   "e": 78.993,
+   "seg": 50
+  },
+  {
+   "w": "toute",
+   "style": null,
+   "syl": 1,
+   "s": 78.993,
+   "e": 79.156,
+   "seg": 50
+  },
+  {
+   "w": "ta",
+   "style": null,
+   "syl": 1,
+   "s": 79.156,
+   "e": 79.318,
+   "seg": 50
+  },
+  {
+   "w": "fourrure.",
+   "style": null,
+   "syl": 3,
+   "s": 79.318,
+   "e": 79.807,
+   "seg": 50
+  },
+  {
+   "w": "Alors",
+   "style": null,
+   "syl": 2,
+   "s": 80.171,
+   "e": 80.524,
+   "seg": 51
+  },
+  {
+   "w": "chez",
+   "style": null,
+   "syl": 1,
+   "s": 80.524,
+   "e": 80.7,
+   "seg": 51
+  },
+  {
+   "w": "toi,",
+   "style": null,
+   "syl": 1,
+   "s": 80.7,
+   "e": 80.877,
+   "seg": 51
+  },
+  {
+   "w": "ça",
+   "style": null,
+   "syl": 1,
+   "s": 81.134,
+   "e": 81.347,
+   "seg": 52
+  },
+  {
+   "w": "ne",
+   "style": null,
+   "syl": 1,
+   "s": 81.347,
+   "e": 81.559,
+   "seg": 52
+  },
+  {
+   "w": "réchauffe",
+   "style": null,
+   "syl": 2,
+   "s": 81.559,
+   "e": 81.984,
+   "seg": 52
+  },
+  {
+   "w": "quasiment",
+   "style": null,
+   "syl": 3,
+   "s": 81.984,
+   "e": 82.62,
+   "seg": 52
+  },
+  {
+   "w": "plus.",
+   "style": null,
+   "syl": 1,
+   "s": 82.62,
+   "e": 82.833,
+   "seg": 52
+  },
+  {
+   "w": "C'est",
+   "style": null,
+   "syl": 1,
+   "s": 83.197,
+   "e": 83.382,
+   "seg": 53
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 83.382,
+   "e": 83.568,
+   "seg": 53
+  },
+  {
+   "w": "réflexe",
+   "style": null,
+   "syl": 2,
+   "s": 83.568,
+   "e": 83.939,
+   "seg": 53
+  },
+  {
+   "w": "hérité",
+   "style": null,
+   "syl": 3,
+   "s": 83.939,
+   "e": 84.495,
+   "seg": 53
+  },
+  {
+   "w": "d'ancêtres",
+   "style": null,
+   "syl": 2,
+   "s": 84.495,
+   "e": 84.866,
+   "seg": 53
+  },
+  {
+   "w": "bien",
+   "style": null,
+   "syl": 1,
+   "s": 84.866,
+   "e": 85.052,
+   "seg": 53
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 85.052,
+   "e": 85.237,
+   "seg": 53
+  },
+  {
+   "w": "poilus.",
+   "style": null,
+   "syl": 2,
+   "s": 85.237,
+   "e": 85.608,
+   "seg": 53
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 85.974,
+   "e": 86.132,
+   "seg": 54
+  },
+  {
+   "w": "il",
+   "style": null,
+   "syl": 1,
+   "s": 86.132,
+   "e": 86.29,
+   "seg": 54
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 86.29,
+   "e": 86.448,
+   "seg": 54
+  },
+  {
+   "w": "déclenche",
+   "style": null,
+   "syl": 2,
+   "s": 86.448,
+   "e": 86.765,
+   "seg": 54
+  },
+  {
+   "w": "aussi",
+   "style": null,
+   "syl": 2,
+   "s": 86.765,
+   "e": 87.081,
+   "seg": 54
+  },
+  {
+   "w": "avec",
+   "style": null,
+   "syl": 2,
+   "s": 87.081,
+   "e": 87.397,
+   "seg": 54
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 87.397,
+   "e": 87.556,
+   "seg": 54
+  },
+  {
+   "w": "émotion",
+   "style": null,
+   "syl": 3,
+   "s": 87.556,
+   "e": 88.03,
+   "seg": 54
+  },
+  {
+   "w": "forte,",
+   "style": null,
+   "syl": 2,
+   "s": 88.03,
+   "e": 88.346,
+   "seg": 54
+  },
+  {
+   "w": "comme",
+   "style": null,
+   "syl": 1,
+   "s": 88.587,
+   "e": 88.734,
+   "seg": 55
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 88.734,
+   "e": 88.881,
+   "seg": 55
+  },
+  {
+   "w": "musique",
+   "style": null,
+   "syl": 3,
+   "s": 88.881,
+   "e": 89.323,
+   "seg": 55
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 89.323,
+   "e": 89.47,
+   "seg": 55
+  },
+  {
+   "w": "te",
+   "style": null,
+   "syl": 1,
+   "s": 89.47,
+   "e": 89.618,
+   "seg": 55
+  },
+  {
+   "w": "bouleverse.",
+   "style": null,
+   "syl": 4,
+   "s": 89.618,
+   "e": 90.207,
+   "seg": 55
+  },
+  {
+   "w": "Le",
+   "style": null,
+   "syl": 1,
+   "s": 90.569,
+   "e": 90.749,
+   "seg": 56
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 90.749,
+   "e": 90.929,
+   "seg": 56
+  },
+  {
+   "w": "fou ?",
+   "style": null,
+   "syl": 1,
+   "s": 90.929,
+   "e": 91.108,
+   "seg": 56
+  },
+  {
+   "w": "En",
+   "style": null,
+   "syl": 1,
+   "s": 91.475,
+   "e": 91.632,
+   "seg": 57
+  },
+  {
+   "w": "2020,",
+   "style": "bold",
+   "syl": 4,
+   "s": 91.632,
+   "e": 92.261,
+   "seg": 57
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 92.51,
+   "e": 92.696,
+   "seg": 58
+  },
+  {
+   "w": "chercheurs",
+   "style": null,
+   "syl": 2,
+   "s": 92.696,
+   "e": 93.068,
+   "seg": 58
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 93.068,
+   "e": 93.254,
+   "seg": 58
+  },
+  {
+   "w": "Harvard",
+   "style": null,
+   "syl": 2,
+   "s": 93.254,
+   "e": 93.626,
+   "seg": 58
+  },
+  {
+   "w": "ont",
+   "style": null,
+   "syl": 1,
+   "s": 93.626,
+   "e": 93.811,
+   "seg": 58
+  },
+  {
+   "w": "découvert",
+   "style": null,
+   "syl": 3,
+   "s": 93.811,
+   "e": 94.369,
+   "seg": 58
+  },
+  {
+   "w": "autre",
+   "style": null,
+   "syl": 1,
+   "s": 94.369,
+   "e": 94.555,
+   "seg": 58
+  },
+  {
+   "w": "chose",
+   "style": null,
+   "syl": 1,
+   "s": 94.555,
+   "e": 94.741,
+   "seg": 58
+  },
+  {
+   "w": "chez",
+   "style": null,
+   "syl": 1,
+   "s": 94.741,
+   "e": 94.927,
+   "seg": 58
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 94.927,
+   "e": 95.113,
+   "seg": 58
+  },
+  {
+   "w": "souris.",
+   "style": null,
+   "syl": 2,
+   "s": 95.113,
+   "e": 95.485,
+   "seg": 58
+  },
+  {
+   "w": "Ce",
+   "style": null,
+   "syl": 1,
+   "s": 95.849,
+   "e": 96.048,
+   "seg": 59
+  },
+  {
+   "w": "même",
+   "style": null,
+   "syl": 1,
+   "s": 96.048,
+   "e": 96.247,
+   "seg": 59
+  },
+  {
+   "w": "nerf",
+   "style": null,
+   "syl": 1,
+   "s": 96.247,
+   "e": 96.446,
+   "seg": 59
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 96.446,
+   "e": 96.646,
+   "seg": 59
+  },
+  {
+   "w": "ce",
+   "style": null,
+   "syl": 1,
+   "s": 96.646,
+   "e": 96.845,
+   "seg": 59
+  },
+  {
+   "w": "même",
+   "style": null,
+   "syl": 1,
+   "s": 96.845,
+   "e": 97.044,
+   "seg": 59
+  },
+  {
+   "w": "muscle",
+   "style": null,
+   "syl": 1,
+   "s": 97.044,
+   "e": 97.244,
+   "seg": 59
+  },
+  {
+   "w": "réveillent",
+   "style": null,
+   "syl": 3,
+   "s": 97.244,
+   "e": 97.842,
+   "seg": 59
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 97.842,
+   "e": 98.041,
+   "seg": 59
+  },
+  {
+   "w": "cellules",
+   "style": "italic",
+   "syl": 2,
+   "s": 98.041,
+   "e": 98.44,
+   "seg": 59
+  },
+  {
+   "w": "souches",
+   "style": "italic",
+   "syl": 1,
+   "s": 98.44,
+   "e": 98.639,
+   "seg": 59
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 98.639,
+   "e": 98.838,
+   "seg": 59
+  },
+  {
+   "w": "poil,",
+   "style": null,
+   "syl": 1,
+   "s": 98.838,
+   "e": 99.038,
+   "seg": 59
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 99.287,
+   "e": 99.468,
+   "seg": 60
+  },
+  {
+   "w": "cellules",
+   "style": null,
+   "syl": 2,
+   "s": 99.468,
+   "e": 99.83,
+   "seg": 60
+  },
+  {
+   "w": "capables",
+   "style": null,
+   "syl": 2,
+   "s": 99.83,
+   "e": 100.192,
+   "seg": 60
+  },
+  {
+   "w": "d'en",
+   "style": null,
+   "syl": 1,
+   "s": 100.192,
+   "e": 100.373,
+   "seg": 60
+  },
+  {
+   "w": "fabriquer",
+   "style": null,
+   "syl": 3,
+   "s": 100.373,
+   "e": 100.917,
+   "seg": 60
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 100.917,
+   "e": 101.098,
+   "seg": 60
+  },
+  {
+   "w": "nouvelles.",
+   "style": null,
+   "syl": 3,
+   "s": 101.098,
+   "e": 101.641,
+   "seg": 60
+  },
+  {
+   "w": "Après",
+   "style": null,
+   "syl": 2,
+   "s": 102.01,
+   "e": 102.361,
+   "seg": 61
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 102.361,
+   "e": 102.537,
+   "seg": 61
+  },
+  {
+   "w": "froid",
+   "style": null,
+   "syl": 1,
+   "s": 102.537,
+   "e": 102.713,
+   "seg": 61
+  },
+  {
+   "w": "prolongé,",
+   "style": null,
+   "syl": 3,
+   "s": 102.713,
+   "e": 103.24,
+   "seg": 61
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 103.482,
+   "e": 103.648,
+   "seg": 62
+  },
+  {
+   "w": "nouveaux",
+   "style": null,
+   "syl": 2,
+   "s": 103.648,
+   "e": 103.979,
+   "seg": 62
+  },
+  {
+   "w": "poils",
+   "style": null,
+   "syl": 1,
+   "s": 103.979,
+   "e": 104.145,
+   "seg": 62
+  },
+  {
+   "w": "poussent",
+   "style": null,
+   "syl": 2,
+   "s": 104.145,
+   "e": 104.476,
+   "seg": 62
+  },
+  {
+   "w": "en",
+   "style": null,
+   "syl": 1,
+   "s": 104.476,
+   "e": 104.642,
+   "seg": 62
+  },
+  {
+   "w": "moins",
+   "style": null,
+   "syl": 1,
+   "s": 104.642,
+   "e": 104.808,
+   "seg": 62
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 104.808,
+   "e": 104.973,
+   "seg": 62
+  },
+  {
+   "w": "deux",
+   "style": null,
+   "syl": 1,
+   "s": 104.973,
+   "e": 105.139,
+   "seg": 62
+  },
+  {
+   "w": "semaines.",
+   "style": "italic",
+   "syl": 3,
+   "s": 105.139,
+   "e": 105.636,
+   "seg": 62
+  },
+  {
+   "w": "Alors,",
+   "style": null,
+   "syl": 2,
+   "s": 106.01,
+   "e": 106.524,
+   "seg": 63
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 106.767,
+   "e": 106.954,
+   "seg": 64
+  },
+  {
+   "w": "prochaine",
+   "style": null,
+   "syl": 2,
+   "s": 106.954,
+   "e": 107.329,
+   "seg": 64
+  },
+  {
+   "w": "fois",
+   "style": null,
+   "syl": 1,
+   "s": 107.329,
+   "e": 107.516,
+   "seg": 64
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 107.516,
+   "e": 107.704,
+   "seg": 64
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 107.704,
+   "e": 107.891,
+   "seg": 64
+  },
+  {
+   "w": "frissonnes,",
+   "style": null,
+   "syl": 3,
+   "s": 107.891,
+   "e": 108.453,
+   "seg": 64
+  },
+  {
+   "w": "souviens-toi :",
+   "style": null,
+   "syl": 3,
+   "s": 108.707,
+   "e": 109.296,
+   "seg": 65
+  },
+  {
+   "w": "ce",
+   "style": null,
+   "syl": 1,
+   "s": 109.662,
+   "e": 109.847,
+   "seg": 66
+  },
+  {
+   "w": "sont",
+   "style": null,
+   "syl": 1,
+   "s": 109.847,
+   "e": 110.031,
+   "seg": 66
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 110.031,
+   "e": 110.216,
+   "seg": 66
+  },
+  {
+   "w": "milliers",
+   "style": null,
+   "syl": 2,
+   "s": 110.216,
+   "e": 110.585,
+   "seg": 66
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 110.585,
+   "e": 110.769,
+   "seg": 66
+  },
+  {
+   "w": "muscles",
+   "style": null,
+   "syl": 1,
+   "s": 110.769,
+   "e": 110.954,
+   "seg": 66
+  },
+  {
+   "w": "minuscules",
+   "style": null,
+   "syl": 3,
+   "s": 110.954,
+   "e": 111.508,
+   "seg": 66
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 111.508,
+   "e": 111.692,
+   "seg": 66
+  },
+  {
+   "w": "tirent",
+   "style": null,
+   "syl": 2,
+   "s": 111.692,
+   "e": 112.061,
+   "seg": 66
+  },
+  {
+   "w": "sur",
+   "style": null,
+   "syl": 1,
+   "s": 112.061,
+   "e": 112.246,
+   "seg": 66
+  },
+  {
+   "w": "tes",
+   "style": null,
+   "syl": 1,
+   "s": 112.246,
+   "e": 112.43,
+   "seg": 66
+  },
+  {
+   "w": "poils...",
+   "style": null,
+   "syl": 1,
+   "s": 112.43,
+   "e": 112.615,
+   "seg": 66
+  },
+  {
+   "w": "comme",
+   "style": null,
+   "syl": 1,
+   "s": 112.981,
+   "e": 113.146,
+   "seg": 67
+  },
+  {
+   "w": "si",
+   "style": null,
+   "syl": 1,
+   "s": 113.146,
+   "e": 113.311,
+   "seg": 67
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 113.311,
+   "e": 113.476,
+   "seg": 67
+  },
+  {
+   "w": "corps",
+   "style": null,
+   "syl": 1,
+   "s": 113.476,
+   "e": 113.641,
+   "seg": 67
+  },
+  {
+   "w": "enfilait",
+   "style": null,
+   "syl": 3,
+   "s": 113.641,
+   "e": 114.136,
+   "seg": 67
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 114.136,
+   "e": 114.302,
+   "seg": 67
+  },
+  {
+   "w": "fourrure",
+   "style": null,
+   "syl": 2,
+   "s": 114.302,
+   "e": 114.632,
+   "seg": 67
+  },
+  {
+   "w": "qu'il",
+   "style": null,
+   "syl": 2,
+   "s": 114.632,
+   "e": 114.962,
+   "seg": 67
+  },
+  {
+   "w": "n'a",
+   "style": null,
+   "syl": 1,
+   "s": 114.962,
+   "e": 115.127,
+   "seg": 67
+  },
+  {
+   "w": "plus.",
+   "style": null,
+   "syl": 1,
+   "s": 115.127,
+   "e": 115.292,
+   "seg": 67
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 115.657,
+   "e": 115.849,
+   "seg": 68
+  },
+  {
+   "w": "toi,",
+   "style": null,
+   "syl": 1,
+   "s": 115.849,
+   "e": 116.041,
+   "seg": 68
+  },
+  {
+   "w": "qu'est-ce",
+   "style": null,
+   "syl": 2,
+   "s": 116.619,
+   "e": 116.933,
+   "seg": 69
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 116.933,
+   "e": 117.091,
+   "seg": 69
+  },
+  {
+   "w": "te",
+   "style": null,
+   "syl": 1,
+   "s": 117.091,
+   "e": 117.248,
+   "seg": 69
+  },
+  {
+   "w": "donne",
+   "style": null,
+   "syl": 1,
+   "s": 117.248,
+   "e": 117.405,
+   "seg": 69
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 117.405,
+   "e": 117.562,
+   "seg": 69
+  },
+  {
+   "w": "chair",
+   "style": null,
+   "syl": 1,
+   "s": 117.562,
+   "e": 117.719,
+   "seg": 69
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 117.719,
+   "e": 117.877,
+   "seg": 69
+  },
+  {
+   "w": "poule ?",
+   "style": null,
+   "syl": 2,
+   "s": 117.877,
+   "e": 118.191,
+   "seg": 69
+  }
+ ]
+}

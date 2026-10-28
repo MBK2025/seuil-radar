@@ -1,0 +1,2605 @@
+{
+ "duration": 103.157551,
+ "words": [
+  {
+   "w": "Tu",
+   "style": null,
+   "syl": 1,
+   "s": 0.0,
+   "e": 0.156,
+   "seg": 0
+  },
+  {
+   "w": "mets",
+   "style": null,
+   "syl": 1,
+   "s": 0.156,
+   "e": 0.311,
+   "seg": 0
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 0.311,
+   "e": 0.467,
+   "seg": 0
+  },
+  {
+   "w": "plat",
+   "style": null,
+   "syl": 1,
+   "s": 0.467,
+   "e": 0.622,
+   "seg": 0
+  },
+  {
+   "w": "dans",
+   "style": null,
+   "syl": 1,
+   "s": 0.622,
+   "e": 0.778,
+   "seg": 0
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 0.778,
+   "e": 0.933,
+   "seg": 0
+  },
+  {
+   "w": "micro-ondes.",
+   "style": null,
+   "syl": 4,
+   "s": 0.933,
+   "e": 1.555,
+   "seg": 0
+  },
+  {
+   "w": "Deux",
+   "style": null,
+   "syl": 1,
+   "s": 1.8,
+   "e": 2.0,
+   "seg": 1
+  },
+  {
+   "w": "minutes",
+   "style": null,
+   "syl": 2,
+   "s": 2.0,
+   "e": 2.401,
+   "seg": 1
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 2.401,
+   "e": 2.602,
+   "seg": 1
+  },
+  {
+   "w": "tard,",
+   "style": null,
+   "syl": 1,
+   "s": 2.602,
+   "e": 2.803,
+   "seg": 1
+  },
+  {
+   "w": "il",
+   "style": null,
+   "syl": 1,
+   "s": 3.002,
+   "e": 3.19,
+   "seg": 2
+  },
+  {
+   "w": "est",
+   "style": null,
+   "syl": 1,
+   "s": 3.19,
+   "e": 3.379,
+   "seg": 2
+  },
+  {
+   "w": "brûlant.",
+   "style": "italic",
+   "syl": 2,
+   "s": 3.379,
+   "e": 3.756,
+   "seg": 2
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 4.04,
+   "e": 4.241,
+   "seg": 3
+  },
+  {
+   "w": "pourtant,",
+   "style": null,
+   "syl": 2,
+   "s": 4.241,
+   "e": 4.642,
+   "seg": 3
+  },
+  {
+   "w": "l'air",
+   "style": null,
+   "syl": 1,
+   "s": 4.642,
+   "e": 4.843,
+   "seg": 3
+  },
+  {
+   "w": "autour",
+   "style": null,
+   "syl": 2,
+   "s": 4.843,
+   "e": 5.245,
+   "seg": 3
+  },
+  {
+   "w": "n'a",
+   "style": null,
+   "syl": 1,
+   "s": 5.245,
+   "e": 5.446,
+   "seg": 3
+  },
+  {
+   "w": "presque",
+   "style": null,
+   "syl": 2,
+   "s": 5.446,
+   "e": 5.847,
+   "seg": 3
+  },
+  {
+   "w": "pas",
+   "style": null,
+   "syl": 1,
+   "s": 5.847,
+   "e": 6.048,
+   "seg": 3
+  },
+  {
+   "w": "chauffé.",
+   "style": null,
+   "syl": 2,
+   "s": 6.048,
+   "e": 6.45,
+   "seg": 3
+  },
+  {
+   "w": "Pas",
+   "style": null,
+   "syl": 1,
+   "s": 6.748,
+   "e": 6.878,
+   "seg": 4
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 6.878,
+   "e": 7.009,
+   "seg": 4
+  },
+  {
+   "w": "flamme.",
+   "style": null,
+   "syl": 2,
+   "s": 7.009,
+   "e": 7.27,
+   "seg": 4
+  },
+  {
+   "w": "Pas",
+   "style": null,
+   "syl": 1,
+   "s": 7.546,
+   "e": 7.682,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 7.682,
+   "e": 7.818,
+   "seg": 5
+  },
+  {
+   "w": "résistance",
+   "style": null,
+   "syl": 3,
+   "s": 7.818,
+   "e": 8.227,
+   "seg": 5
+  },
+  {
+   "w": "rouge.",
+   "style": null,
+   "syl": 2,
+   "s": 8.227,
+   "e": 8.5,
+   "seg": 5
+  },
+  {
+   "w": "Alors...",
+   "style": null,
+   "syl": 2,
+   "s": 8.779,
+   "e": 9.368,
+   "seg": 6
+  },
+  {
+   "w": "qu'est-ce",
+   "style": null,
+   "syl": 2,
+   "s": 9.707,
+   "e": 10.048,
+   "seg": 7
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 10.048,
+   "e": 10.218,
+   "seg": 7
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 10.218,
+   "e": 10.389,
+   "seg": 7
+  },
+  {
+   "w": "passe",
+   "style": null,
+   "syl": 1,
+   "s": 10.389,
+   "e": 10.559,
+   "seg": 7
+  },
+  {
+   "w": "vraiment",
+   "style": null,
+   "syl": 2,
+   "s": 10.559,
+   "e": 10.9,
+   "seg": 7
+  },
+  {
+   "w": "là-dedans ?",
+   "style": null,
+   "syl": 3,
+   "s": 10.9,
+   "e": 11.411,
+   "seg": 7
+  },
+  {
+   "w": "Tout",
+   "style": null,
+   "syl": 1,
+   "s": 11.815,
+   "e": 12.015,
+   "seg": 8
+  },
+  {
+   "w": "commence",
+   "style": null,
+   "syl": 2,
+   "s": 12.015,
+   "e": 12.414,
+   "seg": 8
+  },
+  {
+   "w": "ici :",
+   "style": null,
+   "syl": 2,
+   "s": 12.414,
+   "e": 12.814,
+   "seg": 8
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 12.814,
+   "e": 13.014,
+   "seg": 8
+  },
+  {
+   "w": "magnétron.",
+   "style": "italic",
+   "syl": 3,
+   "s": 13.014,
+   "e": 13.613,
+   "seg": 8
+  },
+  {
+   "w": "C'est",
+   "style": null,
+   "syl": 1,
+   "s": 13.879,
+   "e": 14.09,
+   "seg": 9
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 14.09,
+   "e": 14.302,
+   "seg": 9
+  },
+  {
+   "w": "cœur",
+   "style": null,
+   "syl": 1,
+   "s": 14.302,
+   "e": 14.513,
+   "seg": 9
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 14.513,
+   "e": 14.724,
+   "seg": 9
+  },
+  {
+   "w": "four.",
+   "style": null,
+   "syl": 1,
+   "s": 14.724,
+   "e": 14.935,
+   "seg": 9
+  },
+  {
+   "w": "Il",
+   "style": null,
+   "syl": 1,
+   "s": 15.205,
+   "e": 15.382,
+   "seg": 10
+  },
+  {
+   "w": "transforme",
+   "style": null,
+   "syl": 2,
+   "s": 15.382,
+   "e": 15.735,
+   "seg": 10
+  },
+  {
+   "w": "l'électricité",
+   "style": null,
+   "syl": 5,
+   "s": 15.735,
+   "e": 16.619,
+   "seg": 10
+  },
+  {
+   "w": "en",
+   "style": null,
+   "syl": 1,
+   "s": 16.619,
+   "e": 16.796,
+   "seg": 10
+  },
+  {
+   "w": "ondes",
+   "style": null,
+   "syl": 1,
+   "s": 16.796,
+   "e": 16.973,
+   "seg": 10
+  },
+  {
+   "w": "invisibles :",
+   "style": null,
+   "syl": 4,
+   "s": 16.973,
+   "e": 17.68,
+   "seg": 10
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 17.942,
+   "e": 18.083,
+   "seg": 11
+  },
+  {
+   "w": "micro-ondes.",
+   "style": "italic",
+   "syl": 4,
+   "s": 18.083,
+   "e": 18.648,
+   "seg": 11
+  },
+  {
+   "w": "Elles",
+   "style": null,
+   "syl": 1,
+   "s": 18.956,
+   "e": 19.132,
+   "seg": 12
+  },
+  {
+   "w": "oscillent",
+   "style": null,
+   "syl": 3,
+   "s": 19.132,
+   "e": 19.659,
+   "seg": 12
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 19.659,
+   "e": 19.834,
+   "seg": 12
+  },
+  {
+   "w": "2,45",
+   "style": "bold",
+   "syl": 6,
+   "s": 19.834,
+   "e": 20.888,
+   "seg": 12
+  },
+  {
+   "w": "gigahertz.",
+   "style": "bold",
+   "syl": 3,
+   "s": 20.888,
+   "e": 21.415,
+   "seg": 12
+  },
+  {
+   "w": "Ça",
+   "style": null,
+   "syl": 1,
+   "s": 21.658,
+   "e": 21.814,
+   "seg": 13
+  },
+  {
+   "w": "veut",
+   "style": null,
+   "syl": 1,
+   "s": 21.814,
+   "e": 21.969,
+   "seg": 13
+  },
+  {
+   "w": "dire",
+   "style": null,
+   "syl": 1,
+   "s": 21.969,
+   "e": 22.125,
+   "seg": 13
+  },
+  {
+   "w": "qu'elles",
+   "style": null,
+   "syl": 2,
+   "s": 22.125,
+   "e": 22.436,
+   "seg": 13
+  },
+  {
+   "w": "changent",
+   "style": null,
+   "syl": 2,
+   "s": 22.436,
+   "e": 22.747,
+   "seg": 13
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 22.747,
+   "e": 22.902,
+   "seg": 13
+  },
+  {
+   "w": "sens",
+   "style": null,
+   "syl": 1,
+   "s": 22.902,
+   "e": 23.058,
+   "seg": 13
+  },
+  {
+   "w": "près",
+   "style": null,
+   "syl": 1,
+   "s": 23.058,
+   "e": 23.213,
+   "seg": 13
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 23.213,
+   "e": 23.369,
+   "seg": 13
+  },
+  {
+   "w": "deux",
+   "style": null,
+   "syl": 1,
+   "s": 23.369,
+   "e": 23.524,
+   "seg": 13
+  },
+  {
+   "w": "milliards",
+   "style": null,
+   "syl": 2,
+   "s": 23.524,
+   "e": 23.835,
+   "seg": 13
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 23.835,
+   "e": 23.99,
+   "seg": 13
+  },
+  {
+   "w": "demi",
+   "style": null,
+   "syl": 2,
+   "s": 23.99,
+   "e": 24.301,
+   "seg": 13
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 24.301,
+   "e": 24.457,
+   "seg": 13
+  },
+  {
+   "w": "fois...",
+   "style": null,
+   "syl": 1,
+   "s": 24.457,
+   "e": 24.612,
+   "seg": 13
+  },
+  {
+   "w": "par",
+   "style": null,
+   "syl": 1,
+   "s": 24.894,
+   "e": 25.051,
+   "seg": 14
+  },
+  {
+   "w": "seconde.",
+   "style": "italic",
+   "syl": 3,
+   "s": 25.051,
+   "e": 25.523,
+   "seg": 14
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 25.861,
+   "e": 26.003,
+   "seg": 15
+  },
+  {
+   "w": "dans",
+   "style": null,
+   "syl": 1,
+   "s": 26.003,
+   "e": 26.146,
+   "seg": 15
+  },
+  {
+   "w": "ta",
+   "style": null,
+   "syl": 1,
+   "s": 26.146,
+   "e": 26.288,
+   "seg": 15
+  },
+  {
+   "w": "nourriture,",
+   "style": null,
+   "syl": 4,
+   "s": 26.288,
+   "e": 26.857,
+   "seg": 15
+  },
+  {
+   "w": "il",
+   "style": null,
+   "syl": 1,
+   "s": 26.857,
+   "e": 26.999,
+   "seg": 15
+  },
+  {
+   "w": "y",
+   "style": null,
+   "syl": 1,
+   "s": 26.999,
+   "e": 27.142,
+   "seg": 15
+  },
+  {
+   "w": "a",
+   "style": null,
+   "syl": 1,
+   "s": 27.142,
+   "e": 27.284,
+   "seg": 15
+  },
+  {
+   "w": "surtout",
+   "style": null,
+   "syl": 2,
+   "s": 27.284,
+   "e": 27.568,
+   "seg": 15
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 27.568,
+   "e": 27.711,
+   "seg": 15
+  },
+  {
+   "w": "l'eau.",
+   "style": "italic",
+   "syl": 1,
+   "s": 27.711,
+   "e": 27.853,
+   "seg": 15
+  },
+  {
+   "w": "Une",
+   "style": null,
+   "syl": 1,
+   "s": 28.167,
+   "e": 28.354,
+   "seg": 16
+  },
+  {
+   "w": "molécule",
+   "style": null,
+   "syl": 3,
+   "s": 28.354,
+   "e": 28.917,
+   "seg": 16
+  },
+  {
+   "w": "d'eau,",
+   "style": null,
+   "syl": 1,
+   "s": 28.917,
+   "e": 29.105,
+   "seg": 16
+  },
+  {
+   "w": "c'est",
+   "style": null,
+   "syl": 1,
+   "s": 29.105,
+   "e": 29.293,
+   "seg": 16
+  },
+  {
+   "w": "comme",
+   "style": null,
+   "syl": 1,
+   "s": 29.293,
+   "e": 29.48,
+   "seg": 16
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 29.48,
+   "e": 29.668,
+   "seg": 16
+  },
+  {
+   "w": "minuscule",
+   "style": null,
+   "syl": 3,
+   "s": 29.668,
+   "e": 30.231,
+   "seg": 16
+  },
+  {
+   "w": "flèche,",
+   "style": null,
+   "syl": 2,
+   "s": 30.231,
+   "e": 30.607,
+   "seg": 16
+  },
+  {
+   "w": "avec",
+   "style": null,
+   "syl": 2,
+   "s": 30.607,
+   "e": 30.982,
+   "seg": 16
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 30.982,
+   "e": 31.17,
+   "seg": 16
+  },
+  {
+   "w": "côté",
+   "style": null,
+   "syl": 2,
+   "s": 31.17,
+   "e": 31.545,
+   "seg": 16
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 31.545,
+   "e": 31.733,
+   "seg": 16
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 31.733,
+   "e": 31.92,
+   "seg": 16
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 31.92,
+   "e": 32.108,
+   "seg": 16
+  },
+  {
+   "w": "côté",
+   "style": null,
+   "syl": 2,
+   "s": 32.108,
+   "e": 32.483,
+   "seg": 16
+  },
+  {
+   "w": "moins.",
+   "style": null,
+   "syl": 1,
+   "s": 32.483,
+   "e": 32.671,
+   "seg": 16
+  },
+  {
+   "w": "À",
+   "style": null,
+   "syl": 1,
+   "s": 32.969,
+   "e": 33.177,
+   "seg": 17
+  },
+  {
+   "w": "chaque",
+   "style": null,
+   "syl": 2,
+   "s": 33.177,
+   "e": 33.593,
+   "seg": 17
+  },
+  {
+   "w": "oscillation,",
+   "style": null,
+   "syl": 4,
+   "s": 33.593,
+   "e": 34.424,
+   "seg": 17
+  },
+  {
+   "w": "l'onde",
+   "style": null,
+   "syl": 1,
+   "s": 34.424,
+   "e": 34.632,
+   "seg": 17
+  },
+  {
+   "w": "tire",
+   "style": null,
+   "syl": 1,
+   "s": 34.632,
+   "e": 34.84,
+   "seg": 17
+  },
+  {
+   "w": "sur",
+   "style": null,
+   "syl": 1,
+   "s": 34.84,
+   "e": 35.048,
+   "seg": 17
+  },
+  {
+   "w": "ces",
+   "style": null,
+   "syl": 1,
+   "s": 35.048,
+   "e": 35.256,
+   "seg": 17
+  },
+  {
+   "w": "flèches.",
+   "style": null,
+   "syl": 2,
+   "s": 35.256,
+   "e": 35.671,
+   "seg": 17
+  },
+  {
+   "w": "Elles",
+   "style": null,
+   "syl": 1,
+   "s": 35.922,
+   "e": 36.137,
+   "seg": 18
+  },
+  {
+   "w": "tournent,",
+   "style": null,
+   "syl": 2,
+   "s": 36.137,
+   "e": 36.567,
+   "seg": 18
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 36.567,
+   "e": 36.782,
+   "seg": 18
+  },
+  {
+   "w": "retournent,",
+   "style": null,
+   "syl": 3,
+   "s": 36.782,
+   "e": 37.428,
+   "seg": 18
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 37.428,
+   "e": 37.643,
+   "seg": 18
+  },
+  {
+   "w": "bousculent.",
+   "style": null,
+   "syl": 3,
+   "s": 37.643,
+   "e": 38.289,
+   "seg": 18
+  },
+  {
+   "w": "Des",
+   "style": null,
+   "syl": 1,
+   "s": 38.508,
+   "e": 38.688,
+   "seg": 19
+  },
+  {
+   "w": "milliards",
+   "style": null,
+   "syl": 2,
+   "s": 38.688,
+   "e": 39.048,
+   "seg": 19
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 39.048,
+   "e": 39.227,
+   "seg": 19
+  },
+  {
+   "w": "fois",
+   "style": null,
+   "syl": 1,
+   "s": 39.227,
+   "e": 39.407,
+   "seg": 19
+  },
+  {
+   "w": "par",
+   "style": null,
+   "syl": 1,
+   "s": 39.407,
+   "e": 39.587,
+   "seg": 19
+  },
+  {
+   "w": "seconde.",
+   "style": null,
+   "syl": 3,
+   "s": 39.587,
+   "e": 40.127,
+   "seg": 19
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 40.438,
+   "e": 40.607,
+   "seg": 20
+  },
+  {
+   "w": "toute",
+   "style": null,
+   "syl": 1,
+   "s": 40.607,
+   "e": 40.776,
+   "seg": 20
+  },
+  {
+   "w": "cette",
+   "style": null,
+   "syl": 1,
+   "s": 40.776,
+   "e": 40.945,
+   "seg": 20
+  },
+  {
+   "w": "agitation...",
+   "style": null,
+   "syl": 4,
+   "s": 40.945,
+   "e": 41.619,
+   "seg": 20
+  },
+  {
+   "w": "c'est",
+   "style": null,
+   "syl": 1,
+   "s": 41.872,
+   "e": 42.045,
+   "seg": 21
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 42.045,
+   "e": 42.218,
+   "seg": 21
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 42.218,
+   "e": 42.392,
+   "seg": 21
+  },
+  {
+   "w": "chaleur.",
+   "style": "bold",
+   "syl": 2,
+   "s": 42.392,
+   "e": 42.738,
+   "seg": 21
+  },
+  {
+   "w": "Un",
+   "style": null,
+   "syl": 1,
+   "s": 42.968,
+   "e": 43.115,
+   "seg": 22
+  },
+  {
+   "w": "peu",
+   "style": null,
+   "syl": 1,
+   "s": 43.115,
+   "e": 43.263,
+   "seg": 22
+  },
+  {
+   "w": "comme",
+   "style": null,
+   "syl": 1,
+   "s": 43.263,
+   "e": 43.411,
+   "seg": 22
+  },
+  {
+   "w": "quand",
+   "style": null,
+   "syl": 1,
+   "s": 43.411,
+   "e": 43.559,
+   "seg": 22
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 43.559,
+   "e": 43.707,
+   "seg": 22
+  },
+  {
+   "w": "frottes",
+   "style": null,
+   "syl": 1,
+   "s": 43.707,
+   "e": 43.854,
+   "seg": 22
+  },
+  {
+   "w": "tes",
+   "style": null,
+   "syl": 1,
+   "s": 43.854,
+   "e": 44.002,
+   "seg": 22
+  },
+  {
+   "w": "mains",
+   "style": null,
+   "syl": 1,
+   "s": 44.002,
+   "e": 44.15,
+   "seg": 22
+  },
+  {
+   "w": "très",
+   "style": null,
+   "syl": 1,
+   "s": 44.15,
+   "e": 44.298,
+   "seg": 22
+  },
+  {
+   "w": "vite.",
+   "style": null,
+   "syl": 2,
+   "s": 44.298,
+   "e": 44.594,
+   "seg": 22
+  },
+  {
+   "w": "Mais",
+   "style": null,
+   "syl": 1,
+   "s": 44.868,
+   "e": 45.048,
+   "seg": 23
+  },
+  {
+   "w": "attention",
+   "style": null,
+   "syl": 3,
+   "s": 45.048,
+   "e": 45.587,
+   "seg": 23
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 45.587,
+   "e": 45.767,
+   "seg": 23
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 45.767,
+   "e": 45.947,
+   "seg": 23
+  },
+  {
+   "w": "idée",
+   "style": null,
+   "syl": 2,
+   "s": 45.947,
+   "e": 46.306,
+   "seg": 23
+  },
+  {
+   "w": "reçue :",
+   "style": null,
+   "syl": 2,
+   "s": 46.306,
+   "e": 46.666,
+   "seg": 23
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 46.666,
+   "e": 46.846,
+   "seg": 23
+  },
+  {
+   "w": "micro-ondes",
+   "style": null,
+   "syl": 3,
+   "s": 46.846,
+   "e": 47.386,
+   "seg": 23
+  },
+  {
+   "w": "ne",
+   "style": null,
+   "syl": 1,
+   "s": 47.386,
+   "e": 47.565,
+   "seg": 23
+  },
+  {
+   "w": "chauffe",
+   "style": null,
+   "syl": 1,
+   "s": 47.565,
+   "e": 47.745,
+   "seg": 23
+  },
+  {
+   "w": "pas",
+   "style": null,
+   "syl": 1,
+   "s": 47.745,
+   "e": 47.925,
+   "seg": 23
+  },
+  {
+   "w": "de",
+   "style": "italic",
+   "syl": 1,
+   "s": 47.925,
+   "e": 48.105,
+   "seg": 23
+  },
+  {
+   "w": "l'intérieur.",
+   "style": "italic",
+   "syl": 3,
+   "s": 48.105,
+   "e": 48.644,
+   "seg": 23
+  },
+  {
+   "w": "Les",
+   "style": null,
+   "syl": 1,
+   "s": 49.002,
+   "e": 49.163,
+   "seg": 24
+  },
+  {
+   "w": "ondes",
+   "style": null,
+   "syl": 1,
+   "s": 49.163,
+   "e": 49.324,
+   "seg": 24
+  },
+  {
+   "w": "ne",
+   "style": null,
+   "syl": 1,
+   "s": 49.324,
+   "e": 49.485,
+   "seg": 24
+  },
+  {
+   "w": "pénètrent",
+   "style": null,
+   "syl": 3,
+   "s": 49.485,
+   "e": 49.968,
+   "seg": 24
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 49.968,
+   "e": 50.129,
+   "seg": 24
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 50.129,
+   "e": 50.289,
+   "seg": 24
+  },
+  {
+   "w": "quelques",
+   "style": null,
+   "syl": 2,
+   "s": 50.289,
+   "e": 50.611,
+   "seg": 24
+  },
+  {
+   "w": "centimètres.",
+   "style": "italic",
+   "syl": 4,
+   "s": 50.611,
+   "e": 51.255,
+   "seg": 24
+  },
+  {
+   "w": "Plus",
+   "style": null,
+   "syl": 1,
+   "s": 51.509,
+   "e": 51.696,
+   "seg": 25
+  },
+  {
+   "w": "loin,",
+   "style": null,
+   "syl": 1,
+   "s": 51.696,
+   "e": 51.882,
+   "seg": 25
+  },
+  {
+   "w": "c'est",
+   "style": null,
+   "syl": 1,
+   "s": 51.882,
+   "e": 52.069,
+   "seg": 25
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 52.069,
+   "e": 52.256,
+   "seg": 25
+  },
+  {
+   "w": "chaleur",
+   "style": null,
+   "syl": 2,
+   "s": 52.256,
+   "e": 52.63,
+   "seg": 25
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 52.63,
+   "e": 52.816,
+   "seg": 25
+  },
+  {
+   "w": "avance",
+   "style": null,
+   "syl": 2,
+   "s": 52.816,
+   "e": 53.19,
+   "seg": 25
+  },
+  {
+   "w": "doucement",
+   "style": null,
+   "syl": 3,
+   "s": 53.19,
+   "e": 53.75,
+   "seg": 25
+  },
+  {
+   "w": "vers",
+   "style": null,
+   "syl": 1,
+   "s": 53.75,
+   "e": 53.937,
+   "seg": 25
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 53.937,
+   "e": 54.124,
+   "seg": 25
+  },
+  {
+   "w": "cœur.",
+   "style": null,
+   "syl": 1,
+   "s": 54.124,
+   "e": 54.311,
+   "seg": 25
+  },
+  {
+   "w": "Voilà",
+   "style": null,
+   "syl": 2,
+   "s": 54.66,
+   "e": 55.001,
+   "seg": 26
+  },
+  {
+   "w": "pourquoi",
+   "style": null,
+   "syl": 2,
+   "s": 55.001,
+   "e": 55.342,
+   "seg": 26
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 55.342,
+   "e": 55.512,
+   "seg": 26
+  },
+  {
+   "w": "plat",
+   "style": null,
+   "syl": 1,
+   "s": 55.512,
+   "e": 55.683,
+   "seg": 26
+  },
+  {
+   "w": "est",
+   "style": null,
+   "syl": 1,
+   "s": 55.683,
+   "e": 55.854,
+   "seg": 26
+  },
+  {
+   "w": "brûlant",
+   "style": null,
+   "syl": 2,
+   "s": 55.854,
+   "e": 56.195,
+   "seg": 26
+  },
+  {
+   "w": "au",
+   "style": null,
+   "syl": 1,
+   "s": 56.195,
+   "e": 56.365,
+   "seg": 26
+  },
+  {
+   "w": "bord...",
+   "style": null,
+   "syl": 1,
+   "s": 56.365,
+   "e": 56.536,
+   "seg": 26
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 56.747,
+   "e": 56.89,
+   "seg": 27
+  },
+  {
+   "w": "encore",
+   "style": null,
+   "syl": 2,
+   "s": 56.89,
+   "e": 57.177,
+   "seg": 27
+  },
+  {
+   "w": "glacé",
+   "style": "italic",
+   "syl": 2,
+   "s": 57.177,
+   "e": 57.463,
+   "seg": 27
+  },
+  {
+   "w": "au",
+   "style": null,
+   "syl": 1,
+   "s": 57.463,
+   "e": 57.606,
+   "seg": 27
+  },
+  {
+   "w": "milieu.",
+   "style": null,
+   "syl": 2,
+   "s": 57.606,
+   "e": 57.893,
+   "seg": 27
+  },
+  {
+   "w": "Autre",
+   "style": null,
+   "syl": 1,
+   "s": 58.246,
+   "e": 58.455,
+   "seg": 28
+  },
+  {
+   "w": "secret.",
+   "style": null,
+   "syl": 2,
+   "s": 58.455,
+   "e": 58.873,
+   "seg": 28
+  },
+  {
+   "w": "Les",
+   "style": null,
+   "syl": 1,
+   "s": 59.13,
+   "e": 59.305,
+   "seg": 29
+  },
+  {
+   "w": "ondes",
+   "style": null,
+   "syl": 1,
+   "s": 59.305,
+   "e": 59.481,
+   "seg": 29
+  },
+  {
+   "w": "rebondissent",
+   "style": null,
+   "syl": 4,
+   "s": 59.481,
+   "e": 60.183,
+   "seg": 29
+  },
+  {
+   "w": "sur",
+   "style": null,
+   "syl": 1,
+   "s": 60.183,
+   "e": 60.359,
+   "seg": 29
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 60.359,
+   "e": 60.534,
+   "seg": 29
+  },
+  {
+   "w": "parois",
+   "style": null,
+   "syl": 2,
+   "s": 60.534,
+   "e": 60.885,
+   "seg": 29
+  },
+  {
+   "w": "en",
+   "style": null,
+   "syl": 1,
+   "s": 60.885,
+   "e": 61.061,
+   "seg": 29
+  },
+  {
+   "w": "métal.",
+   "style": null,
+   "syl": 2,
+   "s": 61.061,
+   "e": 61.412,
+   "seg": 29
+  },
+  {
+   "w": "Elles",
+   "style": null,
+   "syl": 1,
+   "s": 61.657,
+   "e": 61.842,
+   "seg": 30
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 61.842,
+   "e": 62.027,
+   "seg": 30
+  },
+  {
+   "w": "croisent,",
+   "style": null,
+   "syl": 2,
+   "s": 62.027,
+   "e": 62.397,
+   "seg": 30
+  },
+  {
+   "w": "se",
+   "style": null,
+   "syl": 1,
+   "s": 62.397,
+   "e": 62.582,
+   "seg": 30
+  },
+  {
+   "w": "renforcent",
+   "style": null,
+   "syl": 3,
+   "s": 62.582,
+   "e": 63.137,
+   "seg": 30
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 63.137,
+   "e": 63.322,
+   "seg": 30
+  },
+  {
+   "w": "certains",
+   "style": null,
+   "syl": 2,
+   "s": 63.322,
+   "e": 63.692,
+   "seg": 30
+  },
+  {
+   "w": "endroits,",
+   "style": null,
+   "syl": 2,
+   "s": 63.692,
+   "e": 64.062,
+   "seg": 30
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 64.262,
+   "e": 64.383,
+   "seg": 31
+  },
+  {
+   "w": "s'annulent",
+   "style": null,
+   "syl": 3,
+   "s": 64.383,
+   "e": 64.746,
+   "seg": 31
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 64.746,
+   "e": 64.867,
+   "seg": 31
+  },
+  {
+   "w": "d'autres.",
+   "style": null,
+   "syl": 2,
+   "s": 64.867,
+   "e": 65.109,
+   "seg": 31
+  },
+  {
+   "w": "Résultat :",
+   "style": null,
+   "syl": 3,
+   "s": 65.35,
+   "e": 65.996,
+   "seg": 32
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 65.996,
+   "e": 66.211,
+   "seg": 32
+  },
+  {
+   "w": "zones",
+   "style": null,
+   "syl": 1,
+   "s": 66.211,
+   "e": 66.426,
+   "seg": 32
+  },
+  {
+   "w": "très",
+   "style": null,
+   "syl": 1,
+   "s": 66.426,
+   "e": 66.641,
+   "seg": 32
+  },
+  {
+   "w": "chaudes,",
+   "style": null,
+   "syl": 2,
+   "s": 66.641,
+   "e": 67.072,
+   "seg": 32
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 67.072,
+   "e": 67.287,
+   "seg": 32
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 67.287,
+   "e": 67.502,
+   "seg": 32
+  },
+  {
+   "w": "zones",
+   "style": null,
+   "syl": 1,
+   "s": 67.502,
+   "e": 67.718,
+   "seg": 32
+  },
+  {
+   "w": "presque",
+   "style": null,
+   "syl": 2,
+   "s": 67.718,
+   "e": 68.148,
+   "seg": 32
+  },
+  {
+   "w": "froides.",
+   "style": null,
+   "syl": 2,
+   "s": 68.148,
+   "e": 68.578,
+   "seg": 32
+  },
+  {
+   "w": "C'est",
+   "style": null,
+   "syl": 1,
+   "s": 68.869,
+   "e": 69.05,
+   "seg": 33
+  },
+  {
+   "w": "pour",
+   "style": null,
+   "syl": 1,
+   "s": 69.05,
+   "e": 69.231,
+   "seg": 33
+  },
+  {
+   "w": "ça",
+   "style": null,
+   "syl": 1,
+   "s": 69.231,
+   "e": 69.412,
+   "seg": 33
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 69.412,
+   "e": 69.592,
+   "seg": 33
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 69.592,
+   "e": 69.773,
+   "seg": 33
+  },
+  {
+   "w": "plat",
+   "style": null,
+   "syl": 1,
+   "s": 69.773,
+   "e": 69.954,
+   "seg": 33
+  },
+  {
+   "w": "tourne :",
+   "style": "italic",
+   "syl": 2,
+   "s": 69.954,
+   "e": 70.316,
+   "seg": 33
+  },
+  {
+   "w": "chaque",
+   "style": null,
+   "syl": 2,
+   "s": 70.316,
+   "e": 70.678,
+   "seg": 33
+  },
+  {
+   "w": "morceau",
+   "style": null,
+   "syl": 2,
+   "s": 70.678,
+   "e": 71.039,
+   "seg": 33
+  },
+  {
+   "w": "passe",
+   "style": null,
+   "syl": 1,
+   "s": 71.039,
+   "e": 71.22,
+   "seg": 33
+  },
+  {
+   "w": "dans",
+   "style": null,
+   "syl": 1,
+   "s": 71.22,
+   "e": 71.401,
+   "seg": 33
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 71.401,
+   "e": 71.582,
+   "seg": 33
+  },
+  {
+   "w": "zones",
+   "style": null,
+   "syl": 1,
+   "s": 71.582,
+   "e": 71.763,
+   "seg": 33
+  },
+  {
+   "w": "chaudes.",
+   "style": null,
+   "syl": 2,
+   "s": 71.763,
+   "e": 72.125,
+   "seg": 33
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 72.406,
+   "e": 72.54,
+   "seg": 34
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 72.54,
+   "e": 72.673,
+   "seg": 34
+  },
+  {
+   "w": "porte ?",
+   "style": null,
+   "syl": 2,
+   "s": 72.673,
+   "e": 72.941,
+   "seg": 34
+  },
+  {
+   "w": "Regarde",
+   "style": null,
+   "syl": 2,
+   "s": 73.198,
+   "e": 73.495,
+   "seg": 35
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 73.495,
+   "e": 73.643,
+   "seg": 35
+  },
+  {
+   "w": "grille.",
+   "style": "italic",
+   "syl": 2,
+   "s": 73.643,
+   "e": 73.94,
+   "seg": 35
+  },
+  {
+   "w": "Ses",
+   "style": null,
+   "syl": 1,
+   "s": 74.155,
+   "e": 74.315,
+   "seg": 36
+  },
+  {
+   "w": "trous",
+   "style": null,
+   "syl": 1,
+   "s": 74.315,
+   "e": 74.474,
+   "seg": 36
+  },
+  {
+   "w": "font",
+   "style": null,
+   "syl": 1,
+   "s": 74.474,
+   "e": 74.634,
+   "seg": 36
+  },
+  {
+   "w": "environ",
+   "style": null,
+   "syl": 3,
+   "s": 74.634,
+   "e": 75.113,
+   "seg": 36
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 75.113,
+   "e": 75.273,
+   "seg": 36
+  },
+  {
+   "w": "millimètre.",
+   "style": null,
+   "syl": 4,
+   "s": 75.273,
+   "e": 75.912,
+   "seg": 36
+  },
+  {
+   "w": "Une",
+   "style": null,
+   "syl": 1,
+   "s": 76.165,
+   "e": 76.321,
+   "seg": 37
+  },
+  {
+   "w": "micro-onde,",
+   "style": null,
+   "syl": 4,
+   "s": 76.321,
+   "e": 76.945,
+   "seg": 37
+  },
+  {
+   "w": "elle,",
+   "style": null,
+   "syl": 2,
+   "s": 76.945,
+   "e": 77.257,
+   "seg": 37
+  },
+  {
+   "w": "mesure",
+   "style": null,
+   "syl": 2,
+   "s": 77.257,
+   "e": 77.57,
+   "seg": 37
+  },
+  {
+   "w": "environ",
+   "style": null,
+   "syl": 3,
+   "s": 77.57,
+   "e": 78.038,
+   "seg": 37
+  },
+  {
+   "w": "12",
+   "style": "bold",
+   "syl": 2,
+   "s": 78.038,
+   "e": 78.35,
+   "seg": 37
+  },
+  {
+   "w": "centimètres.",
+   "style": "bold",
+   "syl": 4,
+   "s": 78.35,
+   "e": 78.975,
+   "seg": 37
+  },
+  {
+   "w": "Trop",
+   "style": null,
+   "syl": 1,
+   "s": 79.224,
+   "e": 79.335,
+   "seg": 38
+  },
+  {
+   "w": "grosse",
+   "style": null,
+   "syl": 1,
+   "s": 79.335,
+   "e": 79.447,
+   "seg": 38
+  },
+  {
+   "w": "pour",
+   "style": null,
+   "syl": 1,
+   "s": 79.447,
+   "e": 79.558,
+   "seg": 38
+  },
+  {
+   "w": "passer !",
+   "style": null,
+   "syl": 2,
+   "s": 79.558,
+   "e": 79.782,
+   "seg": 38
+  },
+  {
+   "w": "La",
+   "style": null,
+   "syl": 1,
+   "s": 79.782,
+   "e": 79.893,
+   "seg": 38
+  },
+  {
+   "w": "lumière,",
+   "style": null,
+   "syl": 3,
+   "s": 79.893,
+   "e": 80.228,
+   "seg": 38
+  },
+  {
+   "w": "elle,",
+   "style": null,
+   "syl": 2,
+   "s": 80.523,
+   "e": 81.071,
+   "seg": 39
+  },
+  {
+   "w": "est",
+   "style": null,
+   "syl": 1,
+   "s": 81.071,
+   "e": 81.344,
+   "seg": 39
+  },
+  {
+   "w": "minuscule :",
+   "style": null,
+   "syl": 4,
+   "s": 81.344,
+   "e": 82.439,
+   "seg": 39
+  },
+  {
+   "w": "elle",
+   "style": null,
+   "syl": 1,
+   "s": 82.672,
+   "e": 82.852,
+   "seg": 40
+  },
+  {
+   "w": "traverse.",
+   "style": null,
+   "syl": 3,
+   "s": 82.852,
+   "e": 83.393,
+   "seg": 40
+  },
+  {
+   "w": "Tu",
+   "style": null,
+   "syl": 1,
+   "s": 83.613,
+   "e": 83.795,
+   "seg": 41
+  },
+  {
+   "w": "vois",
+   "style": null,
+   "syl": 1,
+   "s": 83.795,
+   "e": 83.978,
+   "seg": 41
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 83.978,
+   "e": 84.161,
+   "seg": 41
+  },
+  {
+   "w": "plat...",
+   "style": null,
+   "syl": 1,
+   "s": 84.161,
+   "e": 84.343,
+   "seg": 41
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 84.585,
+   "e": 84.765,
+   "seg": 42
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 84.765,
+   "e": 84.944,
+   "seg": 42
+  },
+  {
+   "w": "ondes",
+   "style": null,
+   "syl": 1,
+   "s": 84.944,
+   "e": 85.123,
+   "seg": 42
+  },
+  {
+   "w": "restent",
+   "style": null,
+   "syl": 2,
+   "s": 85.123,
+   "e": 85.482,
+   "seg": 42
+  },
+  {
+   "w": "dedans.",
+   "style": null,
+   "syl": 2,
+   "s": 85.482,
+   "e": 85.84,
+   "seg": 42
+  },
+  {
+   "w": "Le",
+   "style": null,
+   "syl": 1,
+   "s": 86.189,
+   "e": 86.37,
+   "seg": 43
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 86.37,
+   "e": 86.551,
+   "seg": 43
+  },
+  {
+   "w": "fou ?",
+   "style": null,
+   "syl": 1,
+   "s": 86.551,
+   "e": 86.733,
+   "seg": 43
+  },
+  {
+   "w": "Tout",
+   "style": null,
+   "syl": 1,
+   "s": 87.049,
+   "e": 87.225,
+   "seg": 44
+  },
+  {
+   "w": "ça",
+   "style": null,
+   "syl": 1,
+   "s": 87.225,
+   "e": 87.4,
+   "seg": 44
+  },
+  {
+   "w": "a",
+   "style": null,
+   "syl": 1,
+   "s": 87.4,
+   "e": 87.576,
+   "seg": 44
+  },
+  {
+   "w": "été",
+   "style": null,
+   "syl": 2,
+   "s": 87.576,
+   "e": 87.927,
+   "seg": 44
+  },
+  {
+   "w": "découvert",
+   "style": null,
+   "syl": 3,
+   "s": 87.927,
+   "e": 88.454,
+   "seg": 44
+  },
+  {
+   "w": "par",
+   "style": null,
+   "syl": 1,
+   "s": 88.454,
+   "e": 88.63,
+   "seg": 44
+  },
+  {
+   "w": "hasard.",
+   "style": null,
+   "syl": 2,
+   "s": 88.63,
+   "e": 88.981,
+   "seg": 44
+  },
+  {
+   "w": "En",
+   "style": null,
+   "syl": 1,
+   "s": 89.245,
+   "e": 89.42,
+   "seg": 45
+  },
+  {
+   "w": "1945,",
+   "style": "bold",
+   "syl": 8,
+   "s": 89.42,
+   "e": 90.817,
+   "seg": 45
+  },
+  {
+   "w": "l'ingénieur",
+   "style": null,
+   "syl": 3,
+   "s": 90.817,
+   "e": 91.341,
+   "seg": 45
+  },
+  {
+   "w": "Percy",
+   "style": null,
+   "syl": 2,
+   "s": 91.341,
+   "e": 91.691,
+   "seg": 45
+  },
+  {
+   "w": "Spencer",
+   "style": null,
+   "syl": 2,
+   "s": 91.691,
+   "e": 92.04,
+   "seg": 45
+  },
+  {
+   "w": "travaille",
+   "style": null,
+   "syl": 2,
+   "s": 92.04,
+   "e": 92.389,
+   "seg": 45
+  },
+  {
+   "w": "près",
+   "style": null,
+   "syl": 1,
+   "s": 92.389,
+   "e": 92.564,
+   "seg": 45
+  },
+  {
+   "w": "d'un",
+   "style": null,
+   "syl": 1,
+   "s": 92.564,
+   "e": 92.739,
+   "seg": 45
+  },
+  {
+   "w": "magnétron...",
+   "style": null,
+   "syl": 3,
+   "s": 92.739,
+   "e": 93.263,
+   "seg": 45
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 93.45,
+   "e": 93.617,
+   "seg": 46
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 93.617,
+   "e": 93.784,
+   "seg": 46
+  },
+  {
+   "w": "barre",
+   "style": null,
+   "syl": 1,
+   "s": 93.784,
+   "e": 93.951,
+   "seg": 46
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 93.951,
+   "e": 94.118,
+   "seg": 46
+  },
+  {
+   "w": "chocolat",
+   "style": null,
+   "syl": 3,
+   "s": 94.118,
+   "e": 94.619,
+   "seg": 46
+  },
+  {
+   "w": "dans",
+   "style": null,
+   "syl": 1,
+   "s": 94.619,
+   "e": 94.786,
+   "seg": 46
+  },
+  {
+   "w": "sa",
+   "style": null,
+   "syl": 1,
+   "s": 94.786,
+   "e": 94.953,
+   "seg": 46
+  },
+  {
+   "w": "poche",
+   "style": null,
+   "syl": 1,
+   "s": 94.953,
+   "e": 95.12,
+   "seg": 46
+  },
+  {
+   "w": "fond.",
+   "style": "italic",
+   "syl": 1,
+   "s": 95.12,
+   "e": 95.287,
+   "seg": 46
+  },
+  {
+   "w": "Alors,",
+   "style": null,
+   "syl": 2,
+   "s": 95.579,
+   "e": 95.964,
+   "seg": 47
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 95.964,
+   "e": 96.156,
+   "seg": 47
+  },
+  {
+   "w": "prochaine",
+   "style": null,
+   "syl": 2,
+   "s": 96.156,
+   "e": 96.541,
+   "seg": 47
+  },
+  {
+   "w": "fois",
+   "style": null,
+   "syl": 1,
+   "s": 96.541,
+   "e": 96.733,
+   "seg": 47
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 96.733,
+   "e": 96.925,
+   "seg": 47
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 96.925,
+   "e": 97.118,
+   "seg": 47
+  },
+  {
+   "w": "plat",
+   "style": null,
+   "syl": 1,
+   "s": 97.118,
+   "e": 97.31,
+   "seg": 47
+  },
+  {
+   "w": "tourne,",
+   "style": null,
+   "syl": 2,
+   "s": 97.31,
+   "e": 97.695,
+   "seg": 47
+  },
+  {
+   "w": "souviens-toi :",
+   "style": null,
+   "syl": 3,
+   "s": 97.695,
+   "e": 98.272,
+   "seg": 47
+  },
+  {
+   "w": "ce",
+   "style": null,
+   "syl": 1,
+   "s": 98.489,
+   "e": 98.672,
+   "seg": 48
+  },
+  {
+   "w": "sont",
+   "style": null,
+   "syl": 1,
+   "s": 98.672,
+   "e": 98.856,
+   "seg": 48
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 98.856,
+   "e": 99.039,
+   "seg": 48
+  },
+  {
+   "w": "milliards",
+   "style": null,
+   "syl": 2,
+   "s": 99.039,
+   "e": 99.405,
+   "seg": 48
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 99.405,
+   "e": 99.589,
+   "seg": 48
+  },
+  {
+   "w": "molécules",
+   "style": null,
+   "syl": 3,
+   "s": 99.589,
+   "e": 100.139,
+   "seg": 48
+  },
+  {
+   "w": "d'eau",
+   "style": null,
+   "syl": 1,
+   "s": 100.139,
+   "e": 100.322,
+   "seg": 48
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 100.322,
+   "e": 100.505,
+   "seg": 48
+  },
+  {
+   "w": "dansent.",
+   "style": "italic",
+   "syl": 2,
+   "s": 100.505,
+   "e": 100.872,
+   "seg": 48
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 101.111,
+   "e": 101.302,
+   "seg": 49
+  },
+  {
+   "w": "toi,",
+   "style": null,
+   "syl": 1,
+   "s": 101.302,
+   "e": 101.492,
+   "seg": 49
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 101.689,
+   "e": 101.8,
+   "seg": 50
+  },
+  {
+   "w": "connaissais",
+   "style": null,
+   "syl": 3,
+   "s": 101.8,
+   "e": 102.132,
+   "seg": 50
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 102.132,
+   "e": 102.242,
+   "seg": 50
+  },
+  {
+   "w": "secret",
+   "style": null,
+   "syl": 2,
+   "s": 102.242,
+   "e": 102.463,
+   "seg": 50
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 102.463,
+   "e": 102.574,
+   "seg": 50
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 102.574,
+   "e": 102.685,
+   "seg": 50
+  },
+  {
+   "w": "grille ?",
+   "style": null,
+   "syl": 2,
+   "s": 102.685,
+   "e": 102.906,
+   "seg": 50
+  }
+ ]
+}

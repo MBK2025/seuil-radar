@@ -60,7 +60,7 @@ Bruitages : `whoosh` joué automatiquement à chaque changement de plan (mettre 
 Effets en pool (à rappeler **à chaque image** dans `update`, ils sont remis à zéro automatiquement) :
 - `E.shell(i, centre, direction, rayon, couleur, opacité)` — front d'onde lumineux (radar, son, lumière, wifi…)
 - `E.ring(i, centre, rayon, couleur, opacité, normale)` — anneau (ondes sonores, ondulations)
-- `E.dot(position, taille, couleur)` — jusqu'à 4000 particules (molécules, électrons, photons, gouttes…)
+- `E.dot(position, taille, couleur)` — jusqu'à 4000 particules lumineuses (additives : une couleur sombre = plus discrète ; pour des objets opaques, créer des meshes)
 - `E.line3(i, [V3…], couleur, opacité, part)` — trajectoire / rayon / ligne de champ dessinée progressivement
 - `E.snapshot(filtreCSS)` — capture l'image 3D courante (pour une « photo », un insert).
 

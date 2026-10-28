@@ -1,0 +1,14 @@
+{
+  "titre": "Comment le micro-ondes chauffe ta nourriture",
+  "domaine": "physique / technologie du quotidien",
+  "legende": "Ton plat est brûlant… mais l'air du micro-ondes est resté froid. Voilà ce qui se passe vraiment là-dedans. Tu connaissais le secret de la grille ?",
+  "hashtags": ["#science", "#microondes", "#physique", "#apprendresurtiktok", "#lesaviezvous", "#cuisine"],
+  "sources": [
+    "https://www.bag.admin.ch/dam/bag/fr/dokumente/str/nis/faktenblaetter-emf/faktenblatt-mikrowellenofen.pdf.download.pdf/faktenblatt%20mikrowellenofen%20f.pdf",
+    "https://hyperphysics.gsu.edu/hbase/waves/mwoven.html",
+    "https://www.futura-sciences.com/sciences/actualites/physique-ca-marche-entrez-interieur-four-micro-ondes-51050/",
+    "https://www.futura-sciences.com/sciences/personnalites/physique-percy-spencer-1067/",
+    "https://mentalfloss.com/posts/mesh-grate-microwave-purpose"
+  ],
+  "voix": "ElevenLabs – Maxence (GGkMUTZaJ8IyPwaHimUq), eleven_v4"
+}

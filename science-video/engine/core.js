@@ -109,7 +109,7 @@ function ring(i, center, r, color = 0xffffff, op = 0.6, normal = UP) {
   m.quaternion.setFromUnitVectors(V3(0, 0, 1), normal.clone().normalize()); m.material.color.set(color); m.material.opacity = op;
 }
 const dotGeo = new THREE.SphereGeometry(1, 12, 8);
-const dots = new THREE.InstancedMesh(dotGeo, new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 1, toneMapped: false }), 4000);
+const dots = new THREE.InstancedMesh(dotGeo, new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 1, toneMapped: false, blending: THREE.AdditiveBlending, depthWrite: false }), 4000);   // lumineuses (additives) : couleur sombre = plus transparent
 dots.instanceMatrix.setUsage(THREE.DynamicDrawUsage); dots.count = 0; dots.frustumCulled = false; scene.add(dots);
 const _m = new THREE.Matrix4(), _q = new THREE.Quaternion(), _c = new THREE.Color();
 // particule (molécule, photon, électron…) : à appeler chaque image, autant de fois que nécessaire

@@ -1,3 +1,24 @@
 [
-  {"numero": 1, "date": "2026-10-27", "slug": "001-radar", "sujet": "Comment un radar te flashe (effet Doppler, marge technique, flash infrarouge, traitement à Rennes)", "domaine": "physique / technologie du quotidien", "duree_s": 50.6, "publie": false, "note": "épisode prototype (50 s), sert de modèle ; non publié"}
+  {
+    "numero": 1,
+    "date": "2026-10-27",
+    "slug": "001-radar",
+    "sujet": "Comment un radar te flashe (effet Doppler, marge technique, flash infrarouge, traitement à Rennes)",
+    "domaine": "physique / technologie du quotidien",
+    "duree_s": 50.6,
+    "publie": false,
+    "note": "épisode prototype (50 s), sert de modèle ; non publié"
+  },
+  {
+    "numero": 2,
+    "date": "2026-10-28",
+    "slug": "002-micro-ondes",
+    "sujet": "Comment le micro-ondes chauffe la nourriture (magnétron, 2,45 GHz, molécules d'eau, pénétration de quelques cm, zones chaudes et plateau tournant, grille de la porte, Percy Spencer 1945)",
+    "domaine": "physique / technologie du quotidien",
+    "duree_s": 104.5,
+    "publie": false,
+    "note": "réalisé à la main le 28/10 au matin, envoyé à Moubarak ; pas encore de compte Metricool",
+    "voix": "Maxence",
+    "voix_id": "GGkMUTZaJ8IyPwaHimUq"
+  }
 ]

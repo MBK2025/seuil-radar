@@ -208,5 +208,65 @@
     "reponse": "Le traité de Tordesillas"
    }
   ]
+ },
+ {
+  "date": "2026-10-29",
+  "numero": 8,
+  "questions": [
+   {
+    "q": "Combien de minutes dure un match de foot, hors temps additionnel ?",
+    "reponse": "90"
+   },
+   {
+    "q": "Quel est le plus long fleuve d'Afrique ?",
+    "reponse": "Le Nil"
+   },
+   {
+    "q": "Quel pays a gagné la Coupe du monde 2010, en Afrique du Sud ?",
+    "reponse": "Espagne"
+   },
+   {
+    "q": "Quel est le plus petit pays du monde ?",
+    "reponse": "Le Vatican"
+   },
+   {
+    "q": "Quel club a gagné la toute première Coupe de France, en 1918 ?",
+    "reponse": "Olympique de Pantin"
+   },
+   {
+    "q": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "reponse": "Wellington"
+   }
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "numero": 9,
+  "questions": [
+   {
+    "q": "Quel club a gagné le plus de Ligues des champions ?",
+    "reponse": "Real Madrid"
+   },
+   {
+    "q": "Quelle est la planète la plus proche du Soleil ?",
+    "reponse": "Mercure"
+   },
+   {
+    "q": "Quel club a gagné la Ligue des champions 2013, en finale contre Dortmund ?",
+    "reponse": "Bayern Munich"
+   },
+   {
+    "q": "Quel gaz les plantes absorbent-elles pour faire la photosynthèse ?",
+    "reponse": "Le dioxyde de carbone"
+   },
+   {
+    "q": "Quel club portugais a gagné la Ligue des champions 2004 ?",
+    "reponse": "FC Porto"
+   },
+   {
+    "q": "Quel est l'élément chimique le plus abondant dans l'Univers ?",
+    "reponse": "L'hydrogène"
+   }
+  ]
  }
 ]

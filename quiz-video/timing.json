@@ -24,6 +24,14 @@
     "likes": 3,
     "commentaires": 0,
     "partages": 0
+   },
+   {
+    "le": "2026-10-29 09:45",
+    "age_h": 79,
+    "vues": 287,
+    "likes": 3,
+    "commentaires": 0,
+    "partages": 0
    }
   ]
  },
@@ -52,6 +60,14 @@
     "likes": 1,
     "commentaires": 0,
     "partages": 0
+   },
+   {
+    "le": "2026-10-29 09:45",
+    "age_h": 69,
+    "vues": 243,
+    "likes": 1,
+    "commentaires": 0,
+    "partages": 0
    }
   ]
  },
@@ -63,12 +79,20 @@
   "mode": "exploration",
   "score_metricool": 1096,
   "vues_24h": null,
-  "vues_48h": null,
+  "vues_48h": 259,
   "mesures": [
    {
     "le": "2026-10-28 09:45",
     "age_h": 39,
     "vues": 251,
+    "likes": 5,
+    "commentaires": 0,
+    "partages": 0
+   },
+   {
+    "le": "2026-10-29 09:45",
+    "age_h": 63,
+    "vues": 259,
     "likes": 5,
     "commentaires": 0,
     "partages": 0
@@ -82,8 +106,18 @@
   "jour": "mardi",
   "mode": "exploration",
   "score_metricool": 707,
-  "vues_24h": null,
-  "vues_48h": null
+  "vues_24h": 250,
+  "vues_48h": null,
+  "mesures": [
+   {
+    "le": "2026-10-29 09:45",
+    "age_h": 20,
+    "vues": 250,
+    "likes": 6,
+    "commentaires": 0,
+    "partages": 1
+   }
+  ]
  },
  {
   "numero": 5,
@@ -93,7 +127,17 @@
   "mode": "exploration",
   "score_metricool": 859,
   "vues_24h": null,
-  "vues_48h": null
+  "vues_48h": null,
+  "mesures": [
+   {
+    "le": "2026-10-29 09:45",
+    "age_h": 14,
+    "vues": 248,
+    "likes": 3,
+    "commentaires": 0,
+    "partages": 1
+   }
+  ]
  },
  {
   "numero": 6,
@@ -112,6 +156,26 @@
   "jour": "mercredi",
   "mode": "exploration",
   "score_metricool": 907,
+  "vues_24h": null,
+  "vues_48h": null
+ },
+ {
+  "numero": 8,
+  "date": "2026-10-29",
+  "heure": "15:12",
+  "jour": "jeudi",
+  "mode": "exploration",
+  "score_metricool": 947,
+  "vues_24h": null,
+  "vues_48h": null
+ },
+ {
+  "numero": 9,
+  "date": "2026-10-29",
+  "heure": "21:16",
+  "jour": "jeudi",
+  "mode": "exploration",
+  "score_metricool": 643,
   "vues_24h": null,
   "vues_48h": null
  }

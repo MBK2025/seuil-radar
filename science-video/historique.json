@@ -34,5 +34,19 @@
     "voix": "piper",
     "voix_id": "fr_FR-tom-medium",
     "note": "mode sans compte (aucune marque Metricool autre que « kiss ») ; crédits ElevenLabs épuisés → voix de secours Piper accélérée (length_scale 0.83) ; vidéo envoyée à Moubarak"
+  },
+  {
+    "numero": 4,
+    "date": "2026-10-29",
+    "slug": "004-saisons",
+    "sujet": "Pourquoi il y a des saisons (inclinaison de l'axe de 23,5°, la distance ne varie que d'environ 3 % : 147 M km début janvier / 152 M km début juillet, saisons inversées dans l'hémisphère sud, rayons rasants (analogie lampe de poche), durée du jour à Paris 16 h / 8 h, Uranus penchée à 98° : année de 84 ans, saisons d'une vingtaine d'années)",
+    "domaine": "astronomie / espace",
+    "duree_s": 120.7,
+    "publie": false,
+    "heure": null,
+    "reseaux": [],
+    "voix": "piper",
+    "voix_id": "fr_FR-tom-medium",
+    "note": "mode sans compte (aucune marque Metricool autre que « kiss ») ; crédits ElevenLabs insuffisants (614 restants, 2151 requis ; Kevin prévu) → voix de secours Piper accélérée (length_scale 0.775) ; vidéo envoyée à Moubarak ; hébergement videos-science non fait (push forcé refusé)"
   }
 ]

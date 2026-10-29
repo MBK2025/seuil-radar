@@ -1,0 +1,21 @@
+{
+  "titre": "Pourquoi il y a des saisons",
+  "domaine": "astronomie / espace",
+  "style": "holo",
+  "legende": "Début janvier, la Terre est au plus près du Soleil… et pourtant c'est l'hiver. Voilà d'où viennent vraiment les saisons. Et toi, tu pensais que c'était la distance ?",
+  "hashtags": ["#science", "#saisons", "#astronomie", "#espace", "#apprendresurtiktok", "#lesaviezvous"],
+  "sources": [
+    "https://spaceplace.nasa.gov/seasons/en",
+    "https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/why-does-earth-have-seasons",
+    "https://www.larousse.fr/encyclopedie/divers/saison/89698",
+    "https://www.futura-sciences.com/sciences/questions-reponses/systeme-solaire-terre-plus-proche-soleil-ete-vrai-faux-18942/",
+    "https://query.libretexts.org/Francais/Livre_%3A_Astronomy_(OpenStax)/04%3A_Terre%2C_Lune_et_Ciel/4.02%3A_Les_saisons",
+    "https://fondation-lamap.org/sites/default/files/sequence_pdf/les-saisons-pourquoi-fait-il-plus-chaud-en-ete-qu-en-hiver.pdf",
+    "https://calendriersolaire.com/fr/paris",
+    "https://www.meteo-paris.com/actualites/solstice-d-ete-2026-pourquoi-le-21-juin-est-le-jour-le-plus-long-de-l-annee",
+    "https://www.futura-sciences.com/sciences/breves/astronomie-cest-journee-plus-courte-annee-7328/",
+    "https://cnes.fr/dossiers/planete-uranus",
+    "https://earthsky.org/space/what-are-the-seasons-like-on-uranus"
+  ],
+  "voix": "ElevenLabs – Kevin (zVrWtLr70jn6SeaARX0i), eleven_v4"
+}

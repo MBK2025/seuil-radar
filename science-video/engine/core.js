@@ -288,7 +288,7 @@ function captions(t, yc = 440) {
   if (total > CAP.max && ch.words.length > 1) {
     const cut = Math.ceil(ch.words.length / 2); lines = [[...Array(cut).keys()], [...Array(ch.words.length - cut).keys()].map(i => i + cut)];
   }
-  const lineW = l => l.reduce((s, i) => s + ws[i], 0) + CAP.gap * (l.length - 1);
+  const lineW = l => l.reduce((s, i) => s + ws[i] * 1.1, 0) + CAP.gap * (l.length - 1);   // 1.1 : place pour le « pop » du mot actif (sinon les mots se touchent)
   const maxW = Math.max(...lines.map(lineW));
   if (maxW > CAP.max) { size = Math.floor(size * CAP.max / maxW); o.font = `900 ${size}px Caption`; ws = widths(); }
   const lt = t - ch.s, pop = lt < 0.16 ? lerp(0.82, 1.06, lt / 0.16) : lt < 0.26 ? lerp(1.06, 1, (lt - 0.16) / 0.1) : 1;
@@ -298,6 +298,7 @@ function captions(t, yc = 440) {
   lines.forEach((l, li) => {
     let x = 540 - lineW(l) / 2; const y = y0 + li * lh;
     for (const i of l) {
+      x += ws[i] * 0.05;
       const w = ch.words[i], active = t >= w.s - 0.03 && t < (ch.words[i + 1]?.s ?? ch.e), said = t >= w.s - 0.03;
       const k = clamp((t - w.s + 0.03) / 0.1), sc = active ? lerp(1, 1.1, ease(k)) : 1;
       o.save(); o.translate(x + ws[i] / 2, y); o.scale(sc, sc); o.translate(-(x + ws[i] / 2), -y);
@@ -311,7 +312,7 @@ function captions(t, yc = 440) {
         o.strokeStyle = '#000'; o.lineWidth = size * 0.16; o.strokeText(w.t, x + pad, y + size * 0.04);
         o.shadowColor = 'transparent'; o.fillStyle = active ? COL.acc : '#fff'; o.fillText(w.t, x + pad, y + size * 0.04);
       }
-      o.restore(); x += ws[i] + CAP.gap;
+      o.restore(); x += ws[i] * 1.05 + CAP.gap;
     }
   });
   o.restore();

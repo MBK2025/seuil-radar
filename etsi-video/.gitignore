@@ -1,0 +1,9 @@
+node_modules/
+out/
+*.mp4
+*.wav
+prev/
+episodes/*/voix.mp3
+episodes/*/voix.wav
+
+out_sheet.jpg

@@ -5,9 +5,17 @@ Une vidéo par jour (1080x1920, **65 à 100 s** : plus d'une minute pour être r
 Le moteur est le même que `science-video/` (three.js, bloom, sous-titres mot à mot, bruitages), copié ici pour être réglé à part : **lis `../science-video/README.md`** pour l'API complète d'une scène (`E.at`, `E.fit`, `E.shell`, `E.dot`, `E.tag3`, `E.panel`, accessoires `E.P`…). Seules les différences sont décrites ici.
 
 ## Différences avec science-video
-- **Sous-titres plus petits et plus fluides** (demande de Moubarak : « trop gros, pas assez fluide ») : Montserrat ExtraBold 62 px, 1 à 4 mots, apparition en fondu + légère montée, le mot prononcé passe en jaune, les mots à venir légèrement transparents. `^MOT^` = 104 px. Ne pas les regrossir.
-- **Style visuel « cinéma »** (pas l'hologramme bleu de science-video) : dans `meta.json`, `"style": "classic"`. Des objets 3D soignés et colorés (matériaux physiques `E.std` / `E.phys`, lumières, bloom modéré), de vraies ambiances (`E.mood('space' | 'night' | 'day' | 'studio' | 'lab')`), particules, explosions, vues en coupe. Moubarak veut un rendu « très réalisé, propre, avec des effets comme dans CapCut » : chaque plan doit être beau, jamais une forme isolée sur fond vide.
-- **Ambiance musicale discrète** générée (libre de droits) : `render.js full` mixe par défaut `--music-volume 0.06`. Mettre `--music-volume 0` si la voix est couverte.
+- **RÉALISME AVANT TOUT** (exigence n°1 de Moubarak, sur TOUTES les vidéos : « je ne veux pas un truc basique ») : tout est fait en code (three.js), ElevenLabs ne sert qu'à la voix. Donc chaque plan vise le photoréalisme :
+  - matériaux physiques (`E.phys` / `MeshPhysicalMaterial`) avec rugosité, métal, clearcoat, transmission ; éclairage d'environnement (`scene.environment` via PMREM / `RoomEnvironment`) + lumière principale, contre-jour et ombres ;
+  - textures procédurales riches cuites dans des shaders (relief, bruit fbm, normales calculées, nuages, océan spéculaire, atmosphère diffusante, cratères, rouille, végétation…), jamais de couleur unie sur une grande surface ;
+  - ciel et décors complets (horizon, brume de profondeur `scene.fog`, étoiles, nébuleuse, sol détaillé), jamais un objet seul sur fond vide ;
+  - caméra « cinéma » : focales 35–50 mm, mouvements lents et continus, légère profondeur de champ (passe Bokeh) sur les plans rapprochés, flou de mouvement simulé sur les transitions ;
+  - particules en grand nombre (poussière, étincelles, eau, débris) pour la matière et l'échelle ;
+  - étalonnage : le moteur applique contraste et saturation légers + vignette + grain ; bloom modéré (threshold ≥ 0.85), jamais d'image délavée ni cramée.
+  Le style hologramme (`holo`) est INTERDIT ici : `"style": "classic"` dans meta.json. L'épisode modèle 000 est en holo : il sert uniquement d'exemple d'API (plans, E.at, bruitages), PAS de modèle visuel.
+- **Sous-titres minimalistes** (demande de Moubarak : « le plus mini possible pour ne pas envahir la vidéo ») : Montserrat ExtraBold 46 px, 1 à 3 mots, fondu doux, le mot prononcé en jaune, placés bas (y ≈ 1330). **Zone réservée y de 1270 à 1400 px** : aucun HUD, panneau ou étiquette dedans. `^MOT^` (70 px) : au plus 3 fois par vidéo.
+- **Voix parfaitement synchronisée** : chaque plan commence sur le mot qui l'annonce (`E.at`) ; ce qu'on voit = ce qu'on entend, à la demi-seconde près.
+- **Transitions, effets et musique harmonieux** : whoosh doux à chaque plan, transitions variées (fondu, zoom de coupe, flash léger, glissé) mais cohérentes ; bruitages discrets ; ambiance musicale générée et discrète (`--music-volume 0.06`, jamais au-dessus de 0.08), la voix doit toujours dominer.
 - **Signature** : `config.json` → `@loliz802`.
 
 ## Chaîne de fabrication

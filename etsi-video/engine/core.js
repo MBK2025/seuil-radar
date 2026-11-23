@@ -258,7 +258,7 @@ function scanlines(a = 0.06, col = '#9ff') { o.save(); o.globalAlpha = a; o.fill
 // 1 à 3 mots à la fois, Montserrat Black en majuscules, contour noir épais + ombre,
 // le mot prononcé passe en jaune avec un petit « pop » ; les mots clés (*mot* / ^MOT^) s'affichent dans une pastille jaune.
 let CHUNKS = [], TOTAL = 60, SHOTS = [], HANDLE = '@ton.compte';
-const CAP = { size: 62, max: 900, gap: 20, box: COL.acc };   // « Et si » : sous-titres plus petits et plus fluides (demande de Moubarak)
+const CAP = { size: 46, max: 820, gap: 14, box: COL.acc };   // « Et si » : sous-titres plus petits et plus fluides (demande de Moubarak)
 function buildChunks(words) {
   const out = []; let cur = [];
   const flush = () => { if (cur.length) out.push(cur); cur = []; };
@@ -270,7 +270,7 @@ function buildChunks(words) {
     const chars = cur.reduce((s, x) => s + x.t.length, 0) + cur.length;
     const next = words[i + 1];
     const pause = next ? next.s - w.e > 0.25 : true;
-    if (/[.,:;!?…]$/.test(txtw) || pause || cur.length >= 4 || chars > 24 || (w.style === 'bold' && next?.style !== 'bold') || (next?.style === 'bold' && w.style !== 'bold')) flush();
+    if (/[.,:;!?…]$/.test(txtw) || pause || cur.length >= 3 || chars > 18 || (w.style === 'bold' && next?.style !== 'bold') || (next?.style === 'bold' && w.style !== 'bold')) flush();
   });
   flush();
   return out.map((ws, i, arr) => ({ words: ws, s: ws[0].s, e: Math.min(ws[ws.length - 1].e + 0.6, arr[i + 1] ? arr[i + 1][0].s : 1e9) }));
@@ -279,7 +279,7 @@ function captions(t, yc = 440) {
   const ch = CHUNKS.find(c => t >= c.s - 0.06 && t < c.e);
   if (!ch) return;
   const big = ch.words.every(w => w.style === 'bold');
-  let size = big ? 104 : CAP.size;
+  let size = big ? 70 : CAP.size;
   o.font = `800 ${size}px Caption`;
   const widths = () => ch.words.map(w => o.measureText(w.t).width + (w.key ? size * 0.32 : 0));   // place pour la pastille
   let ws = widths(), total = ws.reduce((a, b) => a + b, 0) + CAP.gap * (ws.length - 1);
@@ -333,7 +333,7 @@ function frame(t) {
   if (!sh.no3d) {
     dots.instanceMatrix.needsUpdate = true; if (dots.instanceColor) dots.instanceColor.needsUpdate = true;
     composer.render();
-    o.save(); const f = typeof sh.filter === 'function' ? sh.filter(t, lt, k) : sh.filter; if (f) o.filter = f;
+    o.save(); const f = typeof sh.filter === 'function' ? sh.filter(t, lt, k) : sh.filter; o.filter = (f ? f + ' ' : '') + 'contrast(1.06) saturate(1.1)';   // étalonnage cinéma léger
     o.drawImage(renderer.domElement, 0, 0, W, H); o.restore();
   } else { o.fillStyle = sh.bg || '#05070c'; o.fillRect(0, 0, W, H); }
   if (sh.hud) { o.save(); sh.hud(t, lt, k); o.restore(); }
@@ -341,10 +341,10 @@ function frame(t) {
   if (si > 0 && lt < 0.18 && !sh.noFlash) flash(0.3 * (1 - lt / 0.18));
   // vignette, haut assombri pour les sous-titres, grain
   const vg = o.createRadialGradient(540, 1000, 300, 540, 1000, 1250); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.62)'); o.fillStyle = vg; o.fillRect(0, 0, W, H);
-  const tg = o.createLinearGradient(0, 0, 0, 760); tg.addColorStop(0, 'rgba(0,0,0,0.55)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); o.fillStyle = tg; o.fillRect(0, 0, W, 760);
+  const tg = o.createLinearGradient(0, 1150, 0, 1520); tg.addColorStop(0, 'rgba(0,0,0,0)'); tg.addColorStop(0.5, 'rgba(0,0,0,0.22)'); tg.addColorStop(1, 'rgba(0,0,0,0)'); o.fillStyle = tg; o.fillRect(0, 1150, W, 370);
   o.save(); o.globalAlpha = 0.07; o.globalCompositeOperation = 'overlay'; const gx = Math.floor(rand(t * 30) * 256), gy = Math.floor(rand(t * 30 + 5) * 256);
   o.translate(-gx, -gy); o.fillStyle = o.createPattern(grain, 'repeat'); o.fillRect(gx, gy, W, H); o.restore();
-  captions(t, sh.captionY ?? 440);
+  captions(t, sh.captionY ?? 1330);
   // barre de progression + signature
   o.fillStyle = 'rgba(255,255,255,0.15)'; o.fillRect(0, H - 8, W, 8); o.fillStyle = COL.acc; o.fillRect(0, H - 8, W * clamp(t / TOTAL), 8);
   o.save(); o.globalAlpha = 0.55; txt(HANDLE, 540, H - 110, 32, '#cfcfcf', 'Inter', 500); o.restore();

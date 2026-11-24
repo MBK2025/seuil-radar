@@ -1,0 +1,19 @@
+{
+  "titre": "Et si la Lune disparaissait ?",
+  "domaine": "espace",
+  "style": "classic",
+  "legende": "Et si la Lune disparaissait ce soir ? Nuits noires, marées réduites, saisons qui vacillent… et elle s'éloigne déjà de nous. Tu préférerais un ciel sans Lune ou avec deux Lunes ?",
+  "hashtags": ["#etsi", "#lesaviezvous", "#apprendresurtiktok", "#lune", "#espace", "#science"],
+  "sources": [
+    "https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html",
+    "https://www.accuweather.com/en/weather-blogs/astronomy/why-we-have-tides/18715",
+    "https://www.astronomy.com/science/what-if-the-moon-disappeared-tomorrow/",
+    "https://www.discovermagazine.com/what-if-the-moon-disappeared-tomorrow-40946",
+    "https://www.aip.org/inside-science/what-would-happen-if-there-were-no-moon",
+    "https://www.livescience.com/55477-what-if-the-moon-disappeared.html",
+    "https://www.livescience.com/space/the-moon/will-earth-ever-lose-its-moon",
+    "https://earthsky.org/tonight/wayward-moon-receding-from-earth/",
+    "https://www.space.com/astronomy/moon/the-moon-is-getting-slightly-farther-away-from-the-earth-each-year-a-physicist-explains-why"
+  ],
+  "voix": "Hugo (3Tp5mYhT9wrfnry9pzvV), ElevenLabs eleven_v4"
+}

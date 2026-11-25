@@ -12,5 +12,19 @@
     "voix_id": "piper fr_FR-tom-medium (Hugo 3Tp5mYhT9wrfnry9pzvV généré mais non téléchargeable)",
     "credits_elevenlabs": 1604,
     "fichier": "etsi-001-lune-disparait.mp4"
+  },
+  {
+    "numero": 2,
+    "date": "2026-11-25",
+    "slug": "002-trou-terre",
+    "question": "Et si tu creusais un trou à travers la Terre et que tu sautais dedans ?",
+    "theme": "physique / Terre",
+    "duree_s": 98.6,
+    "publie": false,
+    "heure": "",
+    "voix": "secours",
+    "voix_id": "piper fr_FR-tom-medium (Hugo 3Tp5mYhT9wrfnry9pzvV généré mais non téléchargeable : elevenlabsusercontent.com bloqué)",
+    "credits_elevenlabs": 1638,
+    "fichier": "etsi-002-trou-terre.mp4"
   }
 ]

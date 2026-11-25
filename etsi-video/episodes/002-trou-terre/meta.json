@@ -3,7 +3,14 @@
   "domaine": "physique",
   "style": "classic",
   "legende": "Et si tu creusais un tunnel à travers toute la Terre et que tu sautais dedans ? Fer liquide, 8 km/s, apesanteur au centre… et 38 minutes pour arriver de l'autre côté. Tu sauterais, toi ?",
-  "hashtags": ["#etsi", "#lesaviezvous", "#apprendresurtiktok", "#science", "#physique", "#terre"],
+  "hashtags": [
+    "#etsi",
+    "#lesaviezvous",
+    "#apprendresurtiktok",
+    "#science",
+    "#physique",
+    "#terre"
+  ],
   "sources": [
     "https://www.livescience.com/50312-how-long-to-fall-through-earth.html",
     "https://phys.org/news/2015-03-fall-hole-earth.amp",
@@ -18,5 +25,5 @@
     "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html?level=1",
     "https://www.space.com/17638-how-big-is-earth.html"
   ],
-  "voix": "Voix de secours Piper fr_FR-tom-medium (Hugo 3Tp5mYhT9wrfnry9pzvV généré sur ElevenLabs eleven_v4 mais non téléchargeable : elevenlabsusercontent.com bloqué)"
+  "voix": "Hugo (3Tp5mYhT9wrfnry9pzvV), ElevenLabs eleven_v4"
 }

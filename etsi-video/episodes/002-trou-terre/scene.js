@@ -415,13 +415,13 @@ export async function build(E) {
 
   // ======================= temps (calés sur la voix) =======================
   const T = {
-    trou: at('trou'), travers: at('travers'), et1: at('et', 2.5), sautais: at('sautais'), le2: at('Le', 4), c6400: at('6400'), et3: at('Et', 8), n12: at('12'), russie: at('Russie'), labas: at('Là-bas'), n180: at('180'),
-    alors: at('Alors'), tunnel: at('tunnel'), vide: at('vidé'), sautes: at('sautes'), tu5: at('Tu', 21.5), vite: at('vite'), tu6: at('Tu', 23.5), croute: at('croûte'), manteau: at('manteau'),
-    a2900: at('À', 26.5), n2900: at('2900'), noyau: at('noyau'), liquides: at('liquides'), puis8: at('Puis', 32), coeur: at('cœur'), n5000: at('5000'), apeu: at('À', 37.5), soleil: at('Soleil', 39),
-    au: at('Au', 40.5), n8: at('8'), plus10: at('Plus', 44), n28: at('28'), etla: at('Et', 46.5), rien: at('rien'), la11: at('La', 50), cotes: at('côtés'), flottes: at('flottes'),
-    puis12: at('Puis', 54), freine: at('freine'), et13: at('et', 56.5), ressors: at('ressors'), planete: at('planète', 58), combien: at('Combien'), n42: at('42'), mais: at('Mais', 65), n38: at('38'),
-    le15: at('Le', 69.4), serie: at('série'), et16: at('Et', 71.7), rebond: at('rebondissement'), retombes: at('retombes'), tu17: at('Tu', 76), encore: at('encore'), pendule: at('pendule'),
-    alors18: at('Alors', 81), sol: at('sol'), sous: at('sous', 84.9), ocean: at('océan'), et19: at('et', 88.3), n38b: at('38', 89.5), et20: at('Et', 91.7), dis: at('Dis-le'), abonne: at('abonne-toi'),
+    trou: at('trou'), travers: at('travers'), et1: at('et', 2.54), sautais: at('sautais'), le2: at('Le', 3.85), c6400: at('6400'), et3: at('Et', 7.37), n12: at('12'), russie: at('Russie'), labas: at('Là-bas'), n180: at('180'),
+    alors: at('Alors'), tunnel: at('tunnel'), vide: at('vidé'), sautes: at('sautes'), tu5: at('Tu', 19.02), vite: at('vite'), tu6: at('Tu', 20.73), croute: at('croûte'), manteau: at('manteau'),
+    a2900: at('À', 22.75), n2900: at('2900'), noyau: at('noyau'), liquides: at('liquides'), puis8: at('Puis', 27.51), coeur: at('cœur'), n5000: at('5000'), apeu: at('À', 32.34), soleil: at('Soleil', 34.26),
+    au: at('Au', 34.69), n8: at('8'), plus10: at('Plus', 37.63), n28: at('28'), etla: at('Et', 39.4), rien: at('rien'), la11: at('La', 42.52), cotes: at('côtés'), flottes: at('flottes'),
+    puis12: at('Puis', 45.49), freine: at('freine'), et13: at('et', 47.74), ressors: at('ressors'), planete: at('planète', 49.79), combien: at('Combien'), n42: at('42'), mais: at('Mais', 55.0), n38: at('38'),
+    le15: at('Le', 58.58), serie: at('série'), et16: at('Et', 60.19), rebond: at('rebondissement'), retombes: at('retombes'), tu17: at('Tu', 63.51), encore: at('encore'), pendule: at('pendule'),
+    alors18: at('Alors', 67.54), sol: at('sol'), sous: at('sous', 70.41), ocean: at('océan'), et19: at('et', 73.1), n38b: at('38', 74.71), et20: at('Et', 76.29), dis: at('Dis-le'), abonne: at('abonne-toi'),
   };
 
   const shots = [

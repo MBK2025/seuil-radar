@@ -26,5 +26,19 @@
     "voix_id": "3Tp5mYhT9wrfnry9pzvV",
     "credits_elevenlabs": 1638,
     "fichier": "etsi-002-trou-terre.mp4"
+  },
+  {
+    "numero": 3,
+    "date": "2026-11-26",
+    "slug": "003-glace-fond",
+    "question": "Et si toute la glace de la Terre fondait ?",
+    "theme": "Terre et climat",
+    "duree_s": 79.1,
+    "publie": true,
+    "heure": "18:47",
+    "voix": "Hugo",
+    "voix_id": "3Tp5mYhT9wrfnry9pzvV",
+    "credits_elevenlabs": 1674,
+    "fichier": "etsi-003-glace-fond.mp4"
   }
 ]

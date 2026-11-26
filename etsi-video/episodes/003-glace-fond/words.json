@@ -1,0 +1,2141 @@
+{
+ "duration": 77.714286,
+ "words": [
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 0.0,
+   "e": 0.185,
+   "seg": 0
+  },
+  {
+   "w": "si",
+   "style": null,
+   "syl": 1,
+   "s": 0.185,
+   "e": 0.37,
+   "seg": 0
+  },
+  {
+   "w": "toute",
+   "style": null,
+   "syl": 1,
+   "s": 0.571,
+   "e": 0.787,
+   "seg": 1
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 0.787,
+   "e": 1.003,
+   "seg": 1
+  },
+  {
+   "w": "glace",
+   "style": null,
+   "syl": 1,
+   "s": 1.003,
+   "e": 1.219,
+   "seg": 1
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 1.219,
+   "e": 1.435,
+   "seg": 1
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 1.435,
+   "e": 1.65,
+   "seg": 1
+  },
+  {
+   "w": "Terre",
+   "style": null,
+   "syl": 1,
+   "s": 1.65,
+   "e": 1.866,
+   "seg": 1
+  },
+  {
+   "w": "fondait ?",
+   "style": "italic",
+   "syl": 2,
+   "s": 1.866,
+   "e": 2.298,
+   "seg": 1
+  },
+  {
+   "w": "Aujourd'hui,",
+   "style": null,
+   "syl": 3,
+   "s": 2.777,
+   "e": 3.33,
+   "seg": 2
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 3.33,
+   "e": 3.514,
+   "seg": 2
+  },
+  {
+   "w": "glace",
+   "style": null,
+   "syl": 1,
+   "s": 3.514,
+   "e": 3.698,
+   "seg": 2
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 3.698,
+   "e": 3.883,
+   "seg": 2
+  },
+  {
+   "w": "pôles",
+   "style": null,
+   "syl": 1,
+   "s": 3.883,
+   "e": 4.067,
+   "seg": 2
+  },
+  {
+   "w": "retient",
+   "style": null,
+   "syl": 2,
+   "s": 4.067,
+   "e": 4.436,
+   "seg": 2
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 4.436,
+   "e": 4.62,
+   "seg": 2
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 4.62,
+   "e": 4.805,
+   "seg": 2
+  },
+  {
+   "w": "deux",
+   "style": null,
+   "syl": 1,
+   "s": 4.805,
+   "e": 4.989,
+   "seg": 2
+  },
+  {
+   "w": "tiers",
+   "style": null,
+   "syl": 1,
+   "s": 4.989,
+   "e": 5.173,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 5.173,
+   "e": 5.358,
+   "seg": 2
+  },
+  {
+   "w": "l'eau",
+   "style": null,
+   "syl": 1,
+   "s": 5.358,
+   "e": 5.542,
+   "seg": 2
+  },
+  {
+   "w": "douce",
+   "style": null,
+   "syl": 1,
+   "s": 5.542,
+   "e": 5.727,
+   "seg": 2
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 5.727,
+   "e": 5.911,
+   "seg": 2
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 5.911,
+   "e": 6.095,
+   "seg": 2
+  },
+  {
+   "w": "planète.",
+   "style": null,
+   "syl": 3,
+   "s": 6.095,
+   "e": 6.648,
+   "seg": 2
+  },
+  {
+   "w": "Le",
+   "style": null,
+   "syl": 1,
+   "s": 7.046,
+   "e": 7.266,
+   "seg": 3
+  },
+  {
+   "w": "géant,",
+   "style": null,
+   "syl": 1,
+   "s": 7.266,
+   "e": 7.485,
+   "seg": 3
+  },
+  {
+   "w": "c'est",
+   "style": null,
+   "syl": 1,
+   "s": 7.485,
+   "e": 7.705,
+   "seg": 3
+  },
+  {
+   "w": "l'Antarctique.",
+   "style": "italic",
+   "syl": 4,
+   "s": 7.705,
+   "e": 8.583,
+   "seg": 3
+  },
+  {
+   "w": "Une",
+   "style": null,
+   "syl": 1,
+   "s": 8.872,
+   "e": 9.045,
+   "seg": 4
+  },
+  {
+   "w": "couche",
+   "style": null,
+   "syl": 1,
+   "s": 9.045,
+   "e": 9.218,
+   "seg": 4
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 9.218,
+   "e": 9.391,
+   "seg": 4
+  },
+  {
+   "w": "glace",
+   "style": null,
+   "syl": 1,
+   "s": 9.391,
+   "e": 9.563,
+   "seg": 4
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 9.563,
+   "e": 9.736,
+   "seg": 4
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 9.736,
+   "e": 9.909,
+   "seg": 4
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 9.909,
+   "e": 10.082,
+   "seg": 4
+  },
+  {
+   "w": "2",
+   "style": null,
+   "syl": 1,
+   "s": 10.082,
+   "e": 10.255,
+   "seg": 4
+  },
+  {
+   "w": "kilomètres",
+   "style": null,
+   "syl": 3,
+   "s": 10.255,
+   "e": 10.774,
+   "seg": 4
+  },
+  {
+   "w": "d'épaisseur",
+   "style": null,
+   "syl": 3,
+   "s": 10.774,
+   "e": 11.292,
+   "seg": 4
+  },
+  {
+   "w": "en",
+   "style": null,
+   "syl": 1,
+   "s": 11.292,
+   "e": 11.465,
+   "seg": 4
+  },
+  {
+   "w": "moyenne.",
+   "style": null,
+   "syl": 2,
+   "s": 11.465,
+   "e": 11.811,
+   "seg": 4
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 12.101,
+   "e": 12.288,
+   "seg": 5
+  },
+  {
+   "w": "par",
+   "style": null,
+   "syl": 1,
+   "s": 12.288,
+   "e": 12.475,
+   "seg": 5
+  },
+  {
+   "w": "endroits,",
+   "style": null,
+   "syl": 2,
+   "s": 12.475,
+   "e": 12.848,
+   "seg": 5
+  },
+  {
+   "w": "près",
+   "style": null,
+   "syl": 1,
+   "s": 12.848,
+   "e": 13.035,
+   "seg": 5
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 13.035,
+   "e": 13.222,
+   "seg": 5
+  },
+  {
+   "w": "5",
+   "style": "bold",
+   "syl": 1,
+   "s": 13.222,
+   "e": 13.409,
+   "seg": 5
+  },
+  {
+   "w": "kilomètres.",
+   "style": null,
+   "syl": 4,
+   "s": 13.409,
+   "e": 14.156,
+   "seg": 5
+  },
+  {
+   "w": "À",
+   "style": null,
+   "syl": 1,
+   "s": 14.423,
+   "e": 14.547,
+   "seg": 6
+  },
+  {
+   "w": "peu",
+   "style": null,
+   "syl": 1,
+   "s": 14.547,
+   "e": 14.671,
+   "seg": 6
+  },
+  {
+   "w": "près",
+   "style": null,
+   "syl": 1,
+   "s": 14.671,
+   "e": 14.796,
+   "seg": 6
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 14.796,
+   "e": 14.92,
+   "seg": 6
+  },
+  {
+   "w": "hauteur",
+   "style": null,
+   "syl": 2,
+   "s": 14.92,
+   "e": 15.169,
+   "seg": 6
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 15.169,
+   "e": 15.293,
+   "seg": 6
+  },
+  {
+   "w": "mont",
+   "style": null,
+   "syl": 1,
+   "s": 15.293,
+   "e": 15.417,
+   "seg": 6
+  },
+  {
+   "w": "Blanc.",
+   "style": "italic",
+   "syl": 1,
+   "s": 15.417,
+   "e": 15.542,
+   "seg": 6
+  },
+  {
+   "w": "Alors",
+   "style": null,
+   "syl": 2,
+   "s": 15.975,
+   "e": 16.248,
+   "seg": 7
+  },
+  {
+   "w": "imagine.",
+   "style": null,
+   "syl": 4,
+   "s": 16.248,
+   "e": 16.794,
+   "seg": 7
+  },
+  {
+   "w": "Tout",
+   "style": null,
+   "syl": 1,
+   "s": 17.206,
+   "e": 17.395,
+   "seg": 8
+  },
+  {
+   "w": "fond.",
+   "style": null,
+   "syl": 1,
+   "s": 17.395,
+   "e": 17.584,
+   "seg": 8
+  },
+  {
+   "w": "Les",
+   "style": null,
+   "syl": 1,
+   "s": 18.05,
+   "e": 18.201,
+   "seg": 9
+  },
+  {
+   "w": "glaciers",
+   "style": null,
+   "syl": 2,
+   "s": 18.201,
+   "e": 18.504,
+   "seg": 9
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 18.504,
+   "e": 18.655,
+   "seg": 9
+  },
+  {
+   "w": "montagnes,",
+   "style": "italic",
+   "syl": 3,
+   "s": 18.655,
+   "e": 19.11,
+   "seg": 9
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 19.32,
+   "e": 19.556,
+   "seg": 10
+  },
+  {
+   "w": "Groenland,",
+   "style": null,
+   "syl": 2,
+   "s": 19.556,
+   "e": 20.029,
+   "seg": 10
+  },
+  {
+   "w": "puis",
+   "style": null,
+   "syl": 1,
+   "s": 20.262,
+   "e": 20.408,
+   "seg": 11
+  },
+  {
+   "w": "l'Antarctique.",
+   "style": null,
+   "syl": 4,
+   "s": 20.408,
+   "e": 20.993,
+   "seg": 11
+  },
+  {
+   "w": "Toute",
+   "style": null,
+   "syl": 1,
+   "s": 21.287,
+   "e": 21.513,
+   "seg": 12
+  },
+  {
+   "w": "cette",
+   "style": null,
+   "syl": 1,
+   "s": 21.513,
+   "e": 21.74,
+   "seg": 12
+  },
+  {
+   "w": "eau",
+   "style": null,
+   "syl": 1,
+   "s": 21.74,
+   "e": 21.966,
+   "seg": 12
+  },
+  {
+   "w": "file",
+   "style": null,
+   "syl": 1,
+   "s": 21.966,
+   "e": 22.193,
+   "seg": 12
+  },
+  {
+   "w": "vers",
+   "style": null,
+   "syl": 1,
+   "s": 22.193,
+   "e": 22.419,
+   "seg": 12
+  },
+  {
+   "w": "l'océan.",
+   "style": null,
+   "syl": 2,
+   "s": 22.419,
+   "e": 22.872,
+   "seg": 12
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 23.173,
+   "e": 23.336,
+   "seg": 13
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 23.336,
+   "e": 23.499,
+   "seg": 13
+  },
+  {
+   "w": "niveau",
+   "style": null,
+   "syl": 2,
+   "s": 23.499,
+   "e": 23.825,
+   "seg": 13
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 23.825,
+   "e": 23.987,
+   "seg": 13
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 23.987,
+   "e": 24.15,
+   "seg": 13
+  },
+  {
+   "w": "mer",
+   "style": null,
+   "syl": 1,
+   "s": 24.15,
+   "e": 24.313,
+   "seg": 13
+  },
+  {
+   "w": "monte",
+   "style": null,
+   "syl": 1,
+   "s": 24.313,
+   "e": 24.476,
+   "seg": 13
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 24.476,
+   "e": 24.639,
+   "seg": 13
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 24.639,
+   "e": 24.802,
+   "seg": 13
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 24.802,
+   "e": 24.965,
+   "seg": 13
+  },
+  {
+   "w": "65",
+   "style": "bold",
+   "syl": 4,
+   "s": 24.965,
+   "e": 25.616,
+   "seg": 13
+  },
+  {
+   "w": "mètres.",
+   "style": null,
+   "syl": 2,
+   "s": 25.616,
+   "e": 25.942,
+   "seg": 13
+  },
+  {
+   "w": "La",
+   "style": null,
+   "syl": 1,
+   "s": 26.137,
+   "e": 26.305,
+   "seg": 14
+  },
+  {
+   "w": "hauteur",
+   "style": null,
+   "syl": 2,
+   "s": 26.305,
+   "e": 26.642,
+   "seg": 14
+  },
+  {
+   "w": "d'un",
+   "style": null,
+   "syl": 1,
+   "s": 26.642,
+   "e": 26.811,
+   "seg": 14
+  },
+  {
+   "w": "immeuble",
+   "style": null,
+   "syl": 2,
+   "s": 26.811,
+   "e": 27.147,
+   "seg": 14
+  },
+  {
+   "w": "d'une",
+   "style": null,
+   "syl": 1,
+   "s": 27.147,
+   "e": 27.316,
+   "seg": 14
+  },
+  {
+   "w": "vingtaine",
+   "style": null,
+   "syl": 2,
+   "s": 27.316,
+   "e": 27.652,
+   "seg": 14
+  },
+  {
+   "w": "d'étages.",
+   "style": "italic",
+   "syl": 3,
+   "s": 27.652,
+   "e": 28.158,
+   "seg": 14
+  },
+  {
+   "w": "Les",
+   "style": null,
+   "syl": 1,
+   "s": 28.503,
+   "e": 28.717,
+   "seg": 15
+  },
+  {
+   "w": "plages,",
+   "style": null,
+   "syl": 2,
+   "s": 28.717,
+   "e": 29.144,
+   "seg": 15
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 29.144,
+   "e": 29.358,
+   "seg": 15
+  },
+  {
+   "w": "ports,",
+   "style": null,
+   "syl": 1,
+   "s": 29.358,
+   "e": 29.571,
+   "seg": 15
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 29.571,
+   "e": 29.785,
+   "seg": 15
+  },
+  {
+   "w": "villes",
+   "style": null,
+   "syl": 1,
+   "s": 29.785,
+   "e": 29.999,
+   "seg": 15
+  },
+  {
+   "w": "côtières",
+   "style": null,
+   "syl": 2,
+   "s": 29.999,
+   "e": 30.426,
+   "seg": 15
+  },
+  {
+   "w": "entières",
+   "style": null,
+   "syl": 2,
+   "s": 30.426,
+   "e": 30.853,
+   "seg": 15
+  },
+  {
+   "w": "finissent",
+   "style": null,
+   "syl": 3,
+   "s": 30.853,
+   "e": 31.494,
+   "seg": 15
+  },
+  {
+   "w": "sous",
+   "style": null,
+   "syl": 1,
+   "s": 31.494,
+   "e": 31.708,
+   "seg": 15
+  },
+  {
+   "w": "l'eau.",
+   "style": "italic",
+   "syl": 1,
+   "s": 31.708,
+   "e": 31.921,
+   "seg": 15
+  },
+  {
+   "w": "Vue",
+   "style": null,
+   "syl": 1,
+   "s": 32.232,
+   "e": 32.421,
+   "seg": 16
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 32.421,
+   "e": 32.61,
+   "seg": 16
+  },
+  {
+   "w": "l'espace,",
+   "style": null,
+   "syl": 3,
+   "s": 32.61,
+   "e": 33.176,
+   "seg": 16
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 33.176,
+   "e": 33.365,
+   "seg": 16
+  },
+  {
+   "w": "carte",
+   "style": null,
+   "syl": 1,
+   "s": 33.365,
+   "e": 33.554,
+   "seg": 16
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 33.554,
+   "e": 33.743,
+   "seg": 16
+  },
+  {
+   "w": "monde",
+   "style": null,
+   "syl": 1,
+   "s": 33.743,
+   "e": 33.932,
+   "seg": 16
+  },
+  {
+   "w": "change :",
+   "style": null,
+   "syl": 2,
+   "s": 33.932,
+   "e": 34.309,
+   "seg": 16
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 34.588,
+   "e": 34.755,
+   "seg": 17
+  },
+  {
+   "w": "continents",
+   "style": null,
+   "syl": 3,
+   "s": 34.755,
+   "e": 35.255,
+   "seg": 17
+  },
+  {
+   "w": "rétrécissent.",
+   "style": "italic",
+   "syl": 4,
+   "s": 35.255,
+   "e": 35.922,
+   "seg": 17
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 36.28,
+   "e": 36.449,
+   "seg": 18
+  },
+  {
+   "w": "là,",
+   "style": null,
+   "syl": 1,
+   "s": 36.449,
+   "e": 36.617,
+   "seg": 18
+  },
+  {
+   "w": "surprise.",
+   "style": null,
+   "syl": 3,
+   "s": 36.844,
+   "e": 37.483,
+   "seg": 19
+  },
+  {
+   "w": "Sous",
+   "style": null,
+   "syl": 1,
+   "s": 37.715,
+   "e": 37.879,
+   "seg": 20
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 37.879,
+   "e": 38.044,
+   "seg": 20
+  },
+  {
+   "w": "glace",
+   "style": null,
+   "syl": 1,
+   "s": 38.044,
+   "e": 38.208,
+   "seg": 20
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 38.208,
+   "e": 38.372,
+   "seg": 20
+  },
+  {
+   "w": "l'Antarctique,",
+   "style": null,
+   "syl": 4,
+   "s": 38.372,
+   "e": 39.03,
+   "seg": 20
+  },
+  {
+   "w": "il",
+   "style": null,
+   "syl": 1,
+   "s": 39.03,
+   "e": 39.194,
+   "seg": 20
+  },
+  {
+   "w": "y",
+   "style": null,
+   "syl": 1,
+   "s": 39.194,
+   "e": 39.359,
+   "seg": 20
+  },
+  {
+   "w": "a",
+   "style": null,
+   "syl": 1,
+   "s": 39.359,
+   "e": 39.523,
+   "seg": 20
+  },
+  {
+   "w": "une",
+   "style": null,
+   "syl": 1,
+   "s": 39.523,
+   "e": 39.688,
+   "seg": 20
+  },
+  {
+   "w": "chaîne",
+   "style": null,
+   "syl": 1,
+   "s": 39.688,
+   "e": 39.852,
+   "seg": 20
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 39.852,
+   "e": 40.016,
+   "seg": 20
+  },
+  {
+   "w": "montagnes",
+   "style": null,
+   "syl": 2,
+   "s": 40.016,
+   "e": 40.345,
+   "seg": 20
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 40.345,
+   "e": 40.51,
+   "seg": 20
+  },
+  {
+   "w": "peu",
+   "style": null,
+   "syl": 1,
+   "s": 40.51,
+   "e": 40.674,
+   "seg": 20
+  },
+  {
+   "w": "près",
+   "style": null,
+   "syl": 1,
+   "s": 40.674,
+   "e": 40.838,
+   "seg": 20
+  },
+  {
+   "w": "aussi",
+   "style": null,
+   "syl": 2,
+   "s": 40.838,
+   "e": 41.167,
+   "seg": 20
+  },
+  {
+   "w": "grande",
+   "style": null,
+   "syl": 1,
+   "s": 41.167,
+   "e": 41.332,
+   "seg": 20
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 41.332,
+   "e": 41.496,
+   "seg": 20
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 41.496,
+   "e": 41.66,
+   "seg": 20
+  },
+  {
+   "w": "Alpes.",
+   "style": "italic",
+   "syl": 2,
+   "s": 41.66,
+   "e": 41.989,
+   "seg": 20
+  },
+  {
+   "w": "Elle",
+   "style": null,
+   "syl": 1,
+   "s": 42.233,
+   "e": 42.399,
+   "seg": 21
+  },
+  {
+   "w": "est",
+   "style": null,
+   "syl": 1,
+   "s": 42.399,
+   "e": 42.565,
+   "seg": 21
+  },
+  {
+   "w": "enfouie",
+   "style": null,
+   "syl": 2,
+   "s": 42.565,
+   "e": 42.897,
+   "seg": 21
+  },
+  {
+   "w": "depuis",
+   "style": null,
+   "syl": 2,
+   "s": 42.897,
+   "e": 43.228,
+   "seg": 21
+  },
+  {
+   "w": "des",
+   "style": null,
+   "syl": 1,
+   "s": 43.228,
+   "e": 43.394,
+   "seg": 21
+  },
+  {
+   "w": "millions",
+   "style": null,
+   "syl": 2,
+   "s": 43.394,
+   "e": 43.726,
+   "seg": 21
+  },
+  {
+   "w": "d'années.",
+   "style": null,
+   "syl": 2,
+   "s": 43.726,
+   "e": 44.058,
+   "seg": 21
+  },
+  {
+   "w": "Personne",
+   "style": null,
+   "syl": 2,
+   "s": 44.312,
+   "e": 44.617,
+   "seg": 22
+  },
+  {
+   "w": "ne",
+   "style": null,
+   "syl": 1,
+   "s": 44.617,
+   "e": 44.769,
+   "seg": 22
+  },
+  {
+   "w": "l'a",
+   "style": null,
+   "syl": 1,
+   "s": 44.769,
+   "e": 44.921,
+   "seg": 22
+  },
+  {
+   "w": "jamais",
+   "style": null,
+   "syl": 2,
+   "s": 44.921,
+   "e": 45.226,
+   "seg": 22
+  },
+  {
+   "w": "vue",
+   "style": null,
+   "syl": 1,
+   "s": 45.226,
+   "e": 45.378,
+   "seg": 22
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 45.378,
+   "e": 45.531,
+   "seg": 22
+  },
+  {
+   "w": "l'œil",
+   "style": null,
+   "syl": 1,
+   "s": 45.531,
+   "e": 45.683,
+   "seg": 22
+  },
+  {
+   "w": "nu :",
+   "style": null,
+   "syl": 1,
+   "s": 45.683,
+   "e": 45.835,
+   "seg": 22
+  },
+  {
+   "w": "on",
+   "style": null,
+   "syl": 1,
+   "s": 46.038,
+   "e": 46.184,
+   "seg": 23
+  },
+  {
+   "w": "ne",
+   "style": null,
+   "syl": 1,
+   "s": 46.184,
+   "e": 46.331,
+   "seg": 23
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 46.331,
+   "e": 46.477,
+   "seg": 23
+  },
+  {
+   "w": "connaît",
+   "style": null,
+   "syl": 2,
+   "s": 46.477,
+   "e": 46.77,
+   "seg": 23
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 46.77,
+   "e": 46.916,
+   "seg": 23
+  },
+  {
+   "w": "grâce",
+   "style": null,
+   "syl": 1,
+   "s": 46.916,
+   "e": 47.063,
+   "seg": 23
+  },
+  {
+   "w": "aux",
+   "style": null,
+   "syl": 1,
+   "s": 47.063,
+   "e": 47.209,
+   "seg": 23
+  },
+  {
+   "w": "radars.",
+   "style": "italic",
+   "syl": 2,
+   "s": 47.209,
+   "e": 47.502,
+   "seg": 23
+  },
+  {
+   "w": "Mais",
+   "style": null,
+   "syl": 1,
+   "s": 47.801,
+   "e": 47.956,
+   "seg": 24
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 47.956,
+   "e": 48.111,
+   "seg": 24
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 48.111,
+   "e": 48.266,
+   "seg": 24
+  },
+  {
+   "w": "fou ?",
+   "style": null,
+   "syl": 1,
+   "s": 48.266,
+   "e": 48.421,
+   "seg": 24
+  },
+  {
+   "w": "Toute",
+   "style": null,
+   "syl": 1,
+   "s": 48.646,
+   "e": 48.854,
+   "seg": 25
+  },
+  {
+   "w": "cette",
+   "style": null,
+   "syl": 1,
+   "s": 48.854,
+   "e": 49.063,
+   "seg": 25
+  },
+  {
+   "w": "eau",
+   "style": null,
+   "syl": 1,
+   "s": 49.063,
+   "e": 49.271,
+   "seg": 25
+  },
+  {
+   "w": "quitte",
+   "style": null,
+   "syl": 1,
+   "s": 49.271,
+   "e": 49.48,
+   "seg": 25
+  },
+  {
+   "w": "les",
+   "style": null,
+   "syl": 1,
+   "s": 49.48,
+   "e": 49.688,
+   "seg": 25
+  },
+  {
+   "w": "pôles",
+   "style": null,
+   "syl": 1,
+   "s": 49.688,
+   "e": 49.896,
+   "seg": 25
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 49.896,
+   "e": 50.105,
+   "seg": 25
+  },
+  {
+   "w": "s'étale",
+   "style": null,
+   "syl": 2,
+   "s": 50.105,
+   "e": 50.522,
+   "seg": 25
+  },
+  {
+   "w": "vers",
+   "style": null,
+   "syl": 1,
+   "s": 50.522,
+   "e": 50.73,
+   "seg": 25
+  },
+  {
+   "w": "l'équateur.",
+   "style": null,
+   "syl": 3,
+   "s": 50.73,
+   "e": 51.355,
+   "seg": 25
+  },
+  {
+   "w": "Alors",
+   "style": null,
+   "syl": 2,
+   "s": 51.592,
+   "e": 51.895,
+   "seg": 26
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 51.895,
+   "e": 52.047,
+   "seg": 26
+  },
+  {
+   "w": "Terre",
+   "style": null,
+   "syl": 1,
+   "s": 52.047,
+   "e": 52.199,
+   "seg": 26
+  },
+  {
+   "w": "tourne",
+   "style": null,
+   "syl": 1,
+   "s": 52.199,
+   "e": 52.351,
+   "seg": 26
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 52.351,
+   "e": 52.502,
+   "seg": 26
+  },
+  {
+   "w": "tout",
+   "style": null,
+   "syl": 1,
+   "s": 52.502,
+   "e": 52.654,
+   "seg": 26
+  },
+  {
+   "w": "petit",
+   "style": null,
+   "syl": 2,
+   "s": 52.654,
+   "e": 52.958,
+   "seg": 26
+  },
+  {
+   "w": "peu",
+   "style": null,
+   "syl": 1,
+   "s": 52.958,
+   "e": 53.11,
+   "seg": 26
+  },
+  {
+   "w": "moins",
+   "style": null,
+   "syl": 1,
+   "s": 53.11,
+   "e": 53.262,
+   "seg": 26
+  },
+  {
+   "w": "vite.",
+   "style": "italic",
+   "syl": 2,
+   "s": 53.262,
+   "e": 53.565,
+   "seg": 26
+  },
+  {
+   "w": "Les",
+   "style": null,
+   "syl": 1,
+   "s": 53.803,
+   "e": 53.964,
+   "seg": 27
+  },
+  {
+   "w": "journées",
+   "style": null,
+   "syl": 2,
+   "s": 53.964,
+   "e": 54.285,
+   "seg": 27
+  },
+  {
+   "w": "s'allongent.",
+   "style": null,
+   "syl": 3,
+   "s": 54.285,
+   "e": 54.767,
+   "seg": 27
+  },
+  {
+   "w": "D'ailleurs,",
+   "style": null,
+   "syl": 2,
+   "s": 55.013,
+   "e": 55.321,
+   "seg": 28
+  },
+  {
+   "w": "ça",
+   "style": null,
+   "syl": 1,
+   "s": 55.321,
+   "e": 55.474,
+   "seg": 28
+  },
+  {
+   "w": "a",
+   "style": null,
+   "syl": 1,
+   "s": 55.474,
+   "e": 55.628,
+   "seg": 28
+  },
+  {
+   "w": "déjà",
+   "style": null,
+   "syl": 2,
+   "s": 55.628,
+   "e": 55.936,
+   "seg": 28
+  },
+  {
+   "w": "commencé.",
+   "style": null,
+   "syl": 3,
+   "s": 55.936,
+   "e": 56.398,
+   "seg": 28
+  },
+  {
+   "w": "Avec",
+   "style": null,
+   "syl": 2,
+   "s": 56.617,
+   "e": 56.95,
+   "seg": 29
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 56.95,
+   "e": 57.116,
+   "seg": 29
+  },
+  {
+   "w": "fonte",
+   "style": null,
+   "syl": 1,
+   "s": 57.116,
+   "e": 57.282,
+   "seg": 29
+  },
+  {
+   "w": "actuelle,",
+   "style": null,
+   "syl": 3,
+   "s": 57.282,
+   "e": 57.781,
+   "seg": 29
+  },
+  {
+   "w": "nos",
+   "style": null,
+   "syl": 1,
+   "s": 57.781,
+   "e": 57.948,
+   "seg": 29
+  },
+  {
+   "w": "journées",
+   "style": null,
+   "syl": 2,
+   "s": 57.948,
+   "e": 58.28,
+   "seg": 29
+  },
+  {
+   "w": "gagnent",
+   "style": null,
+   "syl": 2,
+   "s": 58.28,
+   "e": 58.613,
+   "seg": 29
+  },
+  {
+   "w": "déjà",
+   "style": null,
+   "syl": 2,
+   "s": 58.613,
+   "e": 58.946,
+   "seg": 29
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 58.946,
+   "e": 59.112,
+   "seg": 29
+  },
+  {
+   "w": "d'une",
+   "style": null,
+   "syl": 1,
+   "s": 59.112,
+   "e": 59.279,
+   "seg": 29
+  },
+  {
+   "w": "milliseconde",
+   "style": "italic",
+   "syl": 4,
+   "s": 59.279,
+   "e": 59.944,
+   "seg": 29
+  },
+  {
+   "w": "par",
+   "style": null,
+   "syl": 1,
+   "s": 59.944,
+   "e": 60.11,
+   "seg": 29
+  },
+  {
+   "w": "siècle.",
+   "style": null,
+   "syl": 2,
+   "s": 60.11,
+   "e": 60.443,
+   "seg": 29
+  },
+  {
+   "w": "Rassure-toi :",
+   "style": null,
+   "syl": 4,
+   "s": 60.742,
+   "e": 61.306,
+   "seg": 30
+  },
+  {
+   "w": "selon",
+   "style": null,
+   "syl": 2,
+   "s": 61.494,
+   "e": 61.854,
+   "seg": 31
+  },
+  {
+   "w": "certains",
+   "style": null,
+   "syl": 2,
+   "s": 61.854,
+   "e": 62.214,
+   "seg": 31
+  },
+  {
+   "w": "scientifiques,",
+   "style": null,
+   "syl": 4,
+   "s": 62.214,
+   "e": 62.934,
+   "seg": 31
+  },
+  {
+   "w": "tout",
+   "style": null,
+   "syl": 1,
+   "s": 62.934,
+   "e": 63.114,
+   "seg": 31
+  },
+  {
+   "w": "faire",
+   "style": null,
+   "syl": 1,
+   "s": 63.114,
+   "e": 63.294,
+   "seg": 31
+  },
+  {
+   "w": "fondre",
+   "style": null,
+   "syl": 1,
+   "s": 63.294,
+   "e": 63.474,
+   "seg": 31
+  },
+  {
+   "w": "prendrait",
+   "style": null,
+   "syl": 2,
+   "s": 63.474,
+   "e": 63.834,
+   "seg": 31
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 63.834,
+   "e": 64.014,
+   "seg": 31
+  },
+  {
+   "w": "de",
+   "style": null,
+   "syl": 1,
+   "s": 64.014,
+   "e": 64.194,
+   "seg": 31
+  },
+  {
+   "w": "5000",
+   "style": null,
+   "syl": 3,
+   "s": 64.194,
+   "e": 64.734,
+   "seg": 31
+  },
+  {
+   "w": "ans.",
+   "style": "italic",
+   "syl": 1,
+   "s": 64.734,
+   "e": 64.914,
+   "seg": 31
+  },
+  {
+   "w": "Alors",
+   "style": null,
+   "syl": 2,
+   "s": 65.189,
+   "e": 65.452,
+   "seg": 32
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 65.452,
+   "e": 65.583,
+   "seg": 32
+  },
+  {
+   "w": "prochaine",
+   "style": null,
+   "syl": 2,
+   "s": 65.583,
+   "e": 65.846,
+   "seg": 32
+  },
+  {
+   "w": "fois",
+   "style": null,
+   "syl": 1,
+   "s": 65.846,
+   "e": 65.977,
+   "seg": 32
+  },
+  {
+   "w": "que",
+   "style": null,
+   "syl": 1,
+   "s": 65.977,
+   "e": 66.108,
+   "seg": 32
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 66.108,
+   "e": 66.239,
+   "seg": 32
+  },
+  {
+   "w": "mets",
+   "style": null,
+   "syl": 1,
+   "s": 66.239,
+   "e": 66.371,
+   "seg": 32
+  },
+  {
+   "w": "un",
+   "style": null,
+   "syl": 1,
+   "s": 66.371,
+   "e": 66.502,
+   "seg": 32
+  },
+  {
+   "w": "glaçon",
+   "style": null,
+   "syl": 2,
+   "s": 66.502,
+   "e": 66.764,
+   "seg": 32
+  },
+  {
+   "w": "dans",
+   "style": null,
+   "syl": 1,
+   "s": 66.764,
+   "e": 66.896,
+   "seg": 32
+  },
+  {
+   "w": "ton",
+   "style": null,
+   "syl": 1,
+   "s": 66.896,
+   "e": 67.027,
+   "seg": 32
+  },
+  {
+   "w": "verre,",
+   "style": null,
+   "syl": 2,
+   "s": 67.027,
+   "e": 67.289,
+   "seg": 32
+  },
+  {
+   "w": "pense",
+   "style": null,
+   "syl": 1,
+   "s": 67.488,
+   "e": 67.633,
+   "seg": 33
+  },
+  {
+   "w": "à",
+   "style": null,
+   "syl": 1,
+   "s": 67.633,
+   "e": 67.777,
+   "seg": 33
+  },
+  {
+   "w": "l'Antarctique :",
+   "style": null,
+   "syl": 4,
+   "s": 67.777,
+   "e": 68.355,
+   "seg": 33
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 68.54,
+   "e": 68.741,
+   "seg": 34
+  },
+  {
+   "w": "plus",
+   "style": null,
+   "syl": 1,
+   "s": 68.741,
+   "e": 68.942,
+   "seg": 34
+  },
+  {
+   "w": "grand",
+   "style": null,
+   "syl": 1,
+   "s": 68.942,
+   "e": 69.143,
+   "seg": 34
+  },
+  {
+   "w": "glaçon",
+   "style": null,
+   "syl": 2,
+   "s": 69.143,
+   "e": 69.544,
+   "seg": 34
+  },
+  {
+   "w": "du",
+   "style": null,
+   "syl": 1,
+   "s": 69.544,
+   "e": 69.745,
+   "seg": 34
+  },
+  {
+   "w": "monde,",
+   "style": null,
+   "syl": 2,
+   "s": 69.745,
+   "e": 70.147,
+   "seg": 34
+  },
+  {
+   "w": "celui",
+   "style": null,
+   "syl": 2,
+   "s": 70.147,
+   "e": 70.548,
+   "seg": 34
+  },
+  {
+   "w": "qui",
+   "style": null,
+   "syl": 1,
+   "s": 70.548,
+   "e": 70.749,
+   "seg": 34
+  },
+  {
+   "w": "garde",
+   "style": null,
+   "syl": 1,
+   "s": 70.749,
+   "e": 70.95,
+   "seg": 34
+  },
+  {
+   "w": "nos",
+   "style": null,
+   "syl": 1,
+   "s": 70.95,
+   "e": 71.151,
+   "seg": 34
+  },
+  {
+   "w": "côtes",
+   "style": null,
+   "syl": 1,
+   "s": 71.151,
+   "e": 71.352,
+   "seg": 34
+  },
+  {
+   "w": "au",
+   "style": null,
+   "syl": 1,
+   "s": 71.352,
+   "e": 71.553,
+   "seg": 34
+  },
+  {
+   "w": "sec.",
+   "style": "italic",
+   "syl": 1,
+   "s": 71.553,
+   "e": 71.754,
+   "seg": 34
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 72.101,
+   "e": 72.292,
+   "seg": 35
+  },
+  {
+   "w": "toi,",
+   "style": null,
+   "syl": 1,
+   "s": 72.292,
+   "e": 72.483,
+   "seg": 35
+  },
+  {
+   "w": "tu",
+   "style": null,
+   "syl": 1,
+   "s": 72.483,
+   "e": 72.674,
+   "seg": 35
+  },
+  {
+   "w": "irais",
+   "style": null,
+   "syl": 2,
+   "s": 72.674,
+   "e": 73.057,
+   "seg": 35
+  },
+  {
+   "w": "vivre",
+   "style": null,
+   "syl": 1,
+   "s": 73.057,
+   "e": 73.248,
+   "seg": 35
+  },
+  {
+   "w": "où",
+   "style": null,
+   "syl": 1,
+   "s": 73.248,
+   "e": 73.439,
+   "seg": 35
+  },
+  {
+   "w": "si",
+   "style": null,
+   "syl": 1,
+   "s": 73.439,
+   "e": 73.63,
+   "seg": 35
+  },
+  {
+   "w": "toute",
+   "style": null,
+   "syl": 1,
+   "s": 73.63,
+   "e": 73.822,
+   "seg": 35
+  },
+  {
+   "w": "la",
+   "style": null,
+   "syl": 1,
+   "s": 73.822,
+   "e": 74.013,
+   "seg": 35
+  },
+  {
+   "w": "glace",
+   "style": null,
+   "syl": 1,
+   "s": 74.013,
+   "e": 74.204,
+   "seg": 35
+  },
+  {
+   "w": "fondait ?",
+   "style": null,
+   "syl": 2,
+   "s": 74.204,
+   "e": 74.586,
+   "seg": 35
+  },
+  {
+   "w": "Dis-le",
+   "style": null,
+   "syl": 1,
+   "s": 74.778,
+   "e": 74.951,
+   "seg": 36
+  },
+  {
+   "w": "en",
+   "style": null,
+   "syl": 1,
+   "s": 74.951,
+   "e": 75.123,
+   "seg": 36
+  },
+  {
+   "w": "commentaire,",
+   "style": null,
+   "syl": 4,
+   "s": 75.123,
+   "e": 75.814,
+   "seg": 36
+  },
+  {
+   "w": "et",
+   "style": null,
+   "syl": 1,
+   "s": 75.814,
+   "e": 75.987,
+   "seg": 36
+  },
+  {
+   "w": "abonne-toi",
+   "style": null,
+   "syl": 4,
+   "s": 75.987,
+   "e": 76.678,
+   "seg": 36
+  },
+  {
+   "w": "pour",
+   "style": null,
+   "syl": 1,
+   "s": 76.678,
+   "e": 76.851,
+   "seg": 36
+  },
+  {
+   "w": "le",
+   "style": null,
+   "syl": 1,
+   "s": 76.851,
+   "e": 77.023,
+   "seg": 36
+  },
+  {
+   "w": "prochain",
+   "style": null,
+   "syl": 2,
+   "s": 77.023,
+   "e": 77.369,
+   "seg": 36
+  },
+  {
+   "w": "Et",
+   "style": null,
+   "syl": 1,
+   "s": 77.369,
+   "e": 77.542,
+   "seg": 36
+  },
+  {
+   "w": "si.",
+   "style": null,
+   "syl": 1,
+   "s": 77.542,
+   "e": 77.714,
+   "seg": 36
+  }
+ ]
+}

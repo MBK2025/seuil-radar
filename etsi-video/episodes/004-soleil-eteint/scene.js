@@ -790,6 +790,7 @@ export async function build(E) {
     o.shadowColor = 'rgba(0,0,0,0.75)'; o.shadowBlur = 12; o.fillStyle = col; o.fillText(s, x, y); const w = o.measureText(s).width; o.globalAlpha = clamp(a) * 0.55; o.fillRect(x - w / 2, y + size * 0.72, w, 2); o.restore(); };
   const fadeBlack = (a) => { if (a > 0) { E.o.fillStyle = `rgba(0,0,0,${clamp(a)})`; E.o.fillRect(0, 0, 1080, 1920); } };
   const at = (w, after = 0) => E.at(w, after);
+  const atN = (w, n) => { const nm = x => x.toLowerCase().replace(/[^a-zàâçéèêëîïôûùüÿœæ0-9]/g, ''); const l = E.words.filter(x => nm(x.w) === nm(w)); if (!l[n]) throw new Error('mot ' + w + ' #' + n); return l[n].s; };
   const zoomIn = (d = 0.35, px = 14) => (t, lt) => lt < d ? `blur(${((d - lt) / d * px).toFixed(1)}px)` : null;
   const dipIn = (d = 0.35) => (t, lt) => lt < d ? `brightness(${(0.25 + 0.75 * lt / d).toFixed(2)})` : null;
   const look = (p, tg, fov = 42, roll = 0) => { cam.position.copy(p); cam.fov = fov; cam.updateProjectionMatrix(); cam.up.set(0, 1, 0); cam.lookAt(tg); cam.rotation.z += roll; };
@@ -798,17 +799,17 @@ export async function build(E) {
 
   // ======================= temps (calés sur la voix) =======================
   const T = {
-    maint: at('maintenant'), pire: at('pire'), pendant: at('Pendant'), n8: at('8'), ciel: at('ciel'), bleu: at('bleu'), cest2: at("C'est", 8.5), lumiere: at('lumière', 9), nous: at('nous', 10),
-    et3: at('Et', 11.3), gravite: at('gravité'), alors: at('Alors', 13.5), terre: at('Terre', 15), rien2: at('rien', 17.7), puis: at('Puis'), noir: at('noir'), lune: at('Lune'), seteint: at("s'éteint"), renvoyer: at('renvoyer'),
-    plus: at('Plus', 24), retient: at('retient'), la7: at('La', 25.5), file: at('file'), droit: at('droit'), n30: at('30'), seconde: at('seconde'),
-    et8: at('Et', 29.5), froid: at('froid'), semaine: at('semaine'), n18: at('18'), en9: at('En', 34), an: at('an'), n73: at('73'),
-    plantes: at('plantes'), photo: at('photosynthèse'), plupart: at('plupart'), meurent: at('meurent'), mais: at('Mais', 41), arbres: at('arbres'), decennies: at('décennies'),
-    oceans: at('océans'), gelent: at('gèlent'), et13: at('Et', 45.8), surprise: at('surprise'), cette: at('cette', 47), couverture: at('couverture'), dessous: at('dessous'), liquide: at('liquide'),
-    tout: at('Tout', 52), sources: at('sources'), des15: at('des', 55.4), bacteries: at('bactéries'), sans: at('sans', 56.5), elles: at('Elles'), etnous: at('Et', 59.4), scient: at('scientifiques'), sous: at('sous', 62.8), chaleur: at('chaleur'), nucl: at('nucléaire'),
-    un: at('Un', 65.8), volcans: at('volcans'), islande: at("l'Islande"), refuge: at('refuge'),
-    et18: at('Et', 69.3), millions: at('millions'), environ: at('Environ'), n240: at('240'), meme: at('Même'), air: at("l'air"), geler: at('geler'), neige: at('neige'),
-    rassure: at('Rassure-toi'), impossible: at('impossible'), le20: at('Le', 79.2), eteindre: at("s'éteindre", 80), alors21: at('Alors', 81.3), soleil3: at('soleil', 82.3), sa: at('sa', 83.7), partie: at('partie'), n8c: at('8', 85),
-    et23: at('Et', 86.2), toi: at('toi', 86.3), dis: at('Dis-le'), abonne: at('abonne-toi'),
+    maint: at('maintenant'), pire: at('pire'), pendant: at('Pendant'), n8: at('8'), ciel: at('ciel'), bleu: at('bleu'), cest2: atN("C'est", 1), lumiere: atN("lumière", 0), nous: atN("nous", 0),
+    et3: atN("Et", 2), gravite: at('gravité'), alors: atN("Alors", 0), terre: atN("Terre", 0), rien2: atN("rien", 1), puis: at('Puis'), noir: at('noir'), lune: at('Lune'), seteint: at("s'éteint"), renvoyer: at('renvoyer'),
+    plus: atN("Plus", 0), retient: at('retient'), la7: atN("La", 4), file: at('file'), droit: at('droit'), n30: at('30'), seconde: at('seconde'),
+    et8: atN("Et", 3), froid: at('froid'), semaine: at('semaine'), n18: at('18'), en9: atN("En", 2), an: at('an'), n73: at('73'),
+    plantes: at('plantes'), photo: at('photosynthèse'), plupart: at('plupart'), meurent: at('meurent'), mais: atN("Mais", 0), arbres: at('arbres'), decennies: at('décennies'),
+    oceans: at('océans'), gelent: at('gèlent'), et13: atN("Et", 4), surprise: at('surprise'), cette: atN("cette", 0), couverture: at('couverture'), dessous: at('dessous'), liquide: at('liquide'),
+    tout: atN("Tout", 1), sources: at('sources'), des15: atN("des", 1), bacteries: at('bactéries'), sans: atN("sans", 0), elles: at('Elles'), etnous: atN("Et", 5), scient: at('scientifiques'), sous: atN("sous", 0), chaleur: at('chaleur'), nucl: at('nucléaire'),
+    un: atN("Un", 1), volcans: at('volcans'), islande: at("l'Islande"), refuge: at('refuge'),
+    et18: atN("Et", 6), millions: at('millions'), environ: at('Environ'), n240: at('240'), meme: at('Même'), air: at("l'air"), geler: at('geler'), neige: at('neige'),
+    rassure: at('Rassure-toi'), impossible: at('impossible'), le20: atN("Le", 6), eteindre: atN("s'éteindre", 0), alors21: atN("Alors", 1), soleil3: atN("soleil", 3), sa: atN("sa", 2), partie: at('partie'), n8c: atN("8", 2),
+    et23: atN("Et", 8), toi: atN("toi", 0), dis: at('Dis-le'), abonne: at('abonne-toi'),
   };
 
   const SOLAR_EARTH_ANG = 0.5;   // position de la Terre sur son orbite au début
@@ -857,7 +858,7 @@ export async function build(E) {
         const s = easeIO(k); look(V3(lerp(-250, -240, s), 95, lerp(380, 370, s)), V3(20, 15, -160), 44); followSky(); },
       hud(t) { fadeBlack(0.85 * (1 - smooth(T.noir, T.noir + 0.6, t)) * smooth(T.noir - 0.05, T.noir, t)); } },
     // 7 — LA LUNE S'ÉTEINT AUSSI : la Lune pleine, puis plus rien que sa silhouette sur les étoiles
-    { name: 'lune', start: at('La', 20.5), filter: zoomIn(0.3, 12),
+    { name: 'lune', start: atN("La", 1), filter: zoomIn(0.3, 12),
       update(t, lt, k) { show('MOON'); const off = smooth(T.seteint + 0.15, T.seteint + 1.3, t); moonLook(1 - off); moonUni.uSun.value.set(0.7, 0.15, 0.7).normalize(); moonUni.uAmb.value = 0.035 * off; const s = easeIO(k);
         look(V3(lerp(-8, 0, s), lerp(1, 2.5, s), lerp(44, 40, s)), V3(0, 0, 0), 42); MOON.rotation.y = 0.4 + t * 0.01; },
       hud(t) { label(540, 470, 'elle renvoie la lumière du Soleil', ease((t - T.renvoyer) / 0.4) * 0.8, 28, '#e6eaf0'); } },

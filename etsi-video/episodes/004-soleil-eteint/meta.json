@@ -3,7 +3,14 @@
   "domaine": "espace",
   "style": "classic",
   "legende": "Et si le Soleil s'éteignait maintenant ? Pendant 8 minutes tu ne verrais rien… puis la Terre partirait seule dans le noir. Tu survivrais combien de temps, toi ?",
-  "hashtags": ["#etsi", "#lesaviezvous", "#apprendresurtiktok", "#espace", "#soleil", "#science"],
+  "hashtags": [
+    "#etsi",
+    "#lesaviezvous",
+    "#apprendresurtiktok",
+    "#espace",
+    "#soleil",
+    "#science"
+  ],
   "sources": [
     "https://www.livescience.com/planet-earth/what-would-happen-to-earth-if-the-sun-suddenly-vanished",
     "https://www.popsci.com/science/article/2013-07/if-sun-went-out-how-long-could-life-earth-survive/",
@@ -13,5 +20,5 @@
     "https://www.discovery.com/science/What-Would-Happen-If-the-Sun-Disappeared",
     "https://askdruniverse.wsu.edu/2024/05/02/why-do-we-need-the-sun/"
   ],
-  "voix": "Loïc (mgJuPHzoFzHp7TakLEYb), ElevenLabs eleven_v4"
+  "voix": "Hugo (3Tp5mYhT9wrfnry9pzvV), ElevenLabs eleven_v4"
 }

@@ -47,12 +47,13 @@
     "slug": "004-soleil-eteint",
     "question": "Et si le Soleil s'éteignait d'un coup ?",
     "theme": "espace",
-    "duree_s": 93.0,
+    "duree_s": 84.8,
     "publie": true,
     "heure": "18:47",
-    "voix": "Loïc",
-    "voix_id": "mgJuPHzoFzHp7TakLEYb",
-    "credits_elevenlabs": 1768,
-    "fichier": "etsi-004-soleil-eteint.mp4"
+    "voix": "Hugo",
+    "voix_id": "3Tp5mYhT9wrfnry9pzvV",
+    "credits_elevenlabs": 3536,
+    "fichier": "etsi-004-soleil-eteint-hugo.mp4",
+    "note": "1re version avec Loïc (1768 crédits) remplacée par Hugo à la demande de Moubarak"
   }
 ]

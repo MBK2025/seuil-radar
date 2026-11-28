@@ -31,11 +31,7 @@ node tools/render.js episodes/NNN-slug full        # → out/NNN-slug.mp4 (≈ 1
 Modèle d'épisode complet : `episodes/000-modele-saisons/` (scène riche, 20 plans, bruitages calés sur les mots).
 
 ## Voix (ElevenLabs, `eleven_v4`, generations_count 1)
-| Voix | voice_id | Quand |
-|---|---|---|
-| Hugo – créateur punchy (voix principale) | `3Tp5mYhT9wrfnry9pzvV` | par défaut |
-| Kevin – créateur de contenu | `zVrWtLr70jn6SeaARX0i` | sujets « chiffres chocs », 1 jour sur 4 environ |
-| Loïc – conteur | `mgJuPHzoFzHp7TakLEYb` | scénarios longs, catastrophes, espace |
+**Toujours Hugo** – créateur punchy, `3Tp5mYhT9wrfnry9pzvV`, tous les jours et quel que soit le sujet (décision de Moubarak du 28/11/2026 : plus de Kevin ni de Loïc).
 Indications de jeu dans `voix.txt` uniquement : `[intrigued]`, `[serious]`, `[excited]`, `[whispers]`, `[playful]` (au plus une toutes les 2 ou 3 phrases).
 
 ## Écriture d'un épisode

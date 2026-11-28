@@ -40,5 +40,19 @@
     "voix_id": "3Tp5mYhT9wrfnry9pzvV",
     "credits_elevenlabs": 1674,
     "fichier": "etsi-003-glace-fond.mp4"
+  },
+  {
+    "numero": 4,
+    "date": "2026-11-28",
+    "slug": "004-soleil-eteint",
+    "question": "Et si le Soleil s'éteignait d'un coup ?",
+    "theme": "espace",
+    "duree_s": 93.0,
+    "publie": true,
+    "heure": "18:47",
+    "voix": "Loïc",
+    "voix_id": "mgJuPHzoFzHp7TakLEYb",
+    "credits_elevenlabs": 1768,
+    "fichier": "etsi-004-soleil-eteint.mp4"
   }
 ]
